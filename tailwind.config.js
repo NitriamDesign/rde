@@ -7,16 +7,20 @@ darkMode: 'class',
 
 theme: {
     extend: {
+        fontFamily: {
+            sans: ['IBM Plex Sans', 'sans-serif'],
+          },
         colors: {
-            'primary': '#33A34D',
-            'primary2': '#216330',
-            'secondary': '#F16500',
-            'secondary2': '#FFD705',
-            'light': '#FFFFFF',
-            'light2': '#F6F6F6',   
-            'dark': '#303030',
+            'm-primary': '#33A34D',
+            'm-primary2': '#216330',
+            'm-secondary': '#F16500',
+            'm-secondary2': '#FFD705',
+            'm-light': '#FFFFFF',
+            'm-light2': '#F6F6F6',   
+            'm-dark': '#303030',
+            'm-gray':'#C4C4C4',
 
-            'primary-shades': {
+            'primary': {
                 '50': '#f2fbf4',
                 '100': '#e0f8e5',
                 '200': '#c3efcc',
@@ -30,7 +34,7 @@ theme: {
                 '950': '#0a2913',
                 },
 
-            'primary2-shades': {
+            'primary2': {
                 '50': '#f1fcf3',
                 '100': '#e0f8e4',
                 '200': '#c2f0cb',
@@ -44,7 +48,7 @@ theme: {
                 '950': '#0a2912',
                 },
 
-            'secondary-shades': {
+            'secondary': {
                 '50': '#fff8ec',
                 '100': '#fff0d3',
                 '200': '#ffdea5',
@@ -58,7 +62,7 @@ theme: {
                 '950': '#461704',
                 },
 
-            'secondary2-shades': {
+            'secondary2': {
                 '50': '#fefde8',
                 '100': '#fffcc2',
                 '200': '#fff787',
@@ -72,7 +76,7 @@ theme: {
                 '950': '#432305',
             },
             
-            'light-shades': {
+            'light': {
                 '50': '#ffffff', //Main
                 '100': '#efefef',
                 '200': '#dcdcdc',
@@ -86,7 +90,7 @@ theme: {
                 '950': '#292929',
             },
 
-            'light2-shades': {
+            'light2': {
                 '50': '#f6f6f6', //Main
                 '100': '#efefef',
                 '200': '#dcdcdc',
@@ -100,7 +104,7 @@ theme: {
                 '950': '#292929',
             },
 
-            'dark-shades': {
+            'dark': {
                 '50': '#f6f6f6',
                 '100': '#e7e7e7',
                 '200': '#d1d1d1',
