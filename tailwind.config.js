@@ -1,29 +1,121 @@
 const config = {
-  content: ['./src/**/*.{html,js,svelte,ts}', './node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}'],
+content: ['./src/**/*.{html,js,svelte,ts}', './node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}'],
 
-  plugins: [require('flowbite/plugin')],
+plugins: [require('flowbite/plugin')],
 
-  darkMode: 'class',
+darkMode: 'class',
 
-  theme: {
+theme: {
     extend: {
-      colors: {
-        // flowbite-svelte
-        primary: {
-          50: '#FFF5F2',
-          100: '#FFF1EE',
-          200: '#FFE4DE',
-          300: '#FFD5CC',
-          400: '#FFBCAD',
-          500: '#FE795D',
-          600: '#EF562F',
-          700: '#EB4F27',
-          800: '#CC4522',
-          900: '#A5371B'
+        colors: {
+            'primary': '#33A34D',
+            'primary2': '#216330',
+            'secondary': '#F16500',
+            'secondary2': '#FFD705',
+            'light': '#FFFFFF',
+            'light2': '#F6F6F6',   
+            'dark': '#303030',
+
+            'primary-shades': {
+                '50': '#f2fbf4',
+                '100': '#e0f8e5',
+                '200': '#c3efcc',
+                '300': '#94e1a6',
+                '400': '#5dcb76',
+                '500': '#33a34d', //Main
+                '600': '#289141',
+                '700': '#237235',
+                '800': '#205b2e',
+                '900': '#1c4b29',
+                '950': '#0a2913',
+                },
+
+            'primary2-shades': {
+                '50': '#f1fcf3',
+                '100': '#e0f8e4',
+                '200': '#c2f0cb',
+                '300': '#92e3a3',
+                '400': '#5ace72',
+                '500': '#34b350',
+                '600': '#26933d',
+                '700': '#217433',
+                '800': '#216330', //Main
+                '900': '#1b4c27',
+                '950': '#0a2912',
+                },
+
+            'secondary-shades': {
+                '50': '#fff8ec',
+                '100': '#fff0d3',
+                '200': '#ffdea5',
+                '300': '#ffc56d',
+                '400': '#ffa132',
+                '500': '#ff840a',
+                '600': '#f16500', //Main
+                '700': '#cc4d02',
+                '800': '#a13c0b',
+                '900': '#82330c',
+                '950': '#461704',
+                },
+
+            'secondary2-shades': {
+                '50': '#fefde8',
+                '100': '#fffcc2',
+                '200': '#fff787',
+                '300': '#ffeb43',
+                '400': '#ffd705', //Main
+                '500': '#efc003',
+                '600': '#ce9400',
+                '700': '#a46a04',
+                '800': '#88520b',
+                '900': '#734310',
+                '950': '#432305',
+            },
+            
+            'light-shades': {
+                '50': '#ffffff', //Main
+                '100': '#efefef',
+                '200': '#dcdcdc',
+                '300': '#bdbdbd',
+                '400': '#989898',
+                '500': '#7c7c7c',
+                '600': '#656565',
+                '700': '#525252',
+                '800': '#464646',
+                '900': '#3d3d3d',
+                '950': '#292929',
+            },
+
+            'light2-shades': {
+                '50': '#f6f6f6', //Main
+                '100': '#efefef',
+                '200': '#dcdcdc',
+                '300': '#bdbdbd',
+                '400': '#989898',
+                '500': '#7c7c7c',
+                '600': '#656565',
+                '700': '#525252',
+                '800': '#464646',
+                '900': '#3d3d3d',
+                '950': '#292929',
+            },
+
+            'dark-shades': {
+                '50': '#f6f6f6',
+                '100': '#e7e7e7',
+                '200': '#d1d1d1',
+                '300': '#b0b0b0',
+                '400': '#888888',
+                '500': '#6d6d6d',
+                '600': '#5d5d5d',
+                '700': '#4f4f4f',
+                '800': '#454545',
+                '900': '#3d3d3d',
+                '950': '#303030', //Main
+            },
         }
-      }
     }
-  }
+}
 };
 
 module.exports = config;
