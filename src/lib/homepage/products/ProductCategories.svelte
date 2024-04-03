@@ -2,18 +2,26 @@
     import { Button, ButtonGroup } from 'flowbite-svelte';
     import ProductCard from './ProductCard.svelte';
     import { fade } from 'svelte/transition';
+    import { flip } from 'svelte/animate';
 
     let selectedButton = 'all';
     let selected = "bg-m-primary hover:bg-primary-600 text-white";
     
     let products = [
-        { id: 1, category: '1', title: 'CA Series Connectors 1' },
-        { id: 2, category: '2', title: 'CA Series Connectors 2' },
-        { id: 3, category: '3', title: 'CA Series Connectors 3' },
+        { id: 1, category: '1', title: 'CA Series Connectors UCG-3' },
+        { id: 2, category: '1', title: 'CA Series Connectors Lite' },
+        { id: 3, category: '1', title: 'CA Series Connectors Xtreme' },
+        { id: 4, category: '2', title: 'FlexiConnect PowerPlus' },
+        { id: 5, category: '2', title: 'FlexiConnect Straight' },
+        { id: 6, category: '3', title: 'GoldConnect Class B' },
     ];
+
+
+    $: filteredProducts = selectedButton === 'all' ? products : products.filter(product => product.category === selectedButton);
+
 </script>
 
-<div class="bg-m-light max-w-7xl m-auto my-20">
+<div class="bg-m-light max-w-7xl m-auto my-20 min-h-[450px]">
     <!-- Menu -->
     <div class="flex justify-start gap-10">
         <Button color="none" class="border-2 max-w-sm uppercase rounded-md text-md font-bold {selectedButton === 'all' ? selected : ''}" on:click={() => selectedButton = 'all'}>
@@ -33,17 +41,15 @@
     </div>
 
     <!-- Products -->
-    <div class="flex flex-wrap justify-between mt-10">
-        {#each products as product}
-            {#if selectedButton === 'all' || product.category === selectedButton}
-                <div transition:fade={{ duration: 500 }}>
-                    <ProductCard>
-                        <svelte:fragment slot="title">
-                            {product.title}
-                        </svelte:fragment>
-                    </ProductCard>
-                </div>
-            {/if}
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3  gap-6 mt-10 justify-items-center">
+        {#each filteredProducts as product (product.id)}
+            <div animate:flip={{ duration: 250 }} transition:fade={{ duration: 250 }}>
+                <ProductCard>
+                    <svelte:fragment slot="title">
+                        {product.title}
+                    </svelte:fragment>
+                </ProductCard>
+            </div>
         {/each}
     </div>
 </div>
