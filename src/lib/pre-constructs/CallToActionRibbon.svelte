@@ -2,6 +2,8 @@
     import { Button } from 'flowbite-svelte';
 
     export let bgImageUrl = '/standin/dum.png';
+
+    
 </script>
 
 <div class="bg-ribbon flex justify-center items-center relative">
@@ -16,17 +18,19 @@
   
   <style>
 
-    .cta-box-1, .cta-box-2 {
-      position: absolute;
-      height: 300px;
-      width: 700px;
-    }
+   
     .cta-box-1 {
+      position: absolute;
+      height: 350px;
+      width: 700px;
       left: 14%;
       padding: 30px 100px 30px 30px;
     }
 
     .cta-box-2 {
+      position: absolute;
+      height: 18.23vw;
+      width: 36.46vw;
       left: calc(38% + 10vw);
       top: 20%;
       z-index: 2;
