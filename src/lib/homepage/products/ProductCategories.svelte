@@ -33,7 +33,7 @@
         </div>
 
 
-        <div class="grid grid-cols-3 justify-items-center gap-10 mt-10">
+        <div class="flex flex-wrap justify-between gap-10 mt-10">
             <ProductCard>
 
             </ProductCard>
