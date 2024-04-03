@@ -4,7 +4,7 @@
 </script>
 
 
-<div class="bg-m-light h-44 flex items-center">
+<div class="h-full p-5">
     <div class="flex justify-between max-w-7xl m-auto text-m-dark gap-20">
         <div class="">
             <div class="text-xl font-semibold uppercase mb-4">    
