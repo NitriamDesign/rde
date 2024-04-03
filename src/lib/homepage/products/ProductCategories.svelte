@@ -13,7 +13,7 @@
 
         <!-- Menu -->
         <div class="flex justify-start gap-10">
-            <Button color="none" class="border-2 max-w-sm uppercase rounded text-md font-bold {selectedButton === 'all' ? selected : ''}" on:click={() => selectedButton = 'all'}>
+            <Button color="none" class="border-2 max-w-sm uppercase rounded-md text-md font-bold {selectedButton === 'all' ? selected : ''}" on:click={() => selectedButton = 'all'}>
                 All Products
             </Button>
 
@@ -33,7 +33,7 @@
         </div>
 
 
-        <div class="grid grid-cols-3 gap-10 mt-10">
+        <div class="grid grid-cols-3 justify-items-center gap-10 mt-10">
             <ProductCard>
 
             </ProductCard>

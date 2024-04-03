@@ -1,17 +1,18 @@
 <script>
 	import { Button } from "flowbite-svelte";
-	import { ArrowDownOutline } from "flowbite-svelte-icons";
+	import { ArrowDownOutline, ArrowRightOutline } from "flowbite-svelte-icons";
 
 
 </script>
 
-<div class=" max-w-7xl h-80 m-10 border-2 rounded-3xl shadow-xl flex">
+<div class="max-w-7xl h-80 border-2 rounded-xl shadow-xl flex m-auto">
     <slot id="image" name="image">
-        <img src="/standin/dum.png" alt="Stand In" class="w-96 object-cover">
+        <img src="/standin/dum.png" alt="Stand In" class="w-96 object-cover rounded-l-xl">
     </slot>
 
-    <div class="w-full pt-6 pl-10 flex flex-col justify-between">
+    <div class="w-full py-6 px-10 flex flex-col justify-between">
         <div class="max-w-2xl flex flex-col gap-4">
+            <!-- Title and Description -->
             <div class="text-sm uppercase font-sans tracking-widest font-normal">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </div>
@@ -25,12 +26,11 @@
             </div>
         </div>
 
-        <div>
+        <div class="text-right">
             <!-- Button -->
             <Button color="none" class="bg-m-primary max-w-sm m-auto uppercase text-m-light hover:bg-primary-600 rounded text-md font-thin">
-                View Products <ArrowDownOutline size="lg" class="ml-2"/>
+                View Products <ArrowRightOutline size="lg" class="ml-2"/>
             </Button>
-    
         </div>
     </div>
 </div>

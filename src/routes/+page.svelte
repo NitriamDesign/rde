@@ -9,3 +9,7 @@
 <TopHero/>
 <ProductCategories/>
 <ProductCardHorizontal/>
+
+<div class="h-16">
+
+</div>
