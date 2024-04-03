@@ -10,3 +10,9 @@ Dark: Color - Almost Black, Hex - #303030
 
 Light: Color - White, Hex - #FFFFFF
 Light 2: Color - Light Gray, Hex - #F6F6F6
+
+
+# Initial Setup
+pnpm install 
+pnpm update 
+pnpm run dev
