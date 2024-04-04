@@ -12,7 +12,7 @@
 </script>
 
 <div class="flex gap-10 justify-center items-center">
-    <div class="bg-white rounded h-64 w-96 p-8 flex flex-col gap-2 justify-between mr-[-5rem]">
+    <div class="bg-white rounded h-64 w-96 p-8 flex flex-col gap-2 justify-between mr-[-10rem]">
         <div class="text-xl font-semibold">
             {info.title}
         </div>
@@ -26,5 +26,5 @@
         </Button>
     </div>
 
-    <img src={info.img} alt="George" class="h-[450px] object-cover ml-[-5rem]">
+    <img src={info.img} alt="George" class="h-[450px] object-cover">
 </div>

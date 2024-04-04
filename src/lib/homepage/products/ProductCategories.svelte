@@ -21,7 +21,7 @@
 
 </script>
 
-<div class="bg-m-light max-w-7xl m-auto my-20 min-h-[450px]">
+<div class="bg-m-light max-w-7xl m-auto my-20 min-h-[450px]" id="main-products">
     <!-- Menu -->
     <div class="flex justify-start gap-10">
         <Button color="none" class="border-2 max-w-sm uppercase rounded-md text-md font-bold {selectedButton === 'all' ? selected : ''}" on:click={() => selectedButton = 'all'}>
