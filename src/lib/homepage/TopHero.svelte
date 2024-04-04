@@ -1,8 +1,7 @@
 <script lang="ts">
-    import { Section, News, HeroHeader, HeroBody } from 'flowbite-svelte-blocks';
     import { Button } from 'flowbite-svelte';
     import { ArrowDownOutline } from 'flowbite-svelte-icons';
-    import {handleAnchorClick} from '$lib/anchors'
+    import {handleAnchorClick} from '$lib/anchorsAssist'
 </script>
 
 <div class="bg-[#C4C4C4] h-[600px] flex justify-center">
