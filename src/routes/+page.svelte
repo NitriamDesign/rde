@@ -11,9 +11,7 @@
     <TopHero/>
     <ProductCategories/>
     <ProductCardHorizontal/>
-    <HeroBanner>
-
-    </HeroBanner>
+    <HeroBanner/>
 </div>
 
 <CallToActionRibbon bgImageUrl = '/standin/dum.png'/>
