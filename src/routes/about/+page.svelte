@@ -1,5 +1,6 @@
 <script>
-	import { CheckCircleOutline } from "flowbite-svelte-icons";
+	import ImageDesc from "$lib/pre-constructs/2-col-layout/ImageDesc.svelte";
+import { CheckCircleOutline } from "flowbite-svelte-icons";
 
 </script>
 
@@ -38,3 +39,6 @@
         </div>
     </div>
 </div>
+
+
+<ImageDesc/>

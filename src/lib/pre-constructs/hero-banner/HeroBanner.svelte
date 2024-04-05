@@ -42,21 +42,32 @@
 
 </script>
 
-<div class="bg-gradient-to-r from-gray-500 via-gray-400 to-gray-300 h-[450px] max-w-7xl m-auto rounded flex justify-between w-full shadow-xl">
-    <Button color="alternative" class="w-12 h-12 rounded-full m-auto ml-10" on:click={handlePrev}>
+<div class="bg-gradient-to-r from-gray-500 via-gray-400 to-gray-300 md:h-[450px] p-4 md:p-0 max-w-7xl m-auto md:rounded md:flex block justify-between w-full shadow-xl">
+
+    <Button color="alternative" class="w-12 h-12 rounded-full m-auto ml-10 hidden md:flex" on:click={handlePrev}>
         <AngleLeftOutline strokeWidth=3/>
     </Button>
 
-    <div class="relative flex-grow flex justify-center items-center">
+    <div class="md:relative block md:flex-grow md:flex justify-center items-center p-4">
         {#key currentIndex}
-            <div class="absolute " transition:fade={{ duration: 250 }}>
+            <div class="md:absolute " transition:fade={{ duration: 250 }}>
                 <CarouselContent info={content[currentIndex]} />
             </div>
         {/key}
     </div>
 
-
-    <Button color="alternative" class="w-12 h-12 rounded-full m-auto mr-10" on:click={handleNext}>
+    <Button color="alternative" class="w-12 h-12 rounded-full m-auto mr-10 hidden md:flex" on:click={handleNext}>
         <AngleRightOutline strokeWidth=3/>
     </Button>
+
+    <div class="w-full  justify-between flex md:hidden">
+        <Button color="alternative" class="w-12 h-12 rounded-full m-auto ml-10" on:click={handlePrev}>
+            <AngleLeftOutline strokeWidth=3/>
+        </Button>
+
+        <Button color="alternative" class="w-12 h-12 rounded-full m-auto mr-10" on:click={handleNext}>
+            <AngleRightOutline strokeWidth=3/>
+        </Button>
+    </div>
+
 </div>
