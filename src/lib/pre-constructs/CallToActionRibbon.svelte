@@ -40,7 +40,12 @@
         position: relative;
         height: 250px;
         background-color: blueviolet;
-        margin: 120px 0px 120px 0px;
+        margin: 10% 0px 15% 0px;
         background-image: radial-gradient(circle 50vw at 30% center, #FFD705 10%, #33A34D 90%);
     }
+
+ 
+
+
+
   </style>
