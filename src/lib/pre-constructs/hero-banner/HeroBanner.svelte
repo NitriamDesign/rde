@@ -12,19 +12,22 @@
             title: "Innovative Engineering Solutions",
             desc: "Explore cutting-edge engineering technologies that push the boundaries of what's possible. Join us in shaping the future, one innovation at a time.",
             href: "/innovative-solutions",
-            img: "/people/rep_1.webp"
+            img: "/people/rep_1.webp",
+            offset:"-10rem"
         },
         {
             title: "Sustainable Environmental Design",
             desc: "Discover how our sustainable design practices contribute to preservation while meeting the needs of our communities.",
             href: "/sustainable-design",
-            img: "/people/rep_2.webp"
+            img: "/people/rep_2.webp",
+            offset:"-10rem"
         },
         {
             title: "Advanced Robotics in Industry",
             desc: "Dive into the world of advanced robotics and learn how automation is revolutionizing industries, enhancing efficiency, and transforming the workforce.",
             href: "/advanced-robotics",
-            img: "/people/rep_3.webp"
+            img: "/people/rep_3.webp",
+            offset:"-10rem"
         }
     ];
 
