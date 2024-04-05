@@ -29,8 +29,8 @@
 
     .cta-box-2 {
       position: absolute;
-      height: 18.23vw;
-      width: 36.46vw;
+      height: 350px;
+      width: 700px;
       left: calc(38% + 10vw);
       top: 20%;
       z-index: 2;
@@ -43,8 +43,6 @@
         margin: 10% 0px 15% 0px;
         background-image: radial-gradient(circle 50vw at 30% center, #FFD705 10%, #33A34D 90%);
     }
-
- 
 
 
 
