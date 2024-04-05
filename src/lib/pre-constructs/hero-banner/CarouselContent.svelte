@@ -6,13 +6,14 @@
         title: "We are Certified! This is a title about Certification",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi.",
         href: "/",
-        img: "/people/rep_1.png"
+        img: "/people/rep_1.png",
+        offset: "-10rem"
     }
 
 </script>
 
 <div class="flex gap-10 justify-center items-center">
-    <div class="bg-white rounded h-64 w-96 p-8 flex flex-col gap-2 justify-between mr-[-10rem]">
+    <div class="bg-white rounded h-64 w-96 p-8 flex flex-col gap-2 justify-between mr-[{info.offset}]">
         <div class="text-xl font-semibold">
             {info.title}
         </div>

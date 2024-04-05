@@ -5,7 +5,7 @@
 
 
 <div class="max-w-7xl m-auto my-40 flex gap-20">
-    <div class="w-[500px] bg-slate-300 aspect-square h-[500px] rounded-full">
+    <div class="w-[500px] bg-slate-300 aspect-square h-[500px] rounded">
         <img src="/people/rep_1.webp" class="object-cover w-full h-full" alt="About Us">
     </div>
 
