@@ -10,6 +10,7 @@
 <div>
     <TopHero/>
     <ProductCategories/>
+    <CallToActionRibbon/>
     <ProductCardHorizontal/>
     <HeroBanner/>
 </div>

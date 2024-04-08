@@ -3,10 +3,9 @@
 </script>
 
 
-<Navbar class="max-w-7xl m-auto">
+<Navbar class="max-w-7xl ">
     <NavBrand href="/">
-        <img src="/logos/rdelogo.png" class="me-3 h-24" alt="Flowbite Logo" />
-        <span class="self-center whitespace-nowrap text-xl font-semibold text-[#C4C4C4] uppercase italic font-sans hidden md:inline">Member of the phoenix contact group</span>
+        <img src="/logos/rde-main-logo.jpg" style="width: 700px;" class="pt-5 pb-5" alt="Flowbite Logo" />
     </NavBrand>
 
     <NavHamburger/>

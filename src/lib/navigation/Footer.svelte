@@ -4,8 +4,8 @@
 </script>
 
 
-<div class="h-full p-5 mt-40">
-    <div class="md:flex justify-between max-w-7xl m-auto text-m-dark gap-20">
+<div class="h-full p-5 mt-40 bg-gray-100">
+    <div class="md:flex justify-between max-w-7xl m-auto text-m-dark gap-20 pt-5 pb-5">
         <div class="mb-10 md:mb-0">
             <div class="text-xl font-semibold uppercase mb-4">    
                 RDE CONNECTS
