@@ -1,37 +1,36 @@
 <script>
-    import { MapPinAltSolid, PhoneSolid, MessagesSolid, InfoCircleSolid } from 'flowbite-svelte-icons';
-
+    import { MapPinAltSolid, PhoneSolid, MessagesSolid, InfoCircleSolid, BookSolid, QuestionCircleSolid, UsersGroupSolid} from 'flowbite-svelte-icons';
 </script>
 
 
-<div class="h-full p-5 mt-40 bg-gray-100">
-    <div class="md:flex justify-between max-w-7xl m-auto text-m-dark gap-20 pt-5 pb-5">
+<div class="h-full p-5 mt-20 bg-gray-100 md:mt-40">
+    <div class="md:flex justify-between max-w-7xl m-auto text-m-dark gap-20 md:pt-5 md:pb-5">
         <div class="mb-10 md:mb-0">
-            <div class="text-xl font-semibold uppercase mb-4">    
+            <div class="text-lg font-semibold uppercase mb-4">    
                 RDE CONNECTS
             </div>
             
-            <div class="flex flex-col gap-2 text-md font-semibold uppercase text-m-primary2">
-                <div>    
-                    Products
+            <div class="flex flex-col gap-2 text-sm font-semibold uppercase text-m-primary2">
+                <div class="flex items-center gap-2">       
+                    <BookSolid/>Products
                 </div>
 
-                <div>    
-                    Guides
+                <div class="flex items-center gap-2">      
+                    <QuestionCircleSolid/>Guides
                 </div>
 
-                <div>    
-                    About Us
+                <div class="flex items-center gap-2">     
+                    <UsersGroupSolid/>About Us
                 </div>
             </div>
         </div>
 
         <div class="mb-10 md:mb-0">    
-            <div class="text-xl font-semibold uppercase mb-4">    
+            <div class="text-lg font-semibold uppercase mb-4">    
                 Contact
             </div>
             
-            <div class="flex flex-col gap-2 text-md font-semibold text-m-primary2">
+            <div class="flex flex-col gap-2 text-sm font-semibold text-m-primary2">
                 <div class="flex items-center gap-2">    
                     <MapPinAltSolid/>586 Fulling Mill Road, Middletown, PA 17057
                 </div>
@@ -46,15 +45,15 @@
             </div>
         </div>
 
-        <div class="mb-10 md:mb-0">    
-            <div class="text-xl font-semibold uppercase mb-4">    
+        <div class="">    
+            <div class="text-sm font-semibold uppercase mb-4">    
                 ISO 9001-2015 Certified
             </div>
             
             <div class="flex flex-col gap-2 text-md font-semibold  text-m-primary2">
-                <div class="flex items-center gap-2">  
+                <a class="flex items-center gap-2" href="/certification">  
                     <InfoCircleSolid/>Information
-                </div>
+                </a>
             </div>
         </div>
     </div>
@@ -65,21 +64,23 @@
 
 
 <div class="bg-m-dark md:h-20">
-    <div class="md:flex justify-center max-w-7xl m-auto h-full items-center text-gray-300 gap-20 p-2">
-        <div class="text-sm mb-2 md:text-md ">    
+    <div class="md:flex justify-center max-w-7xl m-auto h-full items-center text-gray-300 gap-20 p-5">
+        <div class="flex gap-5 mb-2">
+            <div class="text-xs marker:md:text-md">    
+                <a href="/">    
+                    Site notice
+                </a>
+            </div>
+
+            <div class="text-xs md:text-md">    
+                <a href="/">    
+                    Legal information
+                </a>
+            </div>
+        </div>
+
+        <div class="text-xs md:text-md">    
             © Copyright 2024 - RDE Connectors & Cables, Inc.
-        </div>
-
-        <div class="text-sm mb-2 md:text-md">    
-            <a href="/">    
-                Site notice
-            </a>
-        </div>
-
-        <div class="text-sm  md:text-md">    
-            <a href="/">    
-                Legal information
-            </a>
         </div>
     </div>
 </div>

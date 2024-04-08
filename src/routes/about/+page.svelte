@@ -41,4 +41,4 @@ import { CheckCircleOutline } from "flowbite-svelte-icons";
 </div>
 
 
-<ImageDesc/>
+<!-- <ImageDesc/> -->

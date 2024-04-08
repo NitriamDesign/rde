@@ -2,10 +2,12 @@
     import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
 </script>
 
+<!-- Hello -->
+<Navbar class="w-full">
+    <NavBrand href="/" class="p-0 px-0">
+        <img src="/logos/rde-main-logo.jpg"  class="pt-5 pb-5 h-36 md:inline hidden" alt="Flowbite Logo" />
+        <img src="/logos/rde-logo.png"  class="pt-5 pb-5 h-36 md:hidden inline" alt="Flowbite Logo" />
 
-<Navbar class="max-w-7xl ">
-    <NavBrand href="/">
-        <img src="/logos/rde-main-logo.jpg" style="width: 700px;" class="pt-5 pb-5" alt="Flowbite Logo" />
     </NavBrand>
 
     <NavHamburger/>
