@@ -1,5 +1,5 @@
 <script>
-    import { Button, ButtonGroup } from 'flowbite-svelte';
+    import { Button, ButtonGroup, NavHamburger, NavLi, NavUl, Navbar  } from 'flowbite-svelte';
     import ProductCard from './ProductCard.svelte';
     import { fade } from 'svelte/transition';
     import { flip } from 'svelte/animate';
@@ -23,22 +23,39 @@
 
 <div class="bg-m-light max-w-7xl m-auto my-20 min-h-[450px]" id="main-products">
     <!-- Menu -->
-    <div class="flex justify-start gap-10">
-        <Button color="none" class="border-2 max-w-sm uppercase rounded-md text-md font-bold {selectedButton === 'all' ? selected : ''}" on:click={() => selectedButton = 'all'}>
-            All Products
-        </Button>
-        <ButtonGroup>
-            <Button color="none" class="{`border-2 max-w-sm uppercase text-md font-bold ${selectedButton === '1' ? selected : ''}`}" on:click={() => selectedButton = '1'}>
-                Category 1
+
+    <!-- Desktop View -->
+        <div class="justify-start gap-10 hidden md:flex">
+            <Button color="none" class="border-2 max-w-sm uppercase rounded-md text-md font-bold {selectedButton === 'all' ? selected : ''}" on:click={() => selectedButton = 'all'}>
+                All Products
             </Button>
-            <Button color="none" class="{`border-2 max-w-sm uppercase text-md font-bold ${selectedButton === '2' ? selected : ''}`}" on:click={() => selectedButton = '2'}>
-                Category 2
-            </Button>
-            <Button color="none" class="{`border-2 max-w-sm uppercase text-md font-bold ${selectedButton === '3' ? selected : ''}`}" on:click={() => selectedButton = '3'}>
-                Category 3
-            </Button>
-        </ButtonGroup>
+            
+            <ButtonGroup>
+                <Button color="none" class="{`border-2 max-w-sm uppercase text-md font-bold ${selectedButton === '1' ? selected : ''}`}" on:click={() => selectedButton = '1'}>
+                    Category 1
+                </Button>
+                <Button color="none" class="{`border-2 max-w-sm uppercase text-md font-bold ${selectedButton === '2' ? selected : ''}`}" on:click={() => selectedButton = '2'}>
+                    Category 2
+                </Button>
+                <Button color="none" class="{`border-2 max-w-sm uppercase text-md font-bold ${selectedButton === '3' ? selected : ''}`}" on:click={() => selectedButton = '3'}>
+                    Category 3
+                </Button>
+            </ButtonGroup>
+        </div>
+
+    <!-- Mobile View --> 
+    <div class="justify-start gap-10 md:hidden flex">
+        <Navbar>
+            <NavHamburger/>
+            <NavUl >
+                <NavLi class="{selectedButton === 'all' ? selected : ''}" on:click={() => selectedButton = 'all'}>All Products</NavLi>
+                <NavLi class="{selectedButton === '1' ? selected : ''}" on:click={() => selectedButton = '1'}>Category 1</NavLi>
+                <NavLi class="{selectedButton === '2' ? selected : ''}" on:click={() => selectedButton = '2'}>Category 2</NavLi>
+                <NavLi class="{selectedButton === '3' ? selected : ''}" on:click={() => selectedButton = '3'}>Category 3</NavLi>
+            </NavUl>
+        </Navbar>
     </div>
+
 
     <!-- Products -->
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3  gap-6 mt-10 justify-items-center">

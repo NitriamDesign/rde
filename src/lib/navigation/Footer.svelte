@@ -4,9 +4,9 @@
 </script>
 
 
-<div class="h-full p-5">
-    <div class="flex justify-between max-w-7xl m-auto text-m-dark gap-20">
-        <div class="">
+<div class="h-full p-5 mt-40">
+    <div class="md:flex justify-between max-w-7xl m-auto text-m-dark gap-20">
+        <div class="mb-10 md:mb-0">
             <div class="text-xl font-semibold uppercase mb-4">    
                 RDE CONNECTS
             </div>
@@ -26,7 +26,7 @@
             </div>
         </div>
 
-        <div class="">    
+        <div class="mb-10 md:mb-0">    
             <div class="text-xl font-semibold uppercase mb-4">    
                 Contact
             </div>
@@ -46,7 +46,7 @@
             </div>
         </div>
 
-        <div class="">    
+        <div class="mb-10 md:mb-0">    
             <div class="text-xl font-semibold uppercase mb-4">    
                 ISO 9001-2015 Certified
             </div>
@@ -64,18 +64,22 @@
 
 
 
-<div class="bg-m-dark h-20">
-    <div class="flex justify-center max-w-7xl m-auto  h-full items-center text-gray-300 gap-20">
-        <div>    
+<div class="bg-m-dark md:h-20">
+    <div class="md:flex justify-center max-w-7xl m-auto h-full items-center text-gray-300 gap-20 p-2">
+        <div class="text-sm mb-2 md:text-md ">    
             © Copyright 2024 - RDE Connectors & Cables, Inc.
         </div>
 
-        <a href="/">    
-            Site notice
-        </a>
+        <div class="text-sm mb-2 md:text-md">    
+            <a href="/">    
+                Site notice
+            </a>
+        </div>
 
-        <a href="/">    
-            Legal information
-        </a>
+        <div class="text-sm  md:text-md">    
+            <a href="/">    
+                Legal information
+            </a>
+        </div>
     </div>
 </div>

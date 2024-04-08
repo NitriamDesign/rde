@@ -3,15 +3,15 @@
 </script>
 
 
-<Navbar  class="max-w-7xl m-auto">
+<Navbar class="max-w-7xl m-auto">
     <NavBrand href="/">
         <img src="/logos/rdelogo.png" class="me-3 h-24" alt="Flowbite Logo" />
-        <span class="self-center whitespace-nowrap text-xl font-semibold text-[#C4C4C4] uppercase italic font-sans">Member of the phoenix contact group</span>
+        <span class="self-center whitespace-nowrap text-xl font-semibold text-[#C4C4C4] uppercase italic font-sans hidden md:inline">Member of the phoenix contact group</span>
     </NavBrand>
 
-    <NavHamburger  />
+    <NavHamburger/>
 
-    <NavUl >
+    <NavUl>
         <NavLi class="font-semibold text-lg" href="/">Home</NavLi>
         <NavLi class="font-semibold text-lg" href="/products">Products</NavLi>
         <NavLi class="font-semibold text-lg" href="/guides">Guides</NavLi>

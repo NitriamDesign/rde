@@ -13,7 +13,7 @@
 </script>
 
 <div class="flex gap-10 justify-center items-center">
-    <div class="bg-white rounded h-64 w-96 p-8 flex flex-col gap-2 justify-between mr-[{info.offset}]">
+    <div class="bg-white rounded md:h-64 md:w-96 md:p-8 p-4 flex flex-col gap-2 justify-between md:mr-[{info.offset}]">
         <div class="text-xl font-semibold">
             {info.title}
         </div>
@@ -27,5 +27,5 @@
         </Button>
     </div>
 
-    <img src={info.img} alt="George" class="h-[450px] object-cover">
+    <img src={info.img} alt="George" class="h-[450px] object-cover md:inline hidden">
 </div>
