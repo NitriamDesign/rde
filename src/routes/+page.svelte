@@ -7,11 +7,11 @@
 
 </script>
 
-<div class="flex flex-col gap-10">
+
     <TopHero/>
     <ProductCategories/>
     <ProductCardHorizontal/>
     <HeroBanner/>
-</div>
+
 
 <CallToActionRibbon bgImageUrl = '/standin/dum.png'/>

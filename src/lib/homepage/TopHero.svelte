@@ -4,8 +4,8 @@
     import {handleAnchorClick} from '$lib/anchorsAssist'
 </script>
 
-<div class="bg-[#C4C4C4] h-[600px] flex justify-center">
-    <div class="max-w-5xl h-60 text-center flex flex-col gap-10 my-auto">
+<div class="bg-[#C4C4C4] h-[600px] flex justify-center w-full md:max-w-5xl">
+    <div class=" h-60 text-center flex flex-col gap-10 my-auto">
         <div class="text-7xl font-bold">
             Title / CTA
         </div>
