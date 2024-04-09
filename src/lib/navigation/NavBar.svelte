@@ -3,7 +3,7 @@
 </script>
 
 
-<Navbar class="max-w-7xl ">
+<Navbar class="max-w-7xl">
     <NavBrand href="/">
         <img src="/logos/rde-main-logo.jpg" style="width: 700px;" class="pt-5 pb-5" alt="Flowbite Logo" />
     </NavBrand>
