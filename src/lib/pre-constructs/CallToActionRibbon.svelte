@@ -37,18 +37,15 @@
 </style>
 
 
-
-
-
-<div class="bg-ribbon max-w-12xl m-auto h-50">
-  <div class="md:flex border max-w-xl m-auto relative items-center" style="height: 350px;">
-      <div class="bg-white h-[350px] w-full absolute right-[260px] z-10 -top-10 p-5 shadow-xl">
+<div class="bg-ribbon w-screen">
+  <div class="flex md:w-[30%] m-auto relative items-center" style="height: 250px;">
+      <div class="h-[325px] bg-white w-full absolute right-[47%] z-10 -top-6 p-10 pr-[4rem] shadow-xl">
         <span class="self-center text-xl font-semibold text-[#C4C4C4] uppercase italic font-sans">Member of the Phoenix Contact Group</span>
         <h5 class="mb-2 text-4xl font-bold text-gray-900 dark:text-white">We Have Worked With This Company!</h5>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
         <Button href="#" size="xl">ABOUT US</Button>
       </div>
 
-      <div class="h-[350px] w-[500px] absolute left-[260px] z-10 top-10 shadow-xl" style="background-image: url({bgImageUrl});"></div>
+      <div class="h-[325px]  w-full relative left-[47%] z-10 top-[70px] shadow-xl" style="background-image: url({bgImageUrl});"></div>
   </div>  
 </div>
