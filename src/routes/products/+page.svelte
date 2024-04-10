@@ -2,7 +2,6 @@
 	import { Button, Dropdown, DropdownItem, Input } from "flowbite-svelte";
     import ProductBase from '$lib/pre-constructs/product-page/ProductBase.svelte'
     import { products, type Product } from "$lib/data"
-	import PdfViewer from "svelte-pdf";
     import { page } from '$app/stores';
 
 
