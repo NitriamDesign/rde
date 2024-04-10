@@ -41,8 +41,5 @@
 		"vite": "^5.2.8",
 		"vitest": "^1.4.0"
 	},
-	"type": "module",
-	"dependencies": {
-		"svelte-pdf": "^1.0.20"
-	}
+	"type": "module"
 }
