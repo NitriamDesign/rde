@@ -6,8 +6,7 @@
 <Navbar class="w-full">
     <NavBrand href="/" class="p-0 px-0">
         <img src="/logos/rde-main-logo.jpg"  class="pt-5 pb-5 h-36 md:inline hidden" alt="Flowbite Logo" />
-        <img src="/logos/rde-logo.png"  class="pt-5 pb-5 h-36 md:hidden inline" alt="Flowbite Logo" />
-
+        <img src="/logos/rde-logo.png"  class="h-12 pl-1 md:hidden inline" alt="Flowbite Logo" />
     </NavBrand>
 
     <NavHamburger/>

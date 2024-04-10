@@ -1,8 +1,13 @@
 <script lang="ts">
 	import { Button, Dropdown, DropdownItem, Input } from "flowbite-svelte";
     import ProductBase from '$lib/pre-constructs/product-page/ProductBase.svelte'
+    import { products, type Product } from "$lib/data"
+	import PdfViewer from "svelte-pdf";
+    import { page } from '$app/stores';
 
-    function formatDate(date: string | number | Date) {
+
+    // Date
+    function formatDate(date: Date) {
         const options = { year: 'numeric', month: 'long', day: 'numeric' };
 
         const formattedDate = new Date(date).toLocaleDateString('en-US', options);
@@ -23,7 +28,16 @@
         return formattedDate.replace(day, `${day}${suffix}`);
     }
 
-    let today = formatDate('2024-04-08');
+    let today = formatDate(new Date());
+
+    
+    let currentProduct:Product = products[0];
+    const id:any = $page.url.searchParams.get('id');
+
+    if(id) {
+        currentProduct = products[id];
+    }
+
 </script>
 
 
@@ -36,12 +50,14 @@
         <Button color="alternative" class="h-10 rounded">Choose a Product</Button>
         
         <Dropdown>
-        <DropdownItem>Dashboard</DropdownItem>
-        <DropdownItem>Settings</DropdownItem>
-        <DropdownItem>Earnings</DropdownItem>
-        <DropdownItem>Sign out</DropdownItem>
+            {#each products as product, index}
+                <DropdownItem on:click={() => currentProduct = products[index]} class="">{product.name}</DropdownItem>
+            {/each}
         </Dropdown>
     </div>
 </div>
 
-<ProductBase/>
+
+{#if currentProduct}
+    <ProductBase product={currentProduct}/>
+{/if}
