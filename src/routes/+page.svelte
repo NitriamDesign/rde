@@ -7,12 +7,10 @@
 
 </script>
 
-<div>
+
     <TopHero/>
     <ProductCategories/>
-    <CallToActionRibbon/>
+    <CallToActionRibbon bgImageUrl = '/standin/dum.png'/>
     <ProductCardHorizontal/>
     <HeroBanner/>
-</div>
 
-<CallToActionRibbon bgImageUrl = '/standin/dum.png'/>
