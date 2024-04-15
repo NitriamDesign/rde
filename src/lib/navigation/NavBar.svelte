@@ -4,6 +4,7 @@
 	import { ChevronDoubleDownOutline } from 'flowbite-svelte-icons';
     import { fade } from 'svelte/transition';
     import MiniCard from '$lib/homepage/products/MiniCard.svelte';
+    import ProductPills from '$lib/homepage/products/ProductPills.svelte';
 
     let megeMenuOpen = true;
 
@@ -32,27 +33,14 @@
 </Navbar>
 
 {#if megeMenuOpen}
-    <div class="h-fit w-full border-t-2 border-b-2 bg-white absolute p-2" transition:fade>
-        <div class="max-w-7xl m-auto ">
-            <div class="text-xl font-bold text-m-primary mb-4">Our Best Products</div>
-            <div class="flex flex-wrap gap-10 justify-center mb-4">
-                {#each products.slice(0,4) as product}
-                    <MiniCard product={product}/>
-                {/each}
-            </div>
+    <div class="h-fit max-w-3xl border-2 bg-white absolute right-36 p-2 shadow-xl rounded" transition:fade>
+        <div class="grid grid-cols-3 gap-4">
+            {#each products.slice(0,9) as product}
+                <ProductPills product={product}/>
+            {/each}
         </div>
 
-
-        <div class="max-w-7xl m-auto ">
-            <div class="text-xl font-bold text-m-primary mb-4">Our Bester Products</div>
-            <div class="flex flex-wrap gap-10 justify-center mb-4">
-                {#each products.slice(4,8) as product}
-                    <MiniCard product={product}/>
-                {/each}
-            </div>
-        </div>
-
-        <div class="flex justify-center my-6 mt-10">
+        <div class="flex justify-left mb-4 mt-3">
             <Button color="none" class="bg-m-primary max-w-sm uppercase text-m-light hover:bg-primary-600 rounded text-md font-thin" href="/products">
                 Explore All Products
             </Button>
