@@ -6,7 +6,7 @@
     import MiniCard from '$lib/homepage/products/MiniCard.svelte';
     import ProductPills from '$lib/homepage/products/ProductPills.svelte';
 
-    let megeMenuOpen = true;
+    let megeMenuOpen = false;
 
     function toggleMega() {
         megeMenuOpen = !megeMenuOpen;

@@ -1,16 +1,21 @@
 <script lang="ts">
-    import { Button, Dropdown, DropdownItem, Input } from "flowbite-svelte";
+	import { Button, Dropdown, DropdownItem, Input } from "flowbite-svelte";
     import ProductBase from '$lib/pre-constructs/product-page/ProductBase.svelte'
     import { products, type Product } from "$lib/data"
     import { page } from '$app/stores';
     import { MapPinAltSolid, PhoneSolid, MessagesSolid, InfoCircleSolid, BookSolid, QuestionCircleSolid, UsersGroupSolid, BookOutline} from 'flowbite-svelte-icons';
-    import { goto } from "$app/navigation";
+	import { goto } from "$app/navigation";
 
+
+    // Date
     function formatDate(date: Date) {
         const options = { year: 'numeric', month: 'long', day: 'numeric' };
+
         const formattedDate = new Date(date).toLocaleDateString('en-US', options);
+
         const day = new Date(date).getDate();
         let suffix;
+
         if (day > 3 && day < 21) suffix = 'th';
         else {
             switch (day % 10) {
@@ -20,21 +25,13 @@
                 default: suffix = "th";
             }
         }
+
         return formattedDate.replace(day, `${day}${suffix}`);
     }
 
     let today = formatDate(new Date());
-    
-    let currentProduct: Product = products[0];
-    let currentUrl: string;
-    $: currentUrl = $page.url.pathname;
 
-    $: if (currentUrl) {
-        const foundProduct = products.find(product => product.url === currentUrl);
-        if (foundProduct) currentProduct = foundProduct;
-    }
 </script>
-
 
 
 <div class="bg-m-primary">
