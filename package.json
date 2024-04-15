@@ -43,6 +43,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"svelte-pdf-simple": "^2.0.0"
+		"pdfjs-dist": "^4.1.392",
+		"svelte-pdf": "^1.0.20"
 	}
 }
