@@ -3,6 +3,7 @@
     import ProductBase from '$lib/pre-constructs/product-page/ProductBase.svelte'
     import { products, type Product } from "$lib/data"
     import { page } from '$app/stores';
+    import { MapPinAltSolid, PhoneSolid, MessagesSolid, InfoCircleSolid, BookSolid, QuestionCircleSolid, UsersGroupSolid, BookOutline} from 'flowbite-svelte-icons';
 
 
     // Date
@@ -46,7 +47,7 @@
             {today}
         </div>
 
-        <Button color="alternative" class="h-10 rounded">Choose a Product</Button>
+        <Button color="alternative" class="h-10 rounded"><BookOutline class="mr-3"/>Choose a Product</Button>
         
         <Dropdown>
             {#each products as product, index}
