@@ -13,7 +13,7 @@
 </style>
 
 
-<div class="bg-ribbon w-screen mt-[5%] mb-[10%]">
+<div class="bg-ribbon w-full mt-[5%] mb-[10%]">
   <div class="lg:flex lg:w-[30%] w-full m-auto relative items-center" style="height: 250px;">
       <div class="lg:h-[325px] lg:absolute lg:right-[47%] lg:w-[564px] bg-white w-[80%] md:w-[50%] relative m-auto z-10 -top-6 p-10 lg:pr-[4rem] shadow-xl">
         <span class="self-center text-xl font-semibold text-[#C4C4C4] uppercase italic font-sans">Member of the Phoenix Contact Group</span>
