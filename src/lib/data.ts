@@ -14,7 +14,7 @@ export let products: Product[] = [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         mainImage: "/standin/dum.png",
         pdf: "/pdf/crimp-tools.pdf",
-        url: "/products/?id=0"
+        url: "/products/tu-connector"
     },
     {
         name: "CA Series Connectors",
@@ -22,7 +22,7 @@ export let products: Product[] = [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         mainImage: "/standin/dum.png",
         pdf: "/pdf/crimp-tools.pdf",
-        url: "/products/?id=1"
+        url: "/products/ca-connector"
     },
     {
         name: "RC Series Connectors",
@@ -30,16 +30,15 @@ export let products: Product[] = [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         mainImage: "/standin/dum.png",
         pdf: "/pdf/crimp-tools.pdf",
-        url: "/products/?id=2"
+        url: "/products/rc-connector"
     },
-    // Add 10 more dummy products
     {
         name: "DA Series Connectors",
         title: "Shielded Connectors M23",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         mainImage: "/standin/dum.png",
         pdf: "/pdf/crimp-tools.pdf",
-        url: "/products/?id=3"
+        url: "/products/da-connector"
     },
     {
         name: "CB Series Connectors",
@@ -47,7 +46,7 @@ export let products: Product[] = [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         mainImage: "/standin/dum.png",
         pdf: "/pdf/crimp-tools.pdf",
-        url: "/products/?id=4"
+        url: "/products/cb-connector"
     },
     {
         name: "RD Series Connectors",
@@ -55,7 +54,7 @@ export let products: Product[] = [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         mainImage: "/standin/dum.png",
         pdf: "/pdf/crimp-tools.pdf",
-        url: "/products/?id=5"
+        url: "/products/rd-connector"
     },
     {
         name: "AD Series Connectors",
@@ -63,7 +62,7 @@ export let products: Product[] = [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         mainImage: "/standin/dum.png",
         pdf: "/pdf/crimp-tools.pdf",
-        url: "/products/?id=6"
+        url: "/products/ad-connector"
     },
     {
         name: "TB Series Connectors",
@@ -71,7 +70,7 @@ export let products: Product[] = [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         mainImage: "/standin/dum.png",
         pdf: "/pdf/crimp-tools.pdf",
-        url: "/products/?id=7"
+        url: "/products/tb-connector"
     },
     {
         name: "CA Series Connectors II",
@@ -79,7 +78,7 @@ export let products: Product[] = [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         mainImage: "/standin/dum.png",
         pdf: "/pdf/crimp-tools.pdf",
-        url: "/products/?id=8"
+        url: "/products/ca-connector-ii"
     },
     {
         name: "TU Series Connectors II",
@@ -87,6 +86,6 @@ export let products: Product[] = [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         mainImage: "/standin/dum.png",
         pdf: "/pdf/crimp-tools.pdf",
-        url: "/products/?id=9"
+        url: "/products/tu-connector-ii"
     }
 ];
