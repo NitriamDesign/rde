@@ -37,6 +37,7 @@
 
 
 
+
 <div class="bg-m-primary">
     <div class="max-w-3xl flex justify-between p-4 items-center md:full md:m-auto">
         <div class="font-[500] text-white">
@@ -54,4 +55,6 @@
 </div>
 
 
-This is the every product page
+{#if currentProduct}
+    <ProductBase product={currentProduct}/>
+{/if}
