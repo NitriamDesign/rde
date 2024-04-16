@@ -89,3 +89,21 @@ export let products: Product[] = [
         url: "/products/tu-connector-ii"
     }
 ];
+
+
+export interface Employee {
+    name: string;
+    role: string;
+    departments: string;
+    email: string;
+}
+
+export let employees: Employee[] = [
+    { name: 'Michael Klautky', role: 'President', departments: 'Inside Sales / Outside Sales / Operations', email: 'sales@rde-usa.com' },
+    { name: 'Claudia Arteaga', role: 'Office Administrator', departments: 'Inside Sales / Customer Service / Order Processing', email: 'carteaga@rde-usa.com' },
+    { name: 'Joe Surma', role: 'Technical Support', departments: 'Inside Sales / Customer Service / Order Processing', email: 'jsurma@rde-usa.com' },
+    { name: 'Reinhard Derksen', role: 'Technical Support', departments: 'R & D', email: 'reinhard@rde-usa.com' },
+    { name: 'Richard Chung', role: 'Support Engineer', departments: 'Product / Program Manager', email: 'rchung@rde-usa.com' },
+    { name: 'James Smith', role: 'Support Engineer', departments: 'Production / QC Manager', email: 'jsmith@rde-usa.com' },
+    { name: 'Angelika Derksen', role: 'Vice President', departments: 'Finance/Controlling/HR', email: 'accounting@rde-usa.com' },
+];
