@@ -13,3 +13,4 @@
     });
 </script>
 
+<PdfViewer url={url}/>
