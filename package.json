@@ -43,5 +43,8 @@
 		"vite": "^5.2.9",
 		"vitest": "^1.5.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"svelte-google-maps-api": "^0.0.10"
+	}
 }
