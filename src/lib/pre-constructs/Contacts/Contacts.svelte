@@ -36,7 +36,7 @@
             </TableBody>
         </Table>
     {:else}
-        <div class="flex flex-wrap gap-8">
+        <div class="grid grid-cols-1 p-4 md:p-0 md:grid-cols-2 gap-8">
             {#each employees as employee}
                 <ContactCards {employee}/>
             {/each}
