@@ -46,7 +46,7 @@
         </div>
 
         <div class="">    
-            <div class="text-sm font-semibold uppercase mb-4">    
+            <div class="text-lg font-semibold uppercase mb-4">    
                 ISO 9001-2015 Certified
             </div>
             
@@ -65,18 +65,10 @@
 
 <div class="bg-m-dark md:h-20">
     <div class="md:flex justify-center max-w-7xl m-auto h-full items-center text-gray-300 gap-20 p-5">
-        <div class="flex gap-5 mb-2">
-            <div class="text-xs marker:md:text-md">    
-                <a href="/">    
-                    Site notice
-                </a>
-            </div>
-
-            <div class="text-xs md:text-md">    
-                <a href="/">    
-                    Legal information
-                </a>
-            </div>
+        <div class="text-xs md:text-md">    
+            <a href="/legal">    
+                Legal information
+            </a>
         </div>
 
         <div class="text-xs md:text-md">    
