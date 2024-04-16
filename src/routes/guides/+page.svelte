@@ -13,3 +13,4 @@
     });
 </script>
 
+<svelte:component this={PdfViewer} url={url} />
