@@ -1,18 +1,16 @@
 <script>
-// @ts-nocheck
-
     import { onMount } from "svelte";
-    /**
-	 * @type {typeof import("svelte-pdf").default}
-	 */
     let PdfViewer;
     let url = "/pdf/crimp-tools.pdf";
 
     onMount(async () => {
-    const module = await import("svelte-pdf");
-    PdfViewer = module.default;
-  });
-
+      try {
+        const module = await import("svelte-pdf");
+        PdfViewer = module.default;
+      } catch (error) {
+        console.error("Failed to load the PDF viewer module:", error);
+      }
+    });
 </script>
 
-<svelte:component this={PdfViewer} url={url} showButtons={["navigation", "zoom", "print", "download", "pageInfo"]}/>
+<svelte:component this={PdfViewer} url={url} />

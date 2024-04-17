@@ -32,4 +32,4 @@
     }
 </script>
 
-<div id="map" class="max-w-6xl m-auto border-2 rounded h-[400px]"></div>
+<div id="map" class="max-w-6xl m-4 border-2 rounded h-[400px] md:m-auto"></div>

@@ -12,6 +12,14 @@
         megeMenuOpen = !megeMenuOpen;
     }
 
+    function closeMega() {
+        megeMenuOpen = false;
+    }
+
+
+    function openMega() {
+        megeMenuOpen = true;
+    }
 </script>
 
 <!-- Hello -->
@@ -25,7 +33,7 @@
 
     <NavUl>
         <NavLi class="font-semibold text-lg" href="/">Home</NavLi>
-        <NavLi class="font-semibold text-lg cursor-pointer flex items-center gap-2" on:click={(toggleMega)}>Products <ChevronDoubleDownOutline size="sm"/></NavLi>
+        <NavLi class="font-semibold text-lg cursor-pointer flex items-center gap-2" on:mouseenter={openMega}>Products <ChevronDoubleDownOutline size="sm"/></NavLi>
         <NavLi class="font-semibold text-lg" href="/guides">Guides</NavLi>
         <NavLi class="font-semibold text-lg" href="/about">About</NavLi>
         <NavLi class="font-semibold text-lg" href="/contact">Contact</NavLi>
@@ -33,10 +41,11 @@
 </Navbar>
 
 {#if megeMenuOpen}
-    <div class="h-fit max-w-3xl border-2 bg-white absolute right-36 p-2 shadow-xl rounded" transition:fade>
+    <!-- svelte-ignore a11y-no-static-element-interactions -->
+    <div class="h-fit max-w-3xl border-2 bg-white absolute right-36 p-2 shadow-xl rounded" transition:fade on:mouseleave={closeMega}>
         <div class="grid grid-cols-3 gap-4">
             {#each products.slice(0,9) as product}
-                <ProductPills product={product}/>
+                <ProductPills product={product} on:click={(closeMega)}/>
             {/each}
         </div>
 

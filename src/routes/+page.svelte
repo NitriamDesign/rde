@@ -8,9 +8,8 @@
 </script>
 
 
-    <TopHero/>
-    <ProductCategories/>
-    <CallToActionRibbon bgImageUrl = '/standin/dum.png'/>
-    <ProductCardHorizontal/>
-    <HeroBanner/>
-
+<TopHero/>
+<ProductCategories/>
+<CallToActionRibbon bgImageUrl = '/standin/dum.png'/>
+<ProductCardHorizontal/>
+<HeroBanner/>
