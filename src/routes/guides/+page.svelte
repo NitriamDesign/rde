@@ -1,5 +1,10 @@
 <script>
+// @ts-nocheck
+
     import { onMount } from "svelte";
+    /**
+	 * @type {typeof import("svelte-pdf").default}
+	 */
     let PdfViewer;
     let url = "/pdf/crimp-tools.pdf";
 
