@@ -9,11 +9,11 @@
 
 <div class="bg-[#C4C4C4] flex flex-col justify-center text-center py-40 p-5 w-full gap-5">
     <div class="text-3xl font-bold md:text-5xl max-w-3xl m-auto">
-        Title / CTA
+        Robust, Machine Turned Connector Systems
     </div>
 
     <div class="text-xl text-[#6B7280] max-w-3xl m-auto">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna.
+        We specialize in manufacturing industrial circular connectors for many types of electrical control and distribution systems.
     </div>
 
     <Button color="none" class="bg-m-primary max-w-sm m-auto uppercase text-m-light hover:bg-primary-600 rounded text-md font-thin"

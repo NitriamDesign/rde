@@ -32,13 +32,13 @@
             
             <ButtonGroup>
                 <Button color="none" class="{`border-2 max-w-sm uppercase text-md font-bold ${selectedButton === '1' ? selected : ''}`}" on:click={() => selectedButton = '1'}>
-                    Category 1
+                    Connectors
                 </Button>
                 <Button color="none" class="{`border-2 max-w-sm uppercase text-md font-bold ${selectedButton === '2' ? selected : ''}`}" on:click={() => selectedButton = '2'}>
-                    Category 2
+                    Cables
                 </Button>
                 <Button color="none" class="{`border-2 max-w-sm uppercase text-md font-bold ${selectedButton === '3' ? selected : ''}`}" on:click={() => selectedButton = '3'}>
-                    Category 3
+                    Tools
                 </Button>
             </ButtonGroup>
         </div>
@@ -48,7 +48,7 @@
         <Navbar>
             <NavHamburger/>
             <NavUl >
-                <NavLi class="{selectedButton === 'all' ? selected : ''}" on:click={() => selectedButton = 'all'}>All Products</NavLi>
+                <NavLi class="{selectedButton === 'all' ? selected : ''}" on:click={() => selectedButton = 'all'}>ALL</NavLi>
                 <NavLi class="{selectedButton === '1' ? selected : ''}" on:click={() => selectedButton = '1'}>Category 1</NavLi>
                 <NavLi class="{selectedButton === '2' ? selected : ''}" on:click={() => selectedButton = '2'}>Category 2</NavLi>
                 <NavLi class="{selectedButton === '3' ? selected : ''}" on:click={() => selectedButton = '3'}>Category 3</NavLi>

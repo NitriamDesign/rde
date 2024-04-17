@@ -32,28 +32,37 @@
             
             <div class="flex flex-col gap-2 text-sm font-semibold text-m-primary2">
                 <div class="flex items-center gap-2">    
-                    <MapPinAltSolid/>586 Fulling Mill Road, Middletown, PA 17057
+                    <MapPinAltSolid/>5277 NW 108 Ave Sunrise, FL 33351, USA
                 </div>
 
                 <div class="flex items-center gap-2">   
-                    <PhoneSolid/>(800) 888-8888
+                    <PhoneSolid/>(954) 746-6400
                 </div>
+                
 
                 <div class="flex items-center gap-2">   
-                    <MessagesSolid/>us-info@phoenixcontact.com
+                    <MessagesSolid/>sales@rde-usa.com
                 </div>
             </div>
         </div>
 
         <div class="">    
             <div class="text-lg font-semibold uppercase mb-4">    
+                <a class="flex items-center gap-2" href="/certification">  
                 ISO 9001-2015 Certified
+            </a>
             </div>
             
             <div class="flex flex-col gap-2 text-md font-semibold  text-m-primary2">
-                <a class="flex items-center gap-2" href="/certification">  
-                    <InfoCircleSolid/>Information
-                </a>
+                <div class="flex items-center gap-2">  
+                    <InfoCircleSolid/>Monday-Friday, 8:30am - 12:30pm
+                    and 1:00pm - 5:00pm Eastern Time.
+                </div>
+                
+            </div>
+
+            <div class="flex items-center gap-2 font-semibold text-m-primary2">   
+                Fax: (954) 746-4700
             </div>
         </div>
     </div>
