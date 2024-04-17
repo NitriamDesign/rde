@@ -8,12 +8,18 @@
     let selected = "bg-m-primary hover:bg-primary-600 text-white";
     
     let products = [
-        { id: 1, category: '1', title: 'CA Series Connectors UCG-3' },
-        { id: 2, category: '1', title: 'CA Series Connectors Lite' },
-        { id: 3, category: '1', title: 'CA Series Connectors Xtreme' },
-        { id: 4, category: '2', title: 'FlexiConnect PowerPlus' },
-        { id: 5, category: '2', title: 'FlexiConnect Straight' },
-        { id: 6, category: '3', title: 'GoldConnect Class B' },
+        { id: 1, category: '1', title: 'CA Series Connectors', desc: "Copper-Zinc alloy (CuZn) <br>die cast components: Zinc (GD-Zn) Shell plating: Nickel (Ni) plated Cable entry: max. 14.5 mm", img: '' },
+        { id: 2, category: '1', title: 'HC Series Connectors',  desc: '', img: '' },
+        { id: 3, category: '1', title: 'RC Series Connectors',  desc: '', img: '' },
+        { id: 4, category: '1', title: 'RF Series Connectors',  desc: '', img: '' },
+        { id: 5, category: '1', title: 'SF Series Connectors',  desc: '', img: '' },
+        { id: 6, category: '1', title: 'SH Series Connectors',  desc: '', img: '' },
+        { id: 7, category: '1', title: 'SL Series Connectors',  desc: '', img: '' },
+        { id: 8, category: '1', title: 'SM Series Connectors',  desc: '', img: '' },
+        { id: 9, category: '1', title: 'SSR Series Connectors',  desc: '', img: '' },
+        { id: 10, category: '1', title: 'ST Series Connectors',  desc: '', img: '' },
+        { id: 11, category: '1', title: 'TU Series Connectors',  desc: '', img: '' },
+        { id: 12, category: '1', title: 'UC Series Connectors',  desc: '', img: '' }
     ];
 
 
@@ -49,9 +55,9 @@
             <NavHamburger/>
             <NavUl >
                 <NavLi class="{selectedButton === 'all' ? selected : ''}" on:click={() => selectedButton = 'all'}>ALL</NavLi>
-                <NavLi class="{selectedButton === '1' ? selected : ''}" on:click={() => selectedButton = '1'}>Category 1</NavLi>
-                <NavLi class="{selectedButton === '2' ? selected : ''}" on:click={() => selectedButton = '2'}>Category 2</NavLi>
-                <NavLi class="{selectedButton === '3' ? selected : ''}" on:click={() => selectedButton = '3'}>Category 3</NavLi>
+                <NavLi class="{selectedButton === '1' ? selected : ''}" on:click={() => selectedButton = '1'}>Connectors</NavLi>
+                <NavLi class="{selectedButton === '2' ? selected : ''}" on:click={() => selectedButton = '2'}>Cables</NavLi>
+                <NavLi class="{selectedButton === '3' ? selected : ''}" on:click={() => selectedButton = '3'}>Tools</NavLi>
             </NavUl>
         </Navbar>
     </div>
@@ -65,6 +71,14 @@
                     <svelte:fragment slot="title">
                         {product.title}
                     </svelte:fragment>
+                    <svelte:fragment slot="desc">
+                        {product.desc}
+                    </svelte:fragment>
+                    <!--
+                    <svelte:fragment slot="image">
+                        {product.img}
+                    </svelte:fragment>
+                    -->
                 </ProductCard>
             </div>
         {/each}

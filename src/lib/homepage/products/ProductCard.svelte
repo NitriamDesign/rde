@@ -16,10 +16,21 @@
             </slot>
         </div>
 
-        <div class="text-md mt-2 text-[#6B7280]">
-            <slot name="desc">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna.
+        <div class="flex flex-col text-md mt-2 text-[#6B7280]">
+            <slot name="desc1">
+                Lorem ipsum dolor sit 
             </slot>
+            
+        </div>
+        <div class="flex flex-col text-md mt-2 text-[#6B7280]">
+            <slot name="desc2">
+                Lorem ipsum dolor sit 
+            </slot>     
+        </div>
+        <div class="flex flex-col text-md mt-2 text-[#6B7280]">
+            <slot name="desc3">
+                Lorem ipsum dolor sit 
+            </slot>     
         </div>
     </div> 
 

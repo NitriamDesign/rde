@@ -7,7 +7,7 @@ export interface Product {
     url: string;
 }
 
-export let products: Product[] = [
+export const products: Product[] = [
     {
         name: "TU Series Connectors",
         title: "Shielded Connectors in Bayonet Style",
