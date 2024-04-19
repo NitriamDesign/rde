@@ -1,5 +1,5 @@
 <script>
-    import { MapPinAltSolid, PhoneSolid, MessagesSolid, InfoCircleSolid, BookSolid, QuestionCircleSolid, UsersGroupSolid} from 'flowbite-svelte-icons';
+    import { MapPinAltSolid, PhoneSolid, MessagesSolid, InfoCircleSolid, BookSolid, QuestionCircleSolid, UsersGroupSolid, ClockSolid, PrinterSolid} from 'flowbite-svelte-icons';
 </script>
 
 
@@ -38,7 +38,10 @@
                 <div class="flex items-center gap-2">   
                     <PhoneSolid/>(954) 746-6400
                 </div>
-                
+
+                <div class="flex items-center gap-2  text-sm font-semibold text-m-primary2">   
+                    <PrinterSolid/>Fax: (954) 746-4700
+                </div>
 
                 <div class="flex items-center gap-2">   
                     <MessagesSolid/>sales@rde-usa.com
@@ -48,29 +51,36 @@
 
         <div class="">    
             <div class="text-lg font-semibold uppercase mb-4">    
-                <a class="flex items-center gap-2" href="/certification">  
-                ISO 9001-2015 Certified
-            </a>
+                <div class="flex items-center gap-2">  
+                    ISO 9001-2015 Certified
+                </div>
             </div>
             
             <div class="flex flex-col gap-2 text-md font-semibold  text-m-primary2">
-                <div class="flex items-center gap-2">  
-                    <InfoCircleSolid/>Monday-Friday, 8:30am - 12:30pm
-                    and 1:00pm - 5:00pm Eastern Time.
-                </div>
-                
-            </div>
-
-            <div class="flex items-center gap-2 font-semibold text-m-primary2">   
-                Fax: (954) 746-4700
+                <a class="flex items-center gap-2" href="/certification">  
+                    <InfoCircleSolid/>Certification
+                </a>
             </div>
         </div>
+
+        <div class="">    
+            <div class="text-lg font-semibold uppercase mb-4">    
+                <div class="flex items-center gap-2">  
+                    Operation
+                </div>
+            </div>
+        
+            <div class="flex gap-2  text-sm font-semibold text-m-primary2 items-start">   
+                <ClockSolid/>
+                    Monday - Friday<br>
+                    8:30am - 12:30pm and 1:00pm - 5:00pm<br>
+                    Eastern Time<br>
+            </div>
+        </div>
+
+
     </div>
 </div>
-
-
-
-
 
 <div class="bg-m-dark md:h-20">
     <div class="md:flex justify-center max-w-7xl m-auto h-full items-center text-gray-300 gap-20 p-5">

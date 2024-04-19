@@ -67,7 +67,7 @@
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3  gap-6 mt-10 justify-items-center">
         {#each filteredProducts as product (product.id)}
             <div animate:flip={{ duration: 250 }} transition:fade={{ duration: 250 }}>
-                <ProductCard>
+                <ProductCard url={product.title}>
                     <svelte:fragment slot="title">
                         {product.title}
                     </svelte:fragment>

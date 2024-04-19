@@ -1,5 +1,6 @@
-<script>
+<script lang="ts">
     import { ChevronRightOutline } from 'flowbite-svelte-icons';
+    export let url:string;
 </script>
 
 <div class="w-[400px] h-[500px] flex flex-col justify-between rounded shadow-xl overflow-hidden bg-white">
@@ -43,7 +44,7 @@
     </div> 
 
     <!-- View Item at the bottom -->
-    <a class="px-7 pb-10 text-xl flex items-center text-primary-500 hover:text-primary-600 font-bold" href="/">
+    <a class="px-7 pb-10 text-xl flex items-center text-primary-500 hover:text-primary-600 font-bold" href={url}>
         Read More <ChevronRightOutline class="ml-2" />
     </a>
 </div>
