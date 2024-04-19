@@ -6,20 +6,20 @@
 
     let selectedButton = 'all';
     let selected = "bg-m-primary hover:bg-primary-600 text-white";
-    
+    /* TEMPORARY, DO NOT DELET YET THO */
     let products = [
-        { id: 1, category: '1', title: 'CA Series Connectors', desc: "Copper-Zinc alloy (CuZn) <br>die cast components: Zinc (GD-Zn) Shell plating: Nickel (Ni) plated Cable entry: max. 14.5 mm", img: '' },
-        { id: 2, category: '1', title: 'HC Series Connectors',  desc: '', img: '' },
-        { id: 3, category: '1', title: 'RC Series Connectors',  desc: '', img: '' },
-        { id: 4, category: '1', title: 'RF Series Connectors',  desc: '', img: '' },
-        { id: 5, category: '1', title: 'SF Series Connectors',  desc: '', img: '' },
-        { id: 6, category: '1', title: 'SH Series Connectors',  desc: '', img: '' },
-        { id: 7, category: '1', title: 'SL Series Connectors',  desc: '', img: '' },
-        { id: 8, category: '1', title: 'SM Series Connectors',  desc: '', img: '' },
-        { id: 9, category: '1', title: 'SSR Series Connectors',  desc: '', img: '' },
-        { id: 10, category: '1', title: 'ST Series Connectors',  desc: '', img: '' },
-        { id: 11, category: '1', title: 'TU Series Connectors',  desc: '', img: '' },
-        { id: 12, category: '1', title: 'UC Series Connectors',  desc: '', img: '' }
+        { id: 1, category: '1', title: 'CA Series Connectors', desc1: "Copper-Zinc alloy (CuZn)", desc2:"Zinc (GD-Zn)", desc3: "Nickel (Ni) plated", img: '' },
+        { id: 2, category: '1', title: 'HC Series Connectors',  desc1: "Copper-Zinc alloy (CuZn)", desc2:"Zinc (GD-Zn)", desc3: "Nickel (Ni) plated", img: '' },
+        { id: 3, category: '1', title: 'RC Series Connectors',  desc1: "Copper-Zinc alloy (CuZn)", desc2:"Zinc (GD-Zn)", desc3: "Nickel (Ni) plated", img: '' },
+        { id: 4, category: '1', title: 'RF Series Connectors',  desc1: "Copper-Zinc alloy (CuZn)", desc2:"Zinc (GD-Zn)", desc3: "Nickel (Ni) plated", img: '' },
+        { id: 5, category: '1', title: 'SF Series Connectors',  desc1: "Copper-Zinc alloy (CuZn)", desc2:"Zinc (GD-Zn)", desc3: "Nickel (Ni) plated", img: '' },
+        { id: 6, category: '1', title: 'SH Series Connectors',  desc1: "Copper-Zinc alloy (CuZn)", desc2:"Zinc (GD-Zn)", desc3: "Nickel (Ni) plated", img: '' },
+        { id: 7, category: '2', title: 'SL Series Connectors',  desc1: "Copper-Zinc alloy (CuZn)", desc2:"Zinc (GD-Zn)", desc3: "Nickel (Ni) plated", img: '' },
+        { id: 8, category: '2', title: 'SM Series Connectors',  desc1: "Copper-Zinc alloy (CuZn)", desc2:"Zinc (GD-Zn)", desc3: "Nickel (Ni) plated", img: '' },
+        { id: 9, category: '2', title: 'SSR Series Connectors',  desc1: "Copper-Zinc alloy (CuZn)", desc2:"Zinc (GD-Zn)", desc3: "Nickel (Ni) plated", img: '' },
+        { id: 10, category: '3', title: 'ST Series Connectors',  desc1: "Copper-Zinc alloy (CuZn)", desc2:"Zinc (GD-Zn)", desc3: "Nickel (Ni) plated", img: '' },
+        { id: 11, category: '3', title: 'TU Series Connectors',  desc1: "Copper-Zinc alloy (CuZn)", desc2:"Zinc (GD-Zn)", desc3: "Nickel (Ni) plated", img: '' },
+        { id: 12, category: '3', title: 'UC Series Connectors',  desc1: "Copper-Zinc alloy (CuZn)", desc2:"Zinc (GD-Zn)", desc3: "Nickel (Ni) plated", img: '' }
     ];
 
 
@@ -71,8 +71,14 @@
                     <svelte:fragment slot="title">
                         {product.title}
                     </svelte:fragment>
-                    <svelte:fragment slot="desc">
-                        {product.desc}
+                    <svelte:fragment slot="desc1">
+                        {product.desc1}
+                    </svelte:fragment>
+                    <svelte:fragment slot="desc2">
+                        {product.desc2}
+                    </svelte:fragment>
+                    <svelte:fragment slot="desc3">
+                        {product.desc3}
                     </svelte:fragment>
                     <!--
                     <svelte:fragment slot="image">
