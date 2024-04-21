@@ -9,7 +9,7 @@
 
 <div class="bg-[#C4C4C4] flex flex-col justify-center text-center py-40 p-5 w-full gap-5">
     <div class="text-3xl font-bold md:text-5xl max-w-3xl m-auto">
-        Industrial & Marine Interconnect Systems
+        RDE Connectors & cables, Inc.
     </div>
 
     <div class="text-xl text-[#6B7280] max-w-3xl m-auto">
