@@ -18,7 +18,7 @@
    
       <div class="">
         <Heading tag="h1" class="mb-4" customSize="text-3xl font-extrabold  md:text-5xl lg:text-5xl">
-          <Span gradient>Specialists in Robust, Machine Turned Connector Systems.</Span>
+          <Span gradient gradientClass="text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-yellow-200">Specialists in Robust, Machine Turned Connector Systems.</Span>
         </Heading>
         <Heading tag="h2" customSize="text-lg font-semibold" class="mb-2 text-lg font-semibold text-gray-600 dark:text-white">Connectors & Interfaces for</Heading>
         <List tag="ul" class="space-y-1 text-gray-500 dark:text-gray-400">
