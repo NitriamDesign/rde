@@ -28,24 +28,23 @@
 </script>
 
 <!-- Hello -->
-<Navbar class="pt-6 pb-3 z-30">
-    <NavBrand href="/" class="p-0 px-0">
-        <img src="/logos/rde-logo.png"  class="h-[125px] md:inline hidden mb-2" alt="Flowbite Logo" />
+<Navbar class="md:pt-6 md:pb-3 z-30">
+    <NavBrand href="/" class="p-0 px-0 flex gap-3 md:gap-0">
+        <img src="/logos/rde-logo.png"  class="md:h-[125px] md:inline h-14" alt="Flowbite Logo" />
    
-        <span class="text-2xl font-semibold text-primary-500 uppercase italic font-sans ml-5">Member of the Phoenix Contact Group</span>
-    </NavBrand>
-    <div class="flex md:order-2">
-        <Button color="none" data-collapse-toggle="mobile-menu-3" aria-controls="mobile-menu-3" aria-expanded="false" class="md:hidden text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 me-1">
-          <SearchOutline class="w-5 h-5" />
-        </Button>
-      </div>
+        <div class="md:text-2xl text-xs font-semibold text-primary-500 uppercase italic font-sans md:ml-5">Member of the Phoenix Contact Group</div>
 
-    <NavHamburger/>
+        <a href="tel:9547466400" class="md:hidden">
+            <PhoneSolid size="lg"/>
+        </a>
+        
+        <NavHamburger/>
+    </NavBrand>
 
     <NavUl>
         <NavLi id="amg" class="font-semibold text-lg cursor-pointer flex items-center gap-2">Products <ChevronDoubleDownOutline size="sm"/></NavLi>
 
-        <Popover triggeredBy="#amg" placement="bottom" class="w-[90%] md:w-[700px] border-2 p-2 shadow-xl rounded z-20 mx-2 md:mx-0" open={true}>
+        <Popover triggeredBy="#amg" placement="bottom" class="w-[90%] md:w-[700px] border-2 p-2 shadow-xl rounded z-20 mx-2 md:mx-0" >
                 <div class="md:grid md:grid-cols-3 md:gap-4">
                     {#each products.slice(0,9) as product}
                         <ProductPills product={product}/>
@@ -64,7 +63,7 @@
         <NavLi class="font-semibold text-lg" href="/about">About</NavLi>
         <NavLi class="font-semibold text-lg" href="/contact">Contact</NavLi>
     </NavUl>
-    <div class="flex items-center font-semibold gap-2 text-lg ">   
+    <div class="hidden items-center font-semibold gap-2 text-lg md:flex">   
         <PhoneSolid size="lg"/> Contact us (954) 746-6400
     </div>
 
@@ -77,11 +76,12 @@
         </div>
         
      
-        <div class="hidden relative md:block">
+        <div class="relative">
             <div class="flex absolute inset-y-0 start-0 items-center ps-3 pointer-events-none">
               <SearchOutline class="w-4 h-4" />
             </div>
-            <Input id="search-navbar" class="ps-10 w-[300px]" placeholder="Search..." />
+
+            <Input id="search-navbar" class="ps-10 md:w-[300px] max-w-36" placeholder="Search..." />
         </div>
     </div>
 </div>
