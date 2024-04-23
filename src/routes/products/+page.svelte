@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Button, Dropdown, DropdownItem, Input } from "flowbite-svelte";
-    import ProductBase from '$lib/pre-constructs/product-page/ProductBase.svelte'
+    import ProductBase from '$lib/product-page/ProductBase.svelte'
     import { products, type Product } from "$lib/data"
     import { page } from '$app/stores';
     import { MapPinAltSolid, PhoneSolid, MessagesSolid, InfoCircleSolid, BookSolid, QuestionCircleSolid, UsersGroupSolid, BookOutline} from 'flowbite-svelte-icons';

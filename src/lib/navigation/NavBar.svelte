@@ -44,7 +44,7 @@
 </script>
 
 <!-- Hello -->
-<Navbar class="pt-7 pb-5 z-30">
+<Navbar class="pt-6 pb-3 z-30">
     <NavBrand href="/" class="p-0 px-0">
         <img src="/logos/rde-logo.png"  class="h-[125px] md:inline hidden mb-2" alt="Flowbite Logo" />
    

@@ -1,5 +1,5 @@
 <script>
-    import { Button, ButtonGroup, NavHamburger, NavLi, NavUl, Navbar  } from 'flowbite-svelte';
+    import { Button, ButtonGroup, Heading, NavHamburger, NavLi, NavUl, Navbar, Span  } from 'flowbite-svelte';
     import ProductCard from './ProductCard.svelte';
     import { fade } from 'svelte/transition';
     import { flip } from 'svelte/animate';
@@ -7,6 +7,9 @@
     let selectedButton = 'all';
     let selected = "bg-m-primary hover:bg-primary-600 text-white";
     /* TEMPORARY, DO NOT DELET YET THO */
+
+    const maxDisplayed = 6;
+
     let products = [
         { id: 1, category: '1', title: 'CA Series Connectors', desc1: "Copper-Zinc alloy (CuZn)", desc2:"Zinc (GD-Zn)", desc3: "Nickel (Ni) plated", img: '' },
         { id: 2, category: '1', title: 'HC Series Connectors',  desc1: "Copper-Zinc alloy (CuZn)", desc2:"Zinc (GD-Zn)", desc3: "Nickel (Ni) plated", img: '' },
@@ -22,8 +25,11 @@
         { id: 12, category: '3', title: 'UC Series Connectors',  desc1: "Copper-Zinc alloy (CuZn)", desc2:"Zinc (GD-Zn)", desc3: "Nickel (Ni) plated", img: '' }
     ];
 
+    
+
 
     $: filteredProducts = selectedButton === 'all' ? products : products.filter(product => product.category === selectedButton);
+    
 
 </script>
 
@@ -32,8 +38,12 @@
 
     <!-- Desktop View -->
         <div class="justify-start gap-10 hidden md:flex">
+            <Heading tag="h2" class="flex items-center " customSize="text-3xl font-extrabold  md:text-4xl lg:text-4xl">
+                <Span gradient gradientClass="text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-secondary2-700">View our Connectors, Cables & Tools</Span>
+            </Heading>
+
             <Button color="none" class="border-2 max-w-sm uppercase rounded-md text-md font-bold {selectedButton === 'all' ? selected : ''}" on:click={() => selectedButton = 'all'}>
-                All Products
+                All
             </Button>
             
             <ButtonGroup>
@@ -64,8 +74,8 @@
 
 
     <!-- Products -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3  gap-6 mt-10 justify-items-center">
-        {#each filteredProducts as product (product.id)}
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-20 mt-10 justify-items-center">
+        {#each filteredProducts.slice(0, 6) as product (product.id)}
             <div animate:flip={{ duration: 250 }} transition:fade={{ duration: 250 }}>
                 <ProductCard url={product.title}>
                     <svelte:fragment slot="title">

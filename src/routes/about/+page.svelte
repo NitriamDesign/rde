@@ -1,5 +1,5 @@
 <script>
-	import ImageDesc from "$lib/pre-constructs/2-col-layout/ImageDesc.svelte";
+	import ImageDesc from "$lib/pre-constructs/ImageDesc.svelte";
 import { CheckCircleOutline } from "flowbite-svelte-icons";
 
 </script>

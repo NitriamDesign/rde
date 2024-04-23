@@ -7,8 +7,8 @@
 
 
 
-<div class="bg-[#C4C4C4] flex flex-col justify-center text-center py-40 p-5 w-full gap-5">
-    <div class="text-3xl font-bold md:text-5xl max-w-3xl m-auto">
+<div class="bg-[#C4C4C4] flex flex-col justify-center md:text-center py-[200px] p-5 w-full gap-5">
+    <div class="text-4xl font-bold md:text-5xl max-w-3xl m-auto">
         RDE Connectors & cables, Inc.
     </div>
 
@@ -17,8 +17,7 @@
     </div>
 
     <Button color="none" class="bg-m-primary max-w-sm m-auto uppercase text-m-light hover:bg-primary-600 rounded text-md font-thin"
-        on:click={event => handleAnchorClick(event, "main-products", 60)}
-    >
+        on:click={event => handleAnchorClick(event, "main-products", 60)}>
         View Products <ArrowDownOutline size="lg" class="ml-2"/>
     </Button>
 </div>
