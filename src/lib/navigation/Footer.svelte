@@ -10,7 +10,7 @@
                 RDE CONNECTS
             </div>
             
-            <div class="flex flex-col gap-2 text-sm font-semibold uppercase text-m-primary2">
+            <div class="flex flex-col gap-2 text-md font-semibold uppercase text-m-primary2">
                 <div class="flex items-center gap-2">       
                     <BookSolid/>Products
                 </div>
@@ -30,7 +30,7 @@
                 Contact
             </div>
             
-            <div class="flex flex-col gap-2 text-sm font-semibold text-m-primary2">
+            <div class="flex flex-col gap-2 text-md font-semibold text-m-primary2">
                 <div class="flex items-center gap-2">    
                     <MapPinAltSolid/>5277 NW 108 Ave Sunrise, FL 33351, USA
                 </div>
@@ -39,7 +39,7 @@
                     <PhoneSolid/>(954) 746-6400
                 </div>
 
-                <div class="flex items-center gap-2  text-sm font-semibold text-m-primary2">   
+                <div class="flex items-center gap-2 text-m-primary2">   
                     <PrinterSolid/>Fax: (954) 746-4700
                 </div>
 
@@ -60,6 +60,12 @@
                 <a class="flex items-center gap-2" href="/certification">  
                     <InfoCircleSolid/>Certification
                 </a>
+                <a class="flex items-center gap-2" href="/certification">  
+                    <InfoCircleSolid/>Terms & Conditions
+                </a>
+                <a class="flex items-center gap-2" href="/certification">  
+                    <InfoCircleSolid/>Legal Information
+                </a>
             </div>
         </div>
 
@@ -70,7 +76,7 @@
                 </div>
             </div>
         
-            <div class="flex gap-2  text-sm font-semibold text-m-primary2 items-start">   
+            <div class="flex gap-2 text-md font-semibold text-m-primary2 items-start">   
                 <ClockSolid/>
                     Monday - Friday<br>
                     8:30am - 12:30pm and 1:00pm - 5:00pm<br>
@@ -82,11 +88,16 @@
     </div>
 </div>
 
-<div class="bg-m-dark md:h-20">
+<div class="bg-m-dark md:h-15">
     <div class="md:flex justify-center max-w-7xl m-auto h-full items-center text-gray-300 gap-20 p-5">
         <div class="text-xs md:text-md">    
             <a href="/legal">    
-                Legal information
+                Legal Information
+            </a>
+        </div>
+        <div class="text-xs md:text-md">    
+            <a href="/legal">    
+                Terms & Conditions
             </a>
         </div>
 
