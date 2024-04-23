@@ -1,27 +1,11 @@
 <script  lang="ts">
-    import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, MegaMenu, Button, Input } from 'flowbite-svelte';
+    import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, MegaMenu, Button, Input, Popover } from 'flowbite-svelte';
     import { products } from '$lib/data';
 	import { ChevronDoubleDownOutline, MapPinAltSolid, PhoneSolid } from 'flowbite-svelte-icons';
-    import { fade } from 'svelte/transition';
     import MiniCard from '$lib/homepage/products/MiniCard.svelte';
     import ProductPills from '$lib/homepage/products/ProductPills.svelte';
     import { SearchOutline } from 'flowbite-svelte-icons';
-    
-
-    let megeMenuOpen = false;
-
-    function toggleMega() {
-        megeMenuOpen = !megeMenuOpen;
-    }
-
-    function closeMega() {
-        megeMenuOpen = false;
-    }
-
-
-    function openMega() {
-        megeMenuOpen = true;
-    }
+    import { blur, fade, slide } from 'svelte/transition';
 
     function formatDate(date: Date) {
         const options = { year: 'numeric', month: 'long', day: 'numeric' };
@@ -59,7 +43,24 @@
     <NavHamburger/>
 
     <NavUl>
-        <NavLi class="font-semibold text-lg cursor-pointer flex items-center gap-2" on:mouseenter={openMega}>Products <ChevronDoubleDownOutline size="sm"/></NavLi>
+        <NavLi id="amg" class="font-semibold text-lg cursor-pointer flex items-center gap-2">Products <ChevronDoubleDownOutline size="sm"/></NavLi>
+
+        <Popover triggeredBy="#amg" placement="bottom" class="w-[90%] md:w-[700px] border-2 p-2 shadow-xl rounded z-20 mx-2 md:mx-0" open={true}>
+                <div class="md:grid md:grid-cols-3 md:gap-4">
+                    {#each products.slice(0,9) as product}
+                        <ProductPills product={product}/>
+                    {/each}
+                </div>
+        
+                <div class="flex justify-left mb-4 mt-3">
+                    <Button color="none" class="bg-m-primary max-w-sm uppercase text-m-light hover:bg-primary-600 rounded text-md font-thin md:w-fit w-full" href="/products">
+                        Explore All Products
+                    </Button>
+                </div>
+
+        </Popover>
+
+
         <NavLi class="font-semibold text-lg" href="/about">About</NavLi>
         <NavLi class="font-semibold text-lg" href="/contact">Contact</NavLi>
     </NavUl>
@@ -68,7 +69,8 @@
     </div>
 
 </Navbar>
-<div class="bg-m-primary z-10 shadow-lg">
+
+<div class="bg-m-primary shadow-lg z-10">
     <div class="flex max-w-6xl  justify-between p-4 items-center md:full md:m-auto">
         <div class="font-semibold text-white text-lg">
           {today}
@@ -83,21 +85,3 @@
         </div>
     </div>
 </div>
-
-{#if megeMenuOpen}
-    <!-- svelte-ignore a11y-no-static-element-interactions -->
-    <div class="h-fit max-w-3xl border-2 bg-white absolute right-36 p-2 shadow-xl rounded" transition:fade on:mouseleave={closeMega}>
-        <div class="grid grid-cols-3 gap-4">
-            {#each products.slice(0,9) as product}
-                <ProductPills product={product} on:click={(closeMega)}/>
-            {/each}
-        </div>
-
-        <div class="flex justify-left mb-4 mt-3">
-            <Button color="none" class="bg-m-primary max-w-sm uppercase text-m-light hover:bg-primary-600 rounded text-md font-thin" href="/products">
-                Explore All Products
-            </Button>
-        </div>
-    </div>
-{/if}
-

@@ -11,6 +11,12 @@
 const open_all = () => items.forEach((_, i) => (items[i] = true));
 const close_all = () => items.forEach((_, i) => (items[i] = false));
 
+function getTechData(product: Product) {
+    return product.techData ? product.techData : {};
+  }
+
+
+
 
 </script>
 
@@ -42,33 +48,19 @@ const close_all = () => items.forEach((_, i) => (items[i] = false));
 
 <Table color="green" class="mt-20" hoverable={true}>
   <TableHead>
-    {#each [product.techData] as item}
-          <TableHeadCell>Product name</TableHeadCell>
+    {#each Object.entries(getTechData(product)) as [key, entries]}
+          <TableHeadCell>{key}</TableHeadCell>
     {/each}
-    <TableHeadCell>Product name</TableHeadCell>
-    <TableHeadCell>Color</TableHeadCell>
-    <TableHeadCell>Category</TableHeadCell>
-    <TableHeadCell>Price</TableHeadCell>
   </TableHead>
   <TableBody tableBodyClass="divide-y">
+    
     <TableBodyRow>
       <TableBodyCell>Apple MacBook Pro 17"</TableBodyCell>
       <TableBodyCell>Sliver</TableBodyCell>
       <TableBodyCell>Laptop</TableBodyCell>
       <TableBodyCell>$2999</TableBodyCell>
     </TableBodyRow>
-    <TableBodyRow>
-      <TableBodyCell>Microsoft Surface Pro</TableBodyCell>
-      <TableBodyCell>White</TableBodyCell>
-      <TableBodyCell>Laptop PC</TableBodyCell>
-      <TableBodyCell>$1999</TableBodyCell>
-    </TableBodyRow>
-    <TableBodyRow>
-      <TableBodyCell>Magic Mouse 2</TableBodyCell>
-      <TableBodyCell>Black</TableBodyCell>
-      <TableBodyCell>Accessories</TableBodyCell>
-      <TableBodyCell>$99</TableBodyCell>
-    </TableBodyRow>
+
   </TableBody>
 </Table>
 </div>
