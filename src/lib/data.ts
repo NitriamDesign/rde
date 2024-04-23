@@ -5,6 +5,15 @@ export interface Product {
     mainImage: string;
     pdf: string;
     url: string;
+    techData?: TechnichalData;
+}
+
+export interface Entry {
+    title: string;
+    description: string;
+}
+
+export interface TechnichalData {
     shell_mat?: Entry[];
     insulator?: Entry[];
     contacts?: Entry[];
@@ -12,11 +21,6 @@ export interface Product {
     temperature?:Entry[];
     mating?: Entry[];
     protection?:Entry[];
-}
-
-export interface Entry {
-    title: string;
-    description: string;
 }
 
 export const products: Product[] = [
@@ -27,6 +31,7 @@ export const products: Product[] = [
         mainImage: "/standin/dum.png",
         pdf: "/pdf/crimp-tools.pdf",
         url: "/products/tu-connector",
+        techData: {
         shell_mat: [   
                     {title: "Machined components", description: "Copper-Zinc alloy (CuZn)"}, 
                     {title: "Die-Cast components", description: "Zinc (GD-Zn)"}, 
@@ -62,7 +67,8 @@ export const products: Product[] = [
 
         protection: [   
             {title: "Protection class", description: "IP 67 (mated) depends on which cable gland is used"}
-        ],
+        ]
+        }
 
     },
     {

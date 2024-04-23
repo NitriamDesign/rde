@@ -5,6 +5,7 @@
     import { page } from '$app/stores';
     import { MapPinAltSolid, PhoneSolid, MessagesSolid, InfoCircleSolid, BookSolid, QuestionCircleSolid, UsersGroupSolid, BookOutline} from 'flowbite-svelte-icons';
     import { goto } from "$app/navigation";
+    import { Table, TableBody, TableBodyCell, TableBodyRow, TableHead, TableHeadCell } from 'flowbite-svelte';
 
    
     
@@ -17,6 +18,8 @@
         if (foundProduct) currentProduct = foundProduct;
     }
 </script>
+
+
 
 
 
@@ -41,3 +44,5 @@
 {#if currentProduct}
     <ProductBase product={currentProduct}/>
 {/if}
+
+
