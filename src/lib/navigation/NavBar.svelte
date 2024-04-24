@@ -28,7 +28,7 @@
 </script>
 
 <!-- Hello -->
-<Navbar class="md:pt-6 md:pb-3 z-30">
+<Navbar class="md:py-6 py-4">
     <NavBrand href="/" class="p-0 px-0 flex gap-3 md:gap-0">
         <img src="/logos/rde-logo.png"  class="md:h-[125px] md:inline h-14" alt="Flowbite Logo" />
    
@@ -62,6 +62,16 @@
 
         <NavLi class="font-semibold text-lg" href="/about">About</NavLi>
         <NavLi class="font-semibold text-lg" href="/contact">Contact</NavLi>
+
+        <div class="relative md:hidden inline mt-2 ">
+            <div class="flex absolute inset-y-0 start-0 items-center ps-3 pointer-events-none">
+              <SearchOutline class="w-4 h-4" />
+            </div>
+
+            <Input id="search-navbar" class="ps-10 w-full" placeholder="Search..." />
+        </div>
+
+
     </NavUl>
     <div class="hidden items-center font-semibold gap-2 text-lg md:flex">   
         <PhoneSolid size="lg"/> Contact us (954) 746-6400
@@ -69,8 +79,8 @@
 
 </Navbar>
 
-<div class="bg-m-primary shadow-lg z-10">
-    <div class="flex max-w-6xl  justify-between p-4 items-center md:full md:m-auto">
+<div class="bg-m-primary shadow-lg z-10 hidden md:block">
+    <div class="flex max-w-6xl  justify-between md:p-4 p-2 items-center md:full md:m-auto">
         <div class="font-semibold text-white text-lg">
           {today}
         </div>
@@ -81,7 +91,7 @@
               <SearchOutline class="w-4 h-4" />
             </div>
 
-            <Input id="search-navbar" class="ps-10 md:w-[300px] max-w-36" placeholder="Search..." />
+            <Input id="search-navbar" class="ps-10 md:w-[300px] w-40" placeholder="Search..." />
         </div>
     </div>
 </div>
