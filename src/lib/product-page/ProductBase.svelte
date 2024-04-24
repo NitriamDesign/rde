@@ -11,12 +11,6 @@
 const open_all = () => items.forEach((_, i) => (items[i] = true));
 const close_all = () => items.forEach((_, i) => (items[i] = false));
 
-function getTechData(product: Product) {
-    return product.techData ? product.techData : {};
-  }
-
-
-
 
 </script>
 
@@ -48,18 +42,79 @@ function getTechData(product: Product) {
 
 <Table color="green" class="mt-20" hoverable={true}>
   <TableHead>
-    {#each Object.entries(getTechData(product)) as [key, entries]}
-          <TableHeadCell>{key}</TableHeadCell>
-    {/each}
+    <TableHeadCell>Shell Material</TableHeadCell>
+    <TableHeadCell>Insulator</TableHeadCell>
+    <TableHeadCell>Contacts</TableHeadCell>
+    <TableHeadCell>Sealing</TableHeadCell>
+    <TableHeadCell>Temperature</TableHeadCell>
+    <TableHeadCell>Mating</TableHeadCell>
+    <TableHeadCell>Protection</TableHeadCell>
   </TableHead>
   <TableBody tableBodyClass="divide-y">
-    
     <TableBodyRow>
-      <TableBodyCell>Apple MacBook Pro 17"</TableBodyCell>
-      <TableBodyCell>Sliver</TableBodyCell>
-      <TableBodyCell>Laptop</TableBodyCell>
-      <TableBodyCell>$2999</TableBodyCell>
+
+      <TableBodyCell>
+        {#if product.shell_mat}
+        {#each product.shell_mat ?? [] as entry}
+        <strong>{entry.title}:</strong> {entry.description}<br>
+        {/each}
+        {/if}
+      </TableBodyCell>
+      
+
+      <TableBodyCell>
+        {#if product.insulator}
+        {#each product.insulator ?? [] as entry}
+        <strong>{entry.title}:</strong> {entry.description}<br>
+        {/each}
+        {/if}
+
+      </TableBodyCell>
+
+      <TableBodyCell>
+        {#if product.contacts}
+        {#each product.contacts ?? [] as entry}
+        <strong>{entry.title}:</strong> {entry.description}<br>
+        {/each}
+        {/if}
+
+      </TableBodyCell>
+
+      <TableBodyCell>
+        {#if product.sealing}
+        {#each product.sealing ?? [] as entry}
+        <strong>{entry.title}:</strong> {entry.description}<br>
+        {/each}
+        {/if}
+
+      </TableBodyCell>
+
+      <TableBodyCell>
+        {#if product.temperature}
+        {#each product.temperature ?? [] as entry}
+        <strong>{entry.title}:</strong> {entry.description}<br>
+        {/each}
+        {/if}
+
+      </TableBodyCell>
+
+      <TableBodyCell>
+        {#if product.mating}
+        {#each product.mating ?? [] as entry}
+        <strong>{entry.title}:</strong> {entry.description}<br>
+        {/each}
+        {/if}
+      </TableBodyCell>
+
+      <TableBodyCell>
+        {#if product.protection}
+        {#each product.protection ?? [] as entry}
+        <strong>{entry.title}:</strong> {entry.description}<br>
+        {/each}
+        {/if}
+      </TableBodyCell>
     </TableBodyRow>
+
 
   </TableBody>
 </Table>
