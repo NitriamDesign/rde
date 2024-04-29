@@ -5,6 +5,15 @@ export interface Product {
     mainImage: string;
     pdf: string;
     url: string;
+    techData?: TechnichalData;
+}
+
+export interface Entry {
+    title: string;
+    description: string;
+}
+
+export interface TechnichalData {
     shell_mat?: Entry[];
     insulator?: Entry[];
     contacts?: Entry[];
@@ -12,11 +21,6 @@ export interface Product {
     temperature?:Entry[];
     mating?: Entry[];
     protection?:Entry[];
-}
-
-export interface Entry {
-    title: string;
-    description: string;
 }
 
 export const products: Product[] = [
@@ -27,42 +31,44 @@ export const products: Product[] = [
         mainImage: "/standin/dum.png",
         pdf: "/pdf/crimp-tools.pdf",
         url: "/products/tu-connector",
-        shell_mat: [   
-                    {title: "Machined components", description: "Copper-Zinc alloy (CuZn)"}, 
-                    {title: "Die-Cast components", description: "Zinc (GD-Zn)"}, 
-                    {title: "Shell plating", description: "Nickel (Ni) plated"}, 
-                    {title: "Cable entry", description: "max. 19 mm"}
-                ],
+        techData: {
+            shell_mat: [   
+                        {title: "Machined components", description: "Copper-Zinc alloy (CuZn)"}, 
+                        {title: "Die-Cast components", description: "Zinc (GD-Zn)"}, 
+                        {title: "Shell plating", description: "Nickel (Ni) plated"}, 
+                        {title: "Cable entry", description: "max. 19 mm"}
+                    ],
 
-        insulator: [   
-            {title: "Connector inserts", description: "Copper-Zinc alloy (CuZn)"}
-        ],
-        
-        contacts: [   
-            {title: "Contact material", description: "Copper-Zinc alloy (CuZn)"}, 
-            {title: "Contact plating", description: "Nickel (Ni) with gold (Au) passivated"}, 
-            {title: "Contact termination", description: "crimp type"}, 
-        ],
+            insulator: [   
+                {title: "Connector inserts", description: "Copper-Zinc alloy (CuZn)"}
+            ],
+            
+            contacts: [   
+                {title: "Contact material", description: "Copper-Zinc alloy (CuZn)"}, 
+                {title: "Contact plating", description: "Nickel (Ni) with gold (Au) passivated"}, 
+                {title: "Contact termination", description: "crimp type"}, 
+            ],
 
-        sealing: [   
-            {title: "Sealing rings", description: "Fluor rubber FPM"}, 
-            {title: "Gaskets", description: "Fluor rubber FPM"}, 
-        ],
+            sealing: [   
+                {title: "Sealing rings", description: "Fluor rubber FPM"}, 
+                {title: "Gaskets", description: "Fluor rubber FPM"}, 
+            ],
 
-        temperature: [   
-            {title: "Temperature (long term) Celsius", description: "- 20 °C up to + 125°C"}, 
-            {title: "Temperature (long term) Fahrenheit", description: "- 4 °F up to + 257 °F"}, 
-        ],
+            temperature: [   
+                {title: "Temperature (long term) Celsius", description: "- 20 °C up to + 125°C"}, 
+                {title: "Temperature (long term) Fahrenheit", description: "- 4 °F up to + 257 °F"}, 
+            ],
 
-        mating: [   
-            {title: "Mating cycles", description: "Standard min. 50"}, 
-            {title: "Female coupling nuts", description: "M23 screw locking"},
-            {title: "Male receptacles", description: "M23 screw locking"}
-        ],
+            mating: [   
+                {title: "Mating cycles", description: "Standard min. 50"}, 
+                {title: "Female coupling nuts", description: "M23 screw locking"},
+                {title: "Male receptacles", description: "M23 screw locking"}
+            ],
 
-        protection: [   
-            {title: "Protection class", description: "IP 67 (mated) depends on which cable gland is used"}
-        ],
+            protection: [   
+                {title: "Protection class", description: "IP 67 (mated) depends on which cable gland is used"}
+            ]
+        }
 
     },
     {
