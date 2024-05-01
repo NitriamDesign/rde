@@ -42,7 +42,7 @@ const close_all = () => items.forEach((_, i) => (items[i] = false));
     
 </div>
 
-<Heading tag="h1" class="mt-10 md:mt-0 max-w-7xl m-auto" customSize="text-3xl font-extrabold  md:text-4xl lg:text-4xl">
+<Heading color="text-primary-500" tag="h1" class="mt-10 md:mt-0 max-w-7xl m-auto" customSize="text-3xl font-extrabold  md:text-4xl lg:text-4xl">
   Technical Data
 </Heading>
 
