@@ -21,6 +21,7 @@
         <div class="text-justify text-sm">
             The Code of Conduct of the Phoenix Contact Group forms the core of our compliance measures. As an integral part of the Phoenix Contact Group, it is also implemented at rde Connectors and Cables, Inc in its entirety. It is our common denominator and applies without restriction to all employees.
         </div>
+        <iframe title="Environmental Compliance Standard" src='pdf/code-of-conduct.pdf' width="100%" height="900px" style="border:none;"></iframe>
     </div>
 
     <div class="text-left text-md">
@@ -31,4 +32,14 @@
             The Phoenix Contact Group whistleblower system gives both our employees and third parties the opportunity to report information about possible violations of the law and internal regulations. The whistleblower system also serves as a complaints procedure in accordance with Sections 8 and 9 (1) of the LkSG. Whistleblowing at Phoenix Contact.
         </div>
     </div>
+
+    <div class="text-left text-md">
+        <div class="text-3xl font-semibold text-m-primary mb-5">
+            Environmental Compliance Standard
+        </div>
+    </div>
+
+    <iframe title="Environmental Compliance Standard" src='pdf/evironmental-compliance-standard.pdf' width="100%" height="1100px" style="border:none;"></iframe>
+
+    
 </div>

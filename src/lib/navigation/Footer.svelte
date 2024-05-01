@@ -25,6 +25,7 @@
             </div>
         </div>
 
+
         <div class="mb-10 md:mb-0">    
             <div class="text-lg font-semibold uppercase mb-4">    
                 Contact
@@ -63,7 +64,7 @@
                 <a class="flex items-center gap-2" href="/certification">  
                     <InfoCircleSolid/>Terms & Conditions
                 </a>
-                <a class="flex items-center gap-2" href="/certification">  
+                <a class="flex items-center gap-2" href="/legal-information">  
                     <InfoCircleSolid/>Legal Information
                 </a>
             </div>
