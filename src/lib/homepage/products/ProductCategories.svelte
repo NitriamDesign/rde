@@ -10,7 +10,7 @@
     let selectedButton = 'all';
     let selected = "bg-m-primary hover:bg-primary-600 text-white";
 
-    const maxDisplayed = 6;
+    let maxDisplayed = 6;
     
 
 
@@ -23,45 +23,35 @@
     <!-- Menu -->
 
     <!-- Desktop View -->
-        <div class="justify-start gap-10 hidden md:flex">
-            <Heading tag="h2" class="flex items-center " customSize="text-3xl font-extrabold  md:text-4xl lg:text-4xl">
+        <div class="justify-start gap-10 md:flex block md:p-0 p-4">
+            <Heading tag="h2" class="flex items-center " customSize="text-3xl font-extrabold  md:text-4xl lg:text-4xl md:mb-0 mb-4">
                 <Span gradient gradientClass="text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-secondary2-700">View our Connectors, Cables & Tools</Span>
             </Heading>
-
-            <Button color="none" class="border-2 max-w-sm uppercase rounded-md text-md font-bold {selectedButton === 'all' ? selected : ''}" on:click={() => selectedButton = 'all'}>
-                All
-            </Button>
             
-            <ButtonGroup>
-                <Button color="none" class="{`border-2 max-w-sm uppercase text-md font-bold ${selectedButton === '1' ? selected : ''}`}" on:click={() => selectedButton = 'connector'}>
+            <ButtonGroup divClass="inline-flex md:rounded-lg md:shadow-sm md:flex-none flex-wrap p-2 gap-2 md:gap-0 md:p-0 md:shadow-none">
+                <Button color="none" class="border-2 max-w-sm uppercase rounded-md text-md font-bold md:mr-2 md:rounded-r-none {selectedButton === 'all' ? selected : ''}" on:click={() => selectedButton = 'all'}>
+                    All
+                </Button>
+
+                <Button color="none" class="{`border-2 max-w-sm uppercase text-md rounded-md font-bold md:rounded-none ${selectedButton === 'connector' ? selected : ''}`}" on:click={() => selectedButton = 'connector'}>
                     Connectors
                 </Button>
-                <Button color="none" class="{`border-2 max-w-sm uppercase text-md font-bold ${selectedButton === '2' ? selected : ''}`}" on:click={() => selectedButton = 'cable'}>
+
+                <Button color="none" class="{`border-2 max-w-sm uppercase text-md rounded-md font-bold md:rounded-none ${selectedButton === 'cable' ? selected : ''}`}" on:click={() => selectedButton = 'cable'}>
                     Cables
                 </Button>
-                <Button color="none" class="{`border-2 max-w-sm uppercase text-md font-bold ${selectedButton === '3' ? selected : ''}`}" on:click={() => selectedButton = 'tool'}>
+                
+                <Button color="none" class="{`border-2 max-w-sm uppercase text-md rounded-md font-bold md:rounded-none ${selectedButton === 'tool' ? selected : ''}`}" on:click={() => selectedButton = 'tool'}>
                     Tools
                 </Button>
             </ButtonGroup>
         </div>
 
-    <!-- Mobile View --> 
-    <div class="justify-start gap-10 md:hidden flex">
-        <Navbar>
-            <NavHamburger/>
-            <NavUl >
-                <NavLi class="{selectedButton === 'all' ? selected : ''}" on:click={() => selectedButton = 'all'}>ALL</NavLi>
-                <NavLi class="{selectedButton === 'connector' ? selected : ''}" on:click={() => selectedButton = 'connector'}>Connectors</NavLi>
-                <NavLi class="{selectedButton === 'cable' ? selected : ''}" on:click={() => selectedButton = 'cable'}>Cables</NavLi>
-                <NavLi class="{selectedButton === 'tool' ? selected : ''}" on:click={() => selectedButton = 'tool'}>Tools</NavLi>
-            </NavUl>
-        </Navbar>
-    </div>
 
 
     <!-- Products -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-20 mt-10 justify-items-center">
-        {#each filteredProducts.slice(0, 6) as product (product.name)}
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-20 md:mt-10 justify-items-center">
+        {#each filteredProducts.slice(0, maxDisplayed) as product (product.name)}
             <div animate:flip={{ duration: 250 }} transition:fade={{ duration: 250 }}>
                 <ProductCard product={product}/>
             </div>
