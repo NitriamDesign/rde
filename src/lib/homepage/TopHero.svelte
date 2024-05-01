@@ -5,7 +5,7 @@
 
 </script>
 
-<div class="bg-[url('images/rde-temp-hero-banner.webp')] h-[600px] flex justify-center items-center p-3 bg-cover">
+<div class="bg-[url('/images/rde-temp-hero-banner.webp')] h-[600px] flex justify-center items-center p-3 bg-cover">
     <div class="flex flex-col justify-center md:text-center p-5  gap-5 bg-white bg-opacity-90 md:w-1/2  md:h-1/2">
         <div class="text-4xl font-bold md:text-5xl max-w-3xl m-auto">
             RDE Connectors & cables, Inc.

@@ -1,35 +1,12 @@
 <script lang="ts">
-    import { onMount } from 'svelte';
-
-    // Props passed to the component
     export let apiKey = import.meta.env.VITE_GOOGLE_API;
-    export let lat = 26.189198750324895;
-    export let lng = -80.29346439021744;
-    export let zoom = 18;
-    let map;
-
-    onMount(() => {
-        if (!window.google) {
-            const script = document.createElement('script');
-            script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}`;
-            script.async = true;
-            script.defer = true;
-            document.head.appendChild(script);
-
-            script.onload = () => {
-            initMap();
-            };
-        } else {
-            initMap();
-        }
-    });
-
-    function initMap() {
-        map = new window.google.maps.Map(document.getElementById('map'), {
-            center: { lat, lng },
-            zoom,
-        });
-    }
 </script>
 
-<div id="map" class="max-w-6xl m-4 border-2 rounded h-[400px] md:m-auto"></div>
+<svelte:head>
+    <script async src="https://maps.googleapis.com/maps/api/js?key={apiKey}&callback=console.debug&libraries=maps,marker&v=beta">
+    </script>
+</svelte:head>
+
+<gmp-map center="26.189443588256836,-80.29332733154297" zoom="14" map-id="DEMO_MAP_ID" class="max-w-6xl h-96 m-auto mt-20">
+    <gmp-advanced-marker position="26.189443588256836,-80.29332733154297" title="My location"></gmp-advanced-marker>
+</gmp-map>
