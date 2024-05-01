@@ -61,7 +61,7 @@
                 <a class="flex items-center gap-2" href="/certification">  
                     <InfoCircleSolid/>Certification
                 </a>
-                <a class="flex items-center gap-2" href="/certification">  
+                <a class="flex items-center gap-2" href="/terms-and-conditions">  
                     <InfoCircleSolid/>Terms & Conditions
                 </a>
                 <a class="flex items-center gap-2" href="/legal-information">  
