@@ -2,6 +2,7 @@ export interface Product {
     name: string;
     title: string;
     description: string;
+    category: string;
     mainImage: string;
     pdf: string;
     url: string;
@@ -25,6 +26,7 @@ export const products: Product[] = [
         name: "CA Series Connectors",
         title: "Shielded Connectors M23",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        category: 'connector',
         mainImage: "/standin/dum.png",
         pdf: "/pdf/CA-series.pdf",
         url: "/products/ca-connector",
@@ -72,6 +74,7 @@ export const products: Product[] = [
         name: "HC Series Connectors",
         title: "Shielded Connectors M27",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        category: 'connector',
         mainImage: "/standin/dum.png",
         pdf: "/pdf/HC-series.pdf",
         url: "/products/hc-connector",
@@ -119,6 +122,7 @@ export const products: Product[] = [
         name: "RC Series Connectors",
         title: "Unshielded Connectors M23",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        category: 'connector',
         mainImage: "/standin/dum.png",
         pdf: "/pdf/RC-series.pdf",
         url: "/products/rc-connector",
@@ -166,6 +170,7 @@ export const products: Product[] = [
         name: "RF Series Connectors",
         title: "Shielded Connectors M23 crimp versions",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        category: 'connector',
         mainImage: "/standin/dum.png",
         pdf: "/pdf/RF-series.pdf",
         url: "/products/rf-connector",
@@ -213,6 +218,7 @@ export const products: Product[] = [
         name: "SF Series Connectors",
         title: "Shielded Connectors M23 Power 630 Volt",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        category: 'connector',
         mainImage: "/standin/dum.png",
         pdf: "/pdf/SF-series.pdf",
         url: "/products/sf-connector",
@@ -260,6 +266,7 @@ export const products: Product[] = [
         name: "SH Series Connectors",
         title: "Shielded Power Connectors M23 Circular Hybrid Connectors",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        category: 'connector',
         mainImage: "/standin/dum.png",
         pdf: "/pdf/SH-series.pdf",
         url: "/products/sh-connector",
@@ -307,6 +314,7 @@ export const products: Product[] = [
         name: "SL Series Connectors",
         title: "Shielded Power Connectors M58",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        category: 'connector',
         mainImage: "/standin/dum.png",
         pdf: "/pdf/SL-series.pdf",
         url: "/products/sl-connector",
@@ -353,6 +361,7 @@ export const products: Product[] = [
         name: "SM Series Connectors",
         title: "Shielded Power Connectors M40",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        category: 'connector',
         mainImage: "/standin/dum.png",
         pdf: "/pdf/SM-series.pdf",
         url: "/products/sm-connector",
@@ -401,6 +410,7 @@ export const products: Product[] = [
         name: "SSR Series Connectors",
         title: "Unshielded Connectors M23 The Stainless Steel Program",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        category: 'connector',
         mainImage: "/standin/dum.png",
         pdf: "/pdf/SSR-series.pdf",
         url: "/products/ssr-connector",
@@ -445,6 +455,7 @@ export const products: Product[] = [
         name: "ST Series Connectors",
         title: "Shielded Connectors M17/Speedcon",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        category: 'connector',
         mainImage: "/standin/dum.png",
         pdf: "/pdf/ST-series.pdf",
         url: "/products/st-connector",
@@ -492,6 +503,7 @@ export const products: Product[] = [
         name: "TU Series Connectors",
         title: "Shielded Connectors in Bayonet Style",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        category: 'connector',
         mainImage: "/standin/dum.png",
         pdf: "/pdf/TU-series.pdf",
         url: "/products/tu-connector",
@@ -539,6 +551,7 @@ export const products: Product[] = [
         name: "UC Series Connectors",
         title: "Shielded Connectors M23 The shielded and robust standard version",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        category: 'connector',
         mainImage: "/standin/dum.png",
         pdf: "/pdf/ST-series.pdf",
         url: "/products/st-connector",

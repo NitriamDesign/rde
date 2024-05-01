@@ -20,8 +20,8 @@
   <Img class="" size="md:w-[425px]" src="/images/rde-connects-image-grid.jpg" alt=""/>
 
   <div class="">
-    <Heading tag="h1" class="mb-4 mt-4 md:mt-0" customSize="text-3xl font-extrabold  md:text-4xl lg:text-4xl">
-      <Span gradient gradientClass="text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-secondary2-700">Specialists in Robust, Machine Turned Connector Systems.</Span>
+    <Heading tag="h1" class="mb-4 mt-4 md:mt-0 primary-500" customSize="text-3xl font-extrabold  md:text-4xl lg:text-4xl">
+      <Span gradient gradientClass="text-transparent bg-clip-text bg-gradient-to-r from-primary-700 to-secondary-600">Specialists in Robust, Machine Turned Connector Systems.</Span>
     </Heading>
     <Heading tag="h2" customSize="font-semibold" class="mb-2 text-xl font-semibold text-gray-600 dark:text-white">Connectors & Interfaces for</Heading>
     <List tag="ul" class="space-y-1 text-gray-500 dark:text-gray-400 md:text-lg text-md">
