@@ -16,9 +16,7 @@
     <!-- Title and description in the middle -->
     <div class="pl-7 pt-7 flex-1 flex flex-col">
         <span class="text-2xl font-semibold  text-primary-500 uppercase italic font-sans">
-            <slot name="title">
-                CA Series Connectors
-            </slot>
+            {product.name}
         </span>
 
         <span class="text-[#C4C4C4] font-bold mt-4">COMPONENT MATERIALS</span>
@@ -31,8 +29,6 @@
                 </div>
             {/each}
         {/if}
-
-
     </div>
 
     <!-- View Item at the bottom -->
