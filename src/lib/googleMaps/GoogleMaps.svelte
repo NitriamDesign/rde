@@ -1,5 +1,5 @@
 <script lang="ts">
-    export let apiKey = import.meta.env.VITE_GOOGLE_API;
+    export let apiKey = "AIzaSyCRzoPjIQlVJVVC97fHu4JUE_iCZnhuYKE";
 </script>
 
 <svelte:head>
