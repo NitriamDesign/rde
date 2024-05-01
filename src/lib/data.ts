@@ -18,6 +18,7 @@ export interface Product {
 export interface Entry {
     title: string;
     description: string;
+    simple_title?: string;
 }
 
 
@@ -32,10 +33,10 @@ export const products: Product[] = [
         url: "/products/ca-connector",
 
         shell_mat: [   
-            {title: "Machined components", description: "Copper-Zinc alloy (CuZn)"}, 
-            {title: "Die-Cast components", description: "Zinc (GD-Zn)"}, 
-            {title: "Shell plating", description: "Nickel (Ni) plated"}, 
-            {title: "Cable entry", description: "max. 14.5mm"}
+            {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
+            {title: "Die-Cast components", description: "Zinc (GD-Zn)", simple_title: "Die-Cast"}, 
+            {title: "Shell plating", description: "Nickel (Ni) plated", simple_title: "Shell Plating"}, 
+            {title: "Cable entry", description: "max. 14.5mm", simple_title: "Entry"}
         ],
 
         insulator: [   
@@ -43,7 +44,7 @@ export const products: Product[] = [
         ],
 
         contacts: [   
-            {title: "Contact material", description: "Copper-Zinc alloy (CuZn)"}, 
+            {title: "Contact material", description: "Copper-Zinc alloy (CuZn)" }, 
             {title: "Contact plating", description: "Nickel (Ni) with gold (Au) passivated"}, 
             {title: "Contact termination", description: "Solder cup, crimp type, screw type, dip solder"}, 
         ],
@@ -80,10 +81,10 @@ export const products: Product[] = [
         url: "/products/hc-connector",
 
         shell_mat: [   
-            {title: "Machined components", description: "Copper-Zinc alloy (CuZn)"}, 
-            {title: "Die-Cast components", description: "Zinc (GD-Zn)"}, 
-            {title: "Shell plating", description: "Nickel (Ni) plated"}, 
-            {title: "Cable entry", description: "max. 18 mm"}
+            {title: "Machined components", description: "Copper-Zinc alloy (CuZn)" , simple_title: "Machined"}, 
+            {title: "Die-Cast components", description: "Zinc (GD-Zn)" , simple_title: "Die-Cast"}, 
+            {title: "Shell plating", description: "Nickel (Ni) plated" , simple_title: "Shell Plating"}, 
+            {title: "Cable entry", description: "max. 18 mm" , simple_title: "Entry"}
         ],
 
         insulator: [   
@@ -128,10 +129,10 @@ export const products: Product[] = [
         url: "/products/rc-connector",
 
         shell_mat: [   
-            {title: "Machined components", description: "Copper-Zinc alloy (CuZn)"}, 
-            {title: "Die-Cast components", description: "Zinc (GD-Zn)"}, 
-            {title: "Shell plating", description: "Nickel (Ni) plated"}, 
-            {title: "Cable entry", description: "max. 18 mm"}
+            {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
+            {title: "Die-Cast components", description: "Zinc (GD-Zn)", simple_title: "Die-Cast"}, 
+            {title: "Shell plating", description: "Nickel (Ni) plated", simple_title: "Shell Plating"}, 
+            {title: "Cable entry", description: "max. 18 mm", simple_title: "Entry"}
         ],
 
         insulator: [   
@@ -176,10 +177,10 @@ export const products: Product[] = [
         url: "/products/rf-connector",
 
         shell_mat: [   
-            {title: "Machined components", description: "Copper-Zinc alloy (CuZn) or stainless steel 1.4305"}, 
-            {title: "Die-Cast components", description: "Zinc (GD-Zn)"}, 
-            {title: "Shell plating", description: "Nickel (Ni) plated"}, 
-            {title: "Cable entry", description: "max. 13.2 mm"}
+            {title: "Machined components", description: "Copper-Zinc alloy (CuZn) or stainless steel 1.4305", simple_title: "Machined"}, 
+            {title: "Die-Cast components", description: "Zinc (GD-Zn)", simple_title: "Die-Cast"}, 
+            {title: "Shell plating", description: "Nickel (Ni) plated", simple_title: "Shell Plating"}, 
+            {title: "Cable entry", description: "max. 13.2 mm", simple_title: "Entry"}
         ],
 
         insulator: [   
@@ -224,10 +225,10 @@ export const products: Product[] = [
         url: "/products/sf-connector",
 
         shell_mat: [   
-            {title: "Machined components", description: "Copper-Zinc alloy (CuZn)"}, 
-            {title: "Die-Cast components", description: "Zinc (GD-Zn)"}, 
-            {title: "Shell plating", description: "Nickel (Ni) plated"}, 
-            {title: "Cable entry", description: "max. 19 mm"}
+            {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
+            {title: "Die-Cast components", description: "Zinc (GD-Zn)", simple_title: "Die-Cast"}, 
+            {title: "Shell plating", description: "Nickel (Ni) plated", simple_title: "Shell Plating"}, 
+            {title: "Cable entry", description: "max. 19 mm", simple_title: "Entry"}
         ],
 
         insulator: [   
@@ -272,10 +273,10 @@ export const products: Product[] = [
         url: "/products/sh-connector",
 
         shell_mat: [   
-            {title: "Machined components", description: "Copper-Zinc alloy (CuZn)"}, 
-            {title: "Die-Cast components", description: "Zinc (GD-Zn)"}, 
-            {title: "Shell plating", description: "Nickel (Ni) plated"}, 
-            {title: "Cable entry", description: "max. 18 mm"}
+            {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
+            {title: "Die-Cast components", description: "Zinc (GD-Zn)", simple_title: "Die-Cast"}, 
+            {title: "Shell plating", description: "Nickel (Ni) plated", simple_title: "Shell Plating"}, 
+            {title: "Cable entry", description: "max. 18 mm", simple_title: "Entry"}
         ],
 
         insulator: [   
@@ -320,8 +321,8 @@ export const products: Product[] = [
         url: "/products/sl-connector",
 
         shell_mat: [   
-            {title: "Machined components", description: "Aluminum, anodized"},
-            {title: "Cable entry", description: "max. 36 mm"}
+            {title: "Machined components", description: "Aluminum, anodized", simple_title: "Machined"},
+            {title: "Cable entry", description: "max. 36 mm", simple_title: "Entry"}
         ],
 
         insulator: [   
@@ -367,10 +368,10 @@ export const products: Product[] = [
         url: "/products/sm-connector",
 
         shell_mat: [   
-            {title: "Machined components", description: "Copper-Zinc alloy (CuZn)"}, 
-            {title: "Die-Cast components", description: "Zinc (GD-Zn)"}, 
-            {title: "Shell plating", description: "Nickel (Ni) plated"}, 
-            {title: "Cable entry", description: "max. 26.5 mm"}
+            {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
+            {title: "Die-Cast components", description: "Zinc (GD-Zn)", simple_title: "Die-Cast"}, 
+            {title: "Shell plating", description: "Nickel (Ni) plated", simple_title: "Shell Plating"}, 
+            {title: "Cable entry", description: "max. 26.5 mm", simple_title: "Entry"}
         ],
 
         insulator: [   
@@ -416,8 +417,8 @@ export const products: Product[] = [
         url: "/products/ssr-connector",
 
         shell_mat: [   
-            {title: "Machined components", description: "Stainless Steel"},  
-            {title: "Cable entry", description: "max. 19 mm"}
+            {title: "Machined components", description: "Stainless Steel", simple_title: "Machined"},  
+            {title: "Cable entry", description: "max. 19 mm", simple_title: "Entry"}
         ],
 
         insulator: [   
@@ -461,10 +462,10 @@ export const products: Product[] = [
         url: "/products/st-connector",
        
         shell_mat: [   
-                    {title: "Machined components", description: "Copper-Zinc alloy (CuZn)"}, 
-                    {title: "Die-Cast components", description: "Zinc (GD-Zn)"}, 
-                    {title: "Shell plating", description: "Nickel (Ni) plated"}, 
-                    {title: "Cable entry", description: "max. 12.5 mm"}
+                    {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
+                    {title: "Die-Cast components", description: "Zinc (GD-Zn)", simple_title: "Die-Cast"}, 
+                    {title: "Shell plating", description: "Nickel (Ni) plated", simple_title: "Shell Plating"}, 
+                    {title: "Cable entry", description: "max. 12.5 mm", simple_title: "Entry"}
                 ],
 
         insulator: [   
@@ -509,10 +510,10 @@ export const products: Product[] = [
         url: "/products/tu-connector",
        
         shell_mat: [   
-                    {title: "Machined components", description: "Copper-Zinc alloy (CuZn)"}, 
-                    {title: "Die-Cast components", description: "Zinc (GD-Zn)"}, 
-                    {title: "Shell plating", description: "Nickel (Ni) plated"}, 
-                    {title: "Cable entry", description: "max. 14 mm"}
+                    {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
+                    {title: "Die-Cast components", description: "Zinc (GD-Zn)", simple_title: "Die-Cast"}, 
+                    {title: "Shell plating", description: "Nickel (Ni) plated", simple_title: "Shell Plating"}, 
+                    {title: "Cable entry", description: "max. 14 mm", simple_title: "Entry"}
                 ],
 
         insulator: [   
@@ -557,10 +558,10 @@ export const products: Product[] = [
         url: "/products/st-connector",
        
         shell_mat: [   
-                    {title: "Machined components", description: "Copper-Zinc alloy (CuZn)"}, 
-                    {title: "Die-Cast components", description: "Zinc (GD-Zn)"}, 
-                    {title: "Shell plating", description: "Nickel (Ni) plated"}, 
-                    {title: "Cable entry", description: "max. 18 mm"}
+                    {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
+                    {title: "Die-Cast components", description: "Zinc (GD-Zn)", simple_title: "Die-Cast"}, 
+                    {title: "Shell plating", description: "Nickel (Ni) plated", simple_title: "Shell Plating"}, 
+                    {title: "Cable entry", description: "max. 18 mm", simple_title: "Entry"}
                 ],
 
         insulator: [   
