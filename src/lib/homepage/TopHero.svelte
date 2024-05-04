@@ -6,13 +6,18 @@
 </script>
 
 <div class="bg-[url('/images/rde-temp-hero-banner.webp')] h-[600px] flex justify-center items-center p-3 bg-cover">
-    <div class="flex flex-col justify-center md:text-center p-5  gap-5 bg-white bg-opacity-90 md:w-1/2  md:h-1/2">
-        <div class="text-4xl font-bold md:text-5xl max-w-3xl m-auto">
-            RDE Connectors & cables, Inc.
+    <div class="flex flex-col justify-center md:text-center p-5 bg-white bg-opacity-90 md:w-1/2  md:h-[60%]">
+        <div class="text-4xl font-bold md:text-5xl max-w-3xl m-auto mb-3">
+            RDE Connectors & Cables, Inc.
         </div>
 
+        <div class="md:text-2xl text-xs font-semibold text-primary-500 uppercase italic font-sans">
+            Making the Right Connections is our Specialty
+        </div>
+
+
         <div class="text-xl text-[#6B7280] max-w-3xl m-auto">
-            We specialize in manufacturing industrial/marine connectors for many types of electrical control and distribution systems.
+            Manufacturer and distributor of industrial connector systems and cable assemblies
         </div>
 
         <Button color="none" class="bg-m-primary max-w-sm md:m-auto uppercase text-m-light hover:bg-primary-600 rounded text-md font-thin"

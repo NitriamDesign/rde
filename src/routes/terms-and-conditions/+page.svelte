@@ -60,6 +60,8 @@
         <P>
             RDE Connectors & Cables, Inc., reserves the right to change its Conditions of Sale without prior notice.
         </P>
+        
+        <a href=""><DownloadOutline/>Download PDF</a>
      
         <Heading class="mt-10 mb-5"  color="text-primary-500" tag="h1">Warranty & Disclaimer</Heading>
         <P>A limited warranty applies to the products sold by rde Connectors & Cables, Inc. </P>
