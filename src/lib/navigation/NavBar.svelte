@@ -25,7 +25,14 @@
     }
 
     let today = formatDate(new Date());
+
+    let menu = [
+    { name: 'About us', href: '/about' },
+    { name: 'Legal Information', href: '/blog' },
+    { name: 'Terms & Conditions', href: '/contact' }
+  ];
 </script>
+
 
 <!-- Hello -->
 <Navbar class="md:py-6 py-4">
@@ -43,7 +50,7 @@
 
     <NavUl>
         <NavLi id="amg" class="font-semibold text-lg cursor-pointer flex items-center gap-2">Products <ChevronDoubleDownOutline size="sm"/></NavLi>
-
+  
         <Popover triggeredBy="#amg" placement="bottom" class="w-[90%] md:w-[700px] border-2 p-2 shadow-xl rounded z-20 mx-2 md:mx-0" >
                 <div class="md:grid md:grid-cols-3 md:gap-4">
                     {#each products.slice(0,9) as product}
@@ -56,7 +63,6 @@
                         Explore All Products
                     </Button>
                 </div>
-
         </Popover>
 
 

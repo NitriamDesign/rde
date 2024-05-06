@@ -92,12 +92,12 @@
 <div class="bg-m-dark md:h-15">
     <div class="md:flex justify-center max-w-7xl m-auto h-full items-center text-gray-300 gap-20 p-5">
         <div class="text-xs md:text-md">    
-            <a href="/legal">    
+            <a href="/legal-information">    
                 Legal Information
             </a>
         </div>
         <div class="text-xs md:text-md">    
-            <a href="/legal">    
+            <a href="/terms-and-conditions">    
                 Terms & Conditions
             </a>
         </div>
