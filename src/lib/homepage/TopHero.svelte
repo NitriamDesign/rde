@@ -16,7 +16,7 @@
         </div>
 
 
-        <div class="text-xl text-[#6B7280] max-w-3xl m-auto">
+        <div class="text-xl text-[#6B7280] max-w-3xl m-auto px-[100px]">
             Manufacturer and distributor of industrial connector systems and cable assemblies
         </div>
 

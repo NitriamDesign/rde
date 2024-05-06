@@ -4,7 +4,7 @@
 </script>
 
 <div class="max-w-7xl m-auto my-10 flex flex-wrap gap-10 p-4">
-    <div class="text-left text-md">
+    <div class="text-left text-md mt-10">
         <Heading class="mb-5" color="text-primary-500" tag="h1">Terms & Conditions</Heading>
         <P>
             RDE Connectors and Cables, Inc is part of the Phoenix Contact Group and is incorporated into the Compliance Management System of the Group. For more information on the topic of compliance at Phoenix Contact, please go to Compliance at Phoenix Contact
@@ -60,8 +60,6 @@
         <P>
             RDE Connectors & Cables, Inc., reserves the right to change its Conditions of Sale without prior notice.
         </P>
-        
-        <a href=""><DownloadOutline/>Download PDF</a>
      
         <Heading class="mt-10 mb-5"  color="text-primary-500" tag="h1">Warranty & Disclaimer</Heading>
         <P>A limited warranty applies to the products sold by rde Connectors & Cables, Inc. </P>
@@ -95,8 +93,26 @@
             <Li icon={true}><ArrowRightAltSolid class="mr-2"/>ANY DAMAGE CAUSED BY ACCIDENT, REGARDLESS OF FAULT</Li>
         </List>
 
+        <P class="mt-5">
+            Except as expressly set forth above, rde Connector & Cables, Inc. shall not be liable for incidental or
+            consequential damages of any kind, including but not limited to loss of profits, downtime expenses,
+            or increased cost of operation.
+        </P >
+
+        <P class="mt-5">
+            Rde Connectors & Cables, Inc. reserves the right to discontinue manufacture of any product, or to change
+            product materials, designs, or specifications at any time and without prior notice.
+        </P>
+
+        <P class="mt-5">
+            All statements made in our catalogs and literature are subject to omission and/or error. We do not
+            guarantee that the information presented therein is accurate or complete, and we disclaim any
+            liability regarding its use.
+        </P>
+
+        <a class="flex mt-5 text-lg font-semibold text-primary-700" href="/pdf/rde-terms-warranty.pdf" target="_blank"><DownloadOutline size='lg' class='mr-2'/>Download PDF</a>
+
 
     </div>
 
-    <iframe title="Environmental Compliance Standard" src='pdf/evironmental-compliance-standard.pdf' width="100%" height="1100px" style="border:none;"></iframe>
 </div>

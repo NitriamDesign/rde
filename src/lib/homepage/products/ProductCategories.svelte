@@ -24,8 +24,8 @@
 
     <!-- Desktop View -->
         <div class="justify-start gap-10 md:flex block md:p-0 p-4">
-            <Heading tag="h2" class="flex items-center " customSize="text-3xl font-extrabold  md:text-4xl lg:text-4xl md:mb-0 mb-4">
-                <Span gradient gradientClass="text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-secondary2-700">View our Connectors, Cables & Tools</Span>
+            <Heading tag="h2" color='text-primary-500' class="flex items-center " customSize="text-3xl font-extrabold  md:text-4xl lg:text-4xl md:mb-0 mb-4">
+                View our Connectors, Cables & Tools
             </Heading>
             
             <ButtonGroup divClass="inline-flex md:rounded-lg md:shadow-sm md:flex-none flex-wrap p-2 gap-2 md:gap-0 md:p-0 md:shadow-none">
