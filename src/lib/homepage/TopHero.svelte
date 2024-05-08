@@ -11,12 +11,12 @@
             RDE Connectors & Cables, Inc.
         </div>
 
-        <div class="md:text-2xl text-xs font-semibold text-primary-500 uppercase italic font-sans">
+        <div class="md:text-2xl text-xl font-semibold text-primary-500 uppercase italic font-sans">
             Making the Right Connections is our Specialty
         </div>
 
 
-        <div class="text-xl text-[#6B7280] max-w-3xl m-auto px-[100px]">
+        <div class="text-xl text-[#6B7280] max-w-3xl m-auto md:px-[100px] mt-2 mb-5  ">
             Manufacturer and distributor of industrial connector systems and cable assemblies
         </div>
 
