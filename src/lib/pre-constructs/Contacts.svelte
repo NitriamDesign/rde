@@ -25,12 +25,16 @@
                 <TableHeadCell>Email</TableHeadCell>
             </TableHead>
             <TableBody>
-                {#each employees as {name, role, departments, email}}
+                {#each employees as {name, role, departments, email, imageEmail}}
                     <TableBodyRow>
                         <TableBodyCell>{role}</TableBodyCell>
                         <TableBodyCell>{departments}</TableBodyCell>
                         <TableBodyCell>{name}</TableBodyCell>
-                        <TableBodyCell>{email}</TableBodyCell>
+                        {#if imageEmail}
+                            <TableBodyCell><img src={imageEmail} alt={name} class="h-[14px]"></TableBodyCell>
+                        {:else}
+                            <TableBodyCell>{email}</TableBodyCell>
+                        {/if}
                     </TableBodyRow>
                 {/each}
             </TableBody>

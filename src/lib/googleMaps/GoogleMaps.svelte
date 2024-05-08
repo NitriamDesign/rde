@@ -5,8 +5,8 @@
     const dispatch = createEventDispatcher();
     const apiKey = import.meta.env.VITE_GOOGLE_API;
     
-    export let globally = false;
-    export let map;
+    let globally = false;
+    let map;
 
     let container: HTMLDivElement;
     let zoom = 19;
