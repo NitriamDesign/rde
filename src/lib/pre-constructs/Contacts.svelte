@@ -31,7 +31,7 @@
                         <TableBodyCell>{departments}</TableBodyCell>
                         <TableBodyCell>{name}</TableBodyCell>
                         {#if imageEmail}
-                            <TableBodyCell><img src={imageEmail} alt={name} class="h-[14px]"></TableBodyCell>
+                            <TableBodyCell><img src={imageEmail} alt={name} class="h-[13px]"></TableBodyCell>
                         {:else}
                             <TableBodyCell>{email}</TableBodyCell>
                         {/if}
