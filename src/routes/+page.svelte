@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import ProductCategories from "$lib/homepage/products/ProductCategories.svelte";
     import TopHero from "$lib/homepage/TopHero.svelte";
     import CallToActionRibbon from "$lib/pre-constructs/CallToActionRibbon.svelte";
@@ -9,20 +9,16 @@
     import {CheckCircleSolid} from "flowbite-svelte-icons";
 
     const images = [
-    { src: '/images/motors-drivers-and-encoder-applications.jpg', alt: 'Motors, Drives, and Encoder Applications' },
-    { src: '/images/hdmi-usb.png', alt: 'HDMI and USB Marine & Industrial Feed-Through Connectors' },
-    { src: '/images/blood-warmer-harness.jpg', alt: 'Military/Medical - Blood Warmer Harness' },
-    { src: '/images/ferrite-core-over-mold-applications.jpg', alt: 'Ferrite Core Over-Mold Applications' },
-    { src: '/images/medical-molex-header-over-mold.jpg', alt: 'Medical - Molex Header Over-mold' },
-    { src: '/images/measurement-and-calibration-applications.jpg', alt: 'Measurement & Calibration Applications' }
+        { src: '/images/motors-drivers-and-encoder-applications.jpg', alt: 'Motors, Drives, and Encoder Applications' },
+        { src: '/images/blood-warmer-harness.jpg', alt: 'Military/Medical - Blood Warmer Harness' },
+        { src: '/images/ferrite-core-over-mold-applications.jpg', alt: 'Ferrite Core Over-Mold Applications' },
+        { src: '/images/medical-molex-header-over-mold.jpg', alt: 'Medical - Molex Header Over-mold' },
+        { src: '/images/measurement-and-calibration-applications.jpg', alt: 'Measurement & Calibration Applications' }
+    ];
 
-  ];
 
-  /**
-	 * @type {{ alt: any; }}
-	 */
-  let image;
-      
+    let image: { src:string, alt:string };
+        
     let index = 0;
     
 
