@@ -80,11 +80,12 @@
         </P>
     
         <List tag="ul" class="space-y-1 text-gray-500 dark:text-gray-400 md:text-xl text-md mt-5">
-            <Li icon={true}><CheckCircleSolid color='' size='xl' class='mr-2 pir'/> Capacity for low to mid-volume production</Li>
-            <Li icon={true}><CheckCircleSolid size='xl' class='mr-2'/>Custom-specific applications and modifications for connectors</Li>
-            <Li icon={true}><CheckCircleSolid size='xl' class='mr-2'/>Over-molding capabilities</Li>
-            <Li icon={true}><CheckCircleSolid size='xl' class='mr-2'/>Expertise in custom industrial cabling applications</Li>
-            </List>
+            <Li icon={true}><CheckCircleSolid size='xl' class='mr-2 text-primary-500'/> Capacity for low to mid-volume production</Li>
+            <Li icon={true}><CheckCircleSolid size='xl' class='mr-2  text-primary-500'/>Custom-specific applications and modifications for connectors</Li>
+            <Li icon={true}><CheckCircleSolid size='xl' class='mr-2  text-primary-500'/>Over-molding capabilities</Li>
+            <Li icon={true}><CheckCircleSolid size='xl' class='mr-2  text-primary-500'/>Expertise in custom industrial cabling applications</Li>
+        </List>
+
         </div>
 </div>
 
