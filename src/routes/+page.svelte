@@ -10,11 +10,12 @@
 
     const images = [
     { src: '/images/motors-drivers-and-encoder-applications.jpg', alt: 'Motors, Drives, and Encoder Applications' },
-    { src: '/images/hdmi-usb.png', alt: 'HDMI and USB Marine & Industrial Feed-Through Connectors' },
+    { src: '/images/hdmi-usb.jpg', alt: 'HDMI and USB Marine & Industrial Feed-Through Connectors' },
     { src: '/images/blood-warmer-harness.jpg', alt: 'Military/Medical - Blood Warmer Harness' },
     { src: '/images/ferrite-core-over-mold-applications.jpg', alt: 'Ferrite Core Over-Mold Applications' },
     { src: '/images/medical-molex-header-over-mold.jpg', alt: 'Medical - Molex Header Over-mold' },
-    { src: '/images/measurement-and-calibration-applications.jpg', alt: 'Measurement & Calibration Applications' }
+    { src: '/images/measurement-and-calibration-applications.jpg', alt: 'Measurement & Calibration Applications' },
+    { src: '/images/military-co-ax-ridle-scoping-application.jpg', alt: 'Military CoAx Rifle Scoping' }
 
   ];
 
