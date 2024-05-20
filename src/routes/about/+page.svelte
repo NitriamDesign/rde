@@ -5,7 +5,6 @@
 	import { CheckCircleOutline } from "flowbite-svelte-icons";
 </script>
 
-
 <div class="max-w-7xl m-auto my-40 md:flex gap-20 p-4">
     <Img class="object-cover rounded shadow-xl object-right-bottom w-[500px]" src="/images/rde-outside.jpg" alt=""/>
 
