@@ -38,7 +38,9 @@
 </div>
 
 
-<div class="max-w-7xl m-auto  md:flex gap-20 p-4 justify-center">
-	<MasonryGallery/>
-	
+<div class="max-w-7xl m-auto grid grid-cols-2 gap-20 p-4 justify-center">
+    <img src="/people/assembly-room.jpg" alt="assembly room" class="object-cover aspect-square rounded shadow-xl">
+    <img src="/people/people-1.jpg" alt="people"  class="object-cover aspect-square rounded shadow-xl">
+    <img src="/people/people-2.jpg" alt="people"  class="object-cover aspect-square rounded shadow-xl">
+    <img src="/people/store-front.jpg" alt="store front"  class="object-cover aspect-square rounded shadow-xl">
 </div>

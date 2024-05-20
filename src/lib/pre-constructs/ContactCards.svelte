@@ -17,8 +17,10 @@
         {employee.name}
     </div>
 
-    <div>
-        {employee.email}
-    </div>
+    {#if employee.imageEmail}
+        <div><img src={employee.imageEmail} alt={employee.name} class="h-[14px] mt-2"></div>
+    {:else}
+        <div>{employee.email}</div>
+    {/if}
 </div>
 
