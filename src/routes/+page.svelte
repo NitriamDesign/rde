@@ -87,7 +87,12 @@
             <Li icon={true}><CheckCircleSolid size='xl' class='mr-2  text-primary-500'/>Expertise in custom industrial cabling applications</Li>
         </List>
 
-        </div>
+    </div>
 </div>
+
+<div class="max-w-7xl m-auto mt-10 p-4 gap-10 md:flex">
+    <Img class="" size="" src="/images/imageRibbon.jpg" alt=""/>
+</div>
+
 
 <AboutUs/>
