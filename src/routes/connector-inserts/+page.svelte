@@ -22,18 +22,6 @@
 
 
 <div class="sm:m-auto sm:max-w-7xl w-[95%] m-4 bg-gray-50 p-10 flex flex-col gap-10 shadow-xl rounded-xl">
-	<div class="rounded dark:text-white text-center">
-		<span class="text-xl font-semibold text-primary-500 uppercase italic font-sans">
-			{image.alt}
-		</span>
-	</div>
-
-	<Carousel {images} bind:index imgClass="object-contain h-96">
-	</Carousel>
-
-	<Thumbnails class="bg-transparent gap-3" let:Thumbnail let:image let:selected {images} bind:index>
-		<Thumbnail {...image} {selected} class="rounded-md shadow-xl hover:outline hover:outline-primary-500 object-cover h-24 w-24" activeClass="outline outline-primary-400"/>
-	</Thumbnails>
 
 	<!-- Iframe container -->
 	<div class="flex-1 ml-0 md:ml-10 mt-10 md:mt-0">
