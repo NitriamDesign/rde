@@ -103,11 +103,11 @@
 </script>
 
 <Navbar class="md:py-6 py-4">
-    <NavBrand class="p-0 px-0 flex gap-3 md:gap-0" href="/">
-        <img src="/logos/rde-logo.png" class="md:h-[125px] md:inline h-14" alt="Flowbite Logo" />
-        <div class="md:text-2xl text-xs font-semibold text-primary-500 uppercase italic font-sans md:ml-5">
+    <NavBrand class="p-0 px-0 flex gap-3 md:gap-0">
+        <a href="/" class="flex"><img src="/logos/rde-logo.png" class="md:h-[125px] md:inline h-14" alt="Flowbite Logo" /></a>
+        <a href="/" class="md:text-2xl text-xs font-semibold text-primary-500 uppercase italic font-sans md:ml-5">
             Member of the Phoenix Contact Group
-        </div>
+        </a>
         <a href="tel:9547466400" class="md:hidden">
             <PhoneSolid size="lg"/>
         </a>
@@ -115,6 +115,7 @@
     </NavBrand>
 
     <NavUl>
+        <NavLi id="products-menu" class="font-semibold text-lg cursor-pointer items-center gap-2 flex md:hidden" href="/products">Products</NavLi>
         <NavLi id="products-menu" class="font-semibold text-lg cursor-pointer items-center gap-2 hidden sm:flex" on:click={toggleMegaMenu}>Products <ChevronDoubleDownOutline size="sm"/></NavLi>
         <NavLi class="font-semibold text-lg" href="/about">About</NavLi>
         <NavLi class="font-semibold text-lg" href="/contact">Contact</NavLi>
