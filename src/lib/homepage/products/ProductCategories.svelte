@@ -22,7 +22,6 @@
 <div class="bg-m-light max-w-7xl m-auto my-20 min-h-[450px]" id="main-products">
     <!-- Menu -->
 
-    <!-- Desktop View -->
         <div class="justify-start gap-10 md:flex block md:p-0 p-4">
             <Heading tag="h2" color='text-primary-500' class="flex items-center " customSize="text-3xl font-extrabold  md:text-4xl lg:text-4xl md:mb-0 mb-4">
                 View our Connectors, Cables & Tools
