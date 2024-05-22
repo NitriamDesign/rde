@@ -19,10 +19,6 @@
     }
 </script>
 
-
-
-
-
 <!--
 <div class="bg-m-primary">
     <div class="max-w-3xl flex justify-between p-4 items-center md:full md:m-auto">
@@ -44,5 +40,3 @@
 {#if currentProduct}
     <ProductBase product={currentProduct}/>
 {/if}
-
-
