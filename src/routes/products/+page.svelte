@@ -42,12 +42,12 @@
 </div>
 
 <div class="max-w-6xl m-auto mt-10 px-4 xl:p-0">
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
         {#each $sortedProducts as product, index}
             <div class="p-4 shadow-xl flex flex-col justify-between">
                 <div>
-                    <img src={product.mainImage} alt={product.title}>
-                    <div class="text-m-primary font-semibold mt-2">{product.title}</div>
+                    <img src={product.mainImage} alt={product.name}>
+                    <div class="text-m-primary font-semibold mt-2">{product.name}</div>
                     <div class="font-thin mt-2 text-sm">{product.description.slice(0,100)}...</div>
                 </div>
                 <a class="text-lg flex items-center justify-end text-primary-500 hover:text-primary-600 font-bold" href={product.url}>
