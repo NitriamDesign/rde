@@ -27,7 +27,7 @@
     }
 </script>
 
-<div class="max-w-6xl m-auto mt-20">
+<div class="max-w-6xl m-auto mt-20 px-4 xl:p-0">
     <Button color="alternative">
         Sort By: {$selectedSortOption}
     </Button>
@@ -41,8 +41,8 @@
     </Dropdown>
 </div>
 
-<div class="max-w-6xl m-auto mt-10">
-    <div class="grid grid-cols-4 gap-10">
+<div class="max-w-6xl m-auto mt-10 px-4 xl:p-0">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
         {#each $sortedProducts as product, index}
             <div class="p-4 shadow-xl flex flex-col justify-between">
                 <div>
