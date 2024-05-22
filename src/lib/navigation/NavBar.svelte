@@ -152,7 +152,7 @@
 
 <!-- The Mega Menu -->
 {#if $megamenuVisible}
-    <div id="megamenu" class="w-full bg-white absolute left-0 z-50 p-10 flex shadow-xl gap-4" transition:fade>
+    <div id="megamenu" class="w-full bg-white absolute left-0 z-50 p-10 flex shadow-xl gap-4 border-t-[1px]" transition:fade>
         <!-- Products -->
         <div class="flex flex-col w-2/5 lg:w-1/2 flex-wrap border-r-[1px] pr-4">
             {#each Object.keys(productsByCategory) as category}
@@ -191,7 +191,7 @@
                 </div>
             </div>
 
-            <div class="w-full p-4 rounded">    
+            <div class="w-full p-4 rounded border-l-[1px]">    
                 <div class="text-lg font-semibold uppercase mb-4">    
                     Contact
                 </div>
@@ -215,7 +215,7 @@
                 </div>
             </div>
 
-            <div class="w-full p-4 rounded">    
+            <div class="w-full p-4 rounded border-l-[1px]">    
                 <div class="text-lg font-semibold uppercase mb-4">    
                     <div class="flex items-center gap-2">  
                         Operation
