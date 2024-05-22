@@ -45,10 +45,11 @@
 
     $: filteredItems = allSearchableItems.filter(item => item.name.toLowerCase().includes(searchInput.toLowerCase()));
 
-    // Mega Menu
+// Mega Menu
     let megamenuVisible = writable(false);
 
-    function toggleMegaMenu() {
+    function toggleMegaMenu(event: MouseEvent) {
+        event.stopPropagation(); // Stop the event from propagating
         megamenuVisible.update(value => {
             const newValue = !value;
             console.log("Toggling Mega Menu:", newValue); // Debugging line
@@ -88,7 +89,7 @@
         };
     });
 
-    // Group products by category
+// Group products by category
     interface ProductsByCategory {
         [category: string]: typeof products;
     }
