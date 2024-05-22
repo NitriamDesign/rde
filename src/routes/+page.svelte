@@ -51,7 +51,7 @@
 
 
 <ProductCategories/>
-<CallToActionRibbon bgImageUrl = '/standin/dum.png'/>
+<CallToActionRibbon bgImageUrl = '/images/connectors/rc-bulk-yellow-grade-lg.jpg'/>
 
 <div class="max-w-7xl m-auto mt-30 p-4 gap-10 md:flex">
       
