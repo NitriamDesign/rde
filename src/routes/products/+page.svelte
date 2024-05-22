@@ -1,54 +1,59 @@
 <script lang="ts">
-	import { Button, Dropdown, DropdownItem, Input } from "flowbite-svelte";
+    import { Button, Dropdown, DropdownItem } from "flowbite-svelte";
     import ProductBase from '$lib/product-page/ProductBase.svelte'
-    import { products, type Product } from "$lib/data"
+    import { products, type Product } from "$lib/data";
     import { page } from '$app/stores';
-    import { MapPinAltSolid, PhoneSolid, MessagesSolid, InfoCircleSolid, BookSolid, QuestionCircleSolid, UsersGroupSolid, BookOutline} from 'flowbite-svelte-icons';
-	import { goto } from "$app/navigation";
+    import { ChevronRightOutline } from 'flowbite-svelte-icons';
+    import { writable } from 'svelte/store';
 
+    const sortOptions = ["Name", "Title", "Category"];
+    let selectedSortOption = writable("Name");
+    let sortedProducts = writable([...products]);
 
-    // Date
-    function formatDate(date: Date) {
-        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    selectedSortOption.subscribe(value => {
+        sortProducts(value);
+    });
 
-        const formattedDate = new Date(date).toLocaleDateString('en-US', options);
-
-        const day = new Date(date).getDate();
-        let suffix;
-
-        if (day > 3 && day < 21) suffix = 'th';
-        else {
-            switch (day % 10) {
-                case 1:  suffix = "st"; break;
-                case 2:  suffix = "nd"; break;
-                case 3:  suffix = "rd"; break;
-                default: suffix = "th";
-            }
+    function sortProducts(criteria: string) {
+        let sortedArray = [...products];
+        if (criteria === "Name") {
+            sortedArray.sort((a, b) => a.name.localeCompare(b.name));
+        } else if (criteria === "Title") {
+            sortedArray.sort((a, b) => a.title.localeCompare(b.title));
+        } else if (criteria === "Category") {
+            sortedArray.sort((a, b) => a.category.localeCompare(b.category));
         }
-
-        return formattedDate.replace(day, `${day}${suffix}`);
+        sortedProducts.set(sortedArray);
     }
-
-    let today = formatDate(new Date());
-
 </script>
 
-
-<div class="bg-m-primary">
-    <div class="max-w-3xl flex justify-between p-4 items-center md:full md:m-auto">
-        <div class="font-[500] text-white">
-            {today}
-        </div>
-
-        <Button color="alternative" class="h-10 rounded"><BookOutline class="mr-3"/>Choose a Product</Button>
-        
-        <Dropdown>
-            {#each products as product, index}
-                <DropdownItem on:click={() => goto(product.url)}>{product.name}</DropdownItem>
-            {/each}
-        </Dropdown>
-    </div>
+<div class="max-w-6xl m-auto mt-20">
+    <Button color="alternative">
+        Sort By: {$selectedSortOption}
+    </Button>
+    
+    <Dropdown>
+        {#each sortOptions as option}
+            <DropdownItem on:click={() => selectedSortOption.set(option)}>
+                {option}
+            </DropdownItem>
+        {/each}
+    </Dropdown>
 </div>
 
-
-This is the every product page
+<div class="max-w-6xl m-auto mt-10">
+    <div class="grid grid-cols-4 gap-10">
+        {#each $sortedProducts as product, index}
+            <div class="p-4 shadow-xl flex flex-col justify-between">
+                <div>
+                    <img src={product.mainImage} alt={product.title}>
+                    <div class="text-m-primary font-semibold mt-2">{product.title}</div>
+                    <div class="font-thin mt-2 text-sm">{product.description.slice(0,100)}...</div>
+                </div>
+                <a class="text-lg flex items-center justify-end text-primary-500 hover:text-primary-600 font-bold" href={product.url}>
+                    View <ChevronRightOutline class="ml-2" />
+                </a>            
+            </div>
+        {/each}
+    </div>
+</div>

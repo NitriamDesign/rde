@@ -25,7 +25,7 @@
             {#each product.shell_mat.slice(0,3) as shellmat}
                 <div class="flex text-md mt-1 text-[#6B7280]">
                     <div class="text-dark font-bold mr-1">{shellmat.simple_title ? shellmat.simple_title : shellmat.title}:</div>
-                    <div class="max-w-48 sm:max-w-[999px]">{shellmat.description}</div>
+                    <div class="max-w-48 lg:max-w-[999px]">{shellmat.description}</div>
                 </div>
             {/each}
         {/if}

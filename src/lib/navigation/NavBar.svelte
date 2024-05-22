@@ -71,9 +71,8 @@
 </script>
 
 
-<!-- Hello -->
 <Navbar class="md:py-6 py-4">
-    <NavBrand class="p-0 px-0 flex gap-3 md:gap-0">
+    <NavBrand class="p-0 px-0 flex gap-3 md:gap-0" href="/">
         <img src="/logos/rde-logo.png"  class="md:h-[125px] md:inline h-14" alt="Flowbite Logo" />
 
         <div class="md:text-2xl text-xs font-semibold text-primary-500 uppercase italic font-sans md:ml-5">Member of the Phoenix Contact Group</div>
