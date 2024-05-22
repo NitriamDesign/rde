@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import ProductCategories from "$lib/homepage/products/ProductCategories.svelte";
     import TopHero from "$lib/homepage/TopHero.svelte";
     import CallToActionRibbon from "$lib/pre-constructs/CallToActionRibbon.svelte";
@@ -18,10 +18,8 @@
     { src: '/images/military-co-ax-ridle-scoping-application.jpg', alt: 'Military CoAx Rifle Scoping' }
   ];
 
-  /**
-	 * @type {{ alt: any; }}
-	 */
-  let image;
+
+  let image:any;
       
     let index = 0;
     
@@ -66,7 +64,7 @@
         <div class="rounded h-10 dark:text-white p-2 my-2 text-center">
           <span class="text-xl font-semibold  text-primary-500 uppercase italic font-sans">
             {image?.alt}
-        </span>
+            </span>
         </div>
     </div>
 
