@@ -10,7 +10,7 @@
 <div class="lg:w-[400px] lg:h-[500px] flex flex-col justify-between rounded shadow-xl overflow-hidden bg-white">
     <!-- Image at the top -->
 
-    <img src={product.mainImage} alt="Stand In" class="w-full h-[200px] object-cover">
+    <img src={product.thumbnail} alt="Stand In" class="w-full h-[200px] object-cover">
 
     
     <!-- Title and description in the middle -->

@@ -4,6 +4,7 @@ export interface Product {
     description: string;
     category: string;
     mainImage: string;
+    thumbnail?: string;
     pdf: string;
     url: string;
     shell_mat?: Entry[];
@@ -28,7 +29,8 @@ export const products: Product[] = [
         title: "Shielded Connectors M23",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
-        mainImage: "/standin/dum.png",
+        mainImage: "/images/connectors/ca-blue-lg.jpg",
+        thumbnail: "/images/connectors/ca-blue.jpg",
         pdf: "/pdf/CA-series.pdf",
         url: "/products/ca-connector",
 
@@ -76,7 +78,8 @@ export const products: Product[] = [
         title: "Shielded Connectors M27",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
-        mainImage: "/standin/dum.png",
+        mainImage: "/images/connectors/hc-blue-lg.jpg",
+        thumbnail: "/images/connectors/hc-blue.jpg",
         pdf: "/pdf/HC-series.pdf",
         url: "/products/hc-connector",
 
@@ -124,7 +127,8 @@ export const products: Product[] = [
         title: "Unshielded Connectors M23",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
-        mainImage: "/standin/dum.png",
+        mainImage: "/images/connectors/rc-cable-blue-lg.jpg",
+        thumbnail: "/images/connectors/rc-cable-blue.jpg",
         pdf: "/pdf/RC-series.pdf",
         url: "/products/rc-connector",
 
@@ -172,7 +176,8 @@ export const products: Product[] = [
         title: "Shielded Connectors M23 crimp versions",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
-        mainImage: "/standin/dum.png",
+        mainImage: "/images/connectors/rf-blue-lg.jpg",
+        thumbnail: "/images/connectors/rf-blue.jpg",
         pdf: "/pdf/RF-series.pdf",
         url: "/products/rf-connector",
 
@@ -220,7 +225,8 @@ export const products: Product[] = [
         title: "Shielded Connectors M23 Power 630 Volt",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
-        mainImage: "/standin/dum.png",
+        mainImage: "/images/connectors/sf-blue-lg.jpg",
+        thumbnail: "/images/connectors/sf-blue.jpg",
         pdf: "/pdf/SF-series.pdf",
         url: "/products/sf-connector",
 
@@ -268,7 +274,8 @@ export const products: Product[] = [
         title: "Shielded Power Connectors M23 Circular Hybrid Connectors",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
-        mainImage: "/standin/dum.png",
+        mainImage: "/images/connectors/sh-blue-lg.jpg",
+        thumbnail: "/images/connectors/sh-blue.jpg",
         pdf: "/pdf/SH-series.pdf",
         url: "/products/sh-connector",
 
@@ -316,7 +323,8 @@ export const products: Product[] = [
         title: "Shielded Power Connectors M58",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
-        mainImage: "/standin/dum.png",
+        mainImage: "/images/connectors/sl-blue-lg.jpg",
+        thumbnail: "/images/connectors/sl-blue.jpg",
         pdf: "/pdf/SL-series.pdf",
         url: "/products/sl-connector",
 
@@ -363,7 +371,8 @@ export const products: Product[] = [
         title: "Shielded Power Connectors M40",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
-        mainImage: "/standin/dum.png",
+        mainImage: "/images/connectors/sm-blue-lg.jpg",
+        thumbnail: "/images/connectors/sm-blue.jpg",
         pdf: "/pdf/SM-series.pdf",
         url: "/products/sm-connector",
 
@@ -412,7 +421,8 @@ export const products: Product[] = [
         title: "Unshielded Connectors M23 The Stainless Steel Program",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
-        mainImage: "/standin/dum.png",
+        mainImage: "/images/connectors/ssr-blue-lg.jpg",
+        thumbnail: "/images/connectors/ssr-blue.jpg",
         pdf: "/pdf/SSR-series.pdf",
         url: "/products/ssr-connector",
 
@@ -457,7 +467,8 @@ export const products: Product[] = [
         title: "Shielded Connectors M17/Speedcon",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
-        mainImage: "/standin/dum.png",
+        mainImage: "/images/connectors/st-blue-lg.jpg",
+        thumbnail: "/images/connectors/st-blue.jpg",
         pdf: "/pdf/ST-series.pdf",
         url: "/products/st-connector",
        
@@ -505,7 +516,8 @@ export const products: Product[] = [
         title: "Shielded Connectors in Bayonet Style",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
-        mainImage: "/standin/dum.png",
+        mainImage: "/images/connectors/tu-blue-lg.jpg",
+        thumbnail: "/images/connectors/tu-blue.jpg",
         pdf: "/pdf/TU-series.pdf",
         url: "/products/tu-connector",
        
@@ -553,7 +565,8 @@ export const products: Product[] = [
         title: "Shielded Connectors M23 The shielded and robust standard version",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
-        mainImage: "/standin/dum.png",
+        mainImage: "/images/connectors/uc-blue-lg.jpg",
+        thumbnail: "/images/connectors/uc-blue.jpg",
         pdf: "/pdf/ST-series.pdf",
         url: "/products/st-connector",
        
@@ -601,7 +614,8 @@ export const products: Product[] = [
         title: "Shielded Power/Signal Connectors M23 / one click Series PCA",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
-        mainImage: "/standin/dum.png",
+        mainImage: "/images/connectors/pca-blue-lg.jpg",
+        thumbnail: "/images/connectors/pca-blue.jpg",
         pdf: "/pdf/M23-PRO-Series.pdf",
         url: "/products/pca-connector",
 
@@ -647,7 +661,8 @@ export const products: Product[] = [
         title: "Shielded Power/Signal Connectors M23 / one click Series PCA",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
-        mainImage: "/standin/dum.png",
+        mainImage: "/images/connectors/pca-blue-lg.jpg",
+        thumbnail: "/images/connectors/pca-blue.jpg",
         pdf: "/pdf/M23-PRO-Series.pdf",
         url: "/products/pca-connector",
 
@@ -693,7 +708,8 @@ export const products: Product[] = [
         title: "Shielded Power/Signal Connectors M23 / one click Series PSF",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
-        mainImage: "/standin/dum.png",
+        mainImage: "/images/connectors/psf-blue-lg.jpg",
+        thumbnail: "/images/connectors/psf-blue.jpg",
         pdf: "/pdf/M23-PRO-Series.pdf",
         url: "/products/psf-connector",
 
