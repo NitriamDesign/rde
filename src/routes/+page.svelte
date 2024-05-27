@@ -55,7 +55,7 @@
 
 <div class="max-w-7xl m-auto mt-30 p-4 gap-10 flex flex-col sm:flex-row">
       
-    <div class='md:w-1/2 md:mt-20 md:mt-10 md:order-1 order-2'>
+    <div class='md:w-1/2 md:mt-20 md:order-1 order-2'>
         <Carousel {images} let:Indicators let:Controls on:change={({ detail }) => (image = detail)}>
           <Controls />
           <Indicators />
