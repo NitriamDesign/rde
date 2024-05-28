@@ -22,7 +22,9 @@
         <Button href="#" size="xl">ABOUT US</Button>
       </div>
 
-      <div class="lg:h-[325px] lg:left-[47%] w-full relative z-10 top-[70px] shadow-xl lg:visible invisible" style="background-image: url({bgImageUrl});"></div>
+      <div class="lg:h-[325px] w-[800px] lg:left-[47%] relative z-10 top-[70px] shadow-xl lg:visible invisible">
+        <img src="{bgImageUrl}" class="h-full w-full object-cover" alt="">
+      </div>
   </div>  
 </div>
 

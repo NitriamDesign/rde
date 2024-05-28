@@ -10,12 +10,14 @@
 
     const images = [
     { src: '/images/hdmi-usb.jpg', alt: 'HDMI and USB Marine & Industrial Feed-Through Connectors' },
-    { src: '/images/blood-warmer-harness.jpg', alt: 'Medical - Blood Warmer Harness' },
+    { src: '/images/blood-warmer-harness.jpg', alt: 'Fluid Warmer Harness' },
     { src: '/images/motors-drivers-and-encoder-applications.jpg', alt: 'Motors, Drives, and Encoder Applications' },
     { src: '/images/ferrite-core-over-mold-applications.jpg', alt: 'Ferrite Core Over-Mold Applications' },
-    { src: '/images/medical-molex-header-over-mold.jpg', alt: 'Medical - Molex Header Over-mold' },
+    { src: '/images/medical-molex-header-over-mold.jpg', alt: 'Molex Header Over-mold' },
     { src: '/images/measurement-and-calibration-applications.jpg', alt: 'Measurement & Calibration Applications' },
-    { src: '/images/military-co-ax-ridle-scoping-application.jpg', alt: 'Co-Ax Rifle Scoping' }
+    { src: '/images/military-co-ax-ridle-scoping-application.jpg', alt: 'Co-Ax Rifle Scoping' },
+    { src: '/images/smc-robotics-motion-control.jpg', alt: 'Robotics Motion Control' },
+    { src: '/images/man-motor-control-commercial-shipping.jpg', alt: 'MAN Motor Control - Commercial Shipping' }
   ];
 
 
