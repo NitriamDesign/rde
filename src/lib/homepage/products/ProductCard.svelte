@@ -7,7 +7,7 @@
     console.log(product);
 </script>
 
-<div class="lg:w-[400px] lg:h-[500px] flex flex-col justify-between rounded shadow-xl overflow-hidden bg-white">
+<div class="lg:w-[400px] lg:h-[500px] flex flex-col justify-between rounded shadow-xl overflow-hidden bg-white hover:scale-[101%] transition">
     <!-- Image at the top -->
 
     <img src={product.thumbnail} alt="Stand In" class="w-full h-[200px] object-cover">
