@@ -15,10 +15,6 @@
                     <BookSolid/>Products
                 </div>
 
-                <div class="flex items-center gap-2">      
-                    <QuestionCircleSolid/>Guides
-                </div>
-
                 <div class="flex items-center gap-2">     
                     <UsersGroupSolid/>About Us
                 </div>
