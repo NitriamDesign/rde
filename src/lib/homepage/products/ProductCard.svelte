@@ -13,8 +13,10 @@
     <!-- Image at the top -->
 
     <!-- svelte-ignore a11y-click-events-have-key-events -->
-    <img src={product.mainImage} alt={product.name} class="w-full h-[200px] object-cover cursor-pointer hover:opacity-[95%]" on:click={() => goto(product.url)}>
-    
+    <a href={product.url} class="cursor-pointer">
+        <img src={product.mainImage} alt={product.name} class="w-full h-[200px] object-cover cursor-pointer hover:opacity-90">
+    </a>
+
     <!-- Title and description in the middle -->
     <div class="px-7 pt-7 flex-1 flex flex-col">
         <span class="text-2xl font-semibold  text-primary-500 uppercase italic font-sans">

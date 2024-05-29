@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Input, Dropdown } from 'flowbite-svelte';
+    import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Input, Dropdown, Button } from 'flowbite-svelte';
     import { products } from '$lib/data';
     import { ChevronDoubleDownOutline, SearchOutline, MapPinAltSolid, PhoneSolid, MessagesSolid, InfoCircleSolid, ClockSolid, PrinterSolid } from 'flowbite-svelte-icons';
     import { goto } from '$app/navigation';
@@ -182,21 +182,25 @@
         </div>
 
         <!-- Products -->
-        <div class="flex flex-col w-2/5 lg:w-1/2 flex-wrap border-r-[1px] pr-4 ">
-            <h2 class="text-xl font-bold uppercase text-m-primary mb-4">Products</h2>
-
-            {#each Object.keys(productsByCategory) as category}
-                <div>
-                    <h2 class="text-md uppercase text-m-secondary">{category}s</h2>
-                    <div class="grid grid-cols-2 lg:grid-cols-3">
-                        {#each productsByCategory[category] as product}
-                            <div class="ml-4">
-                                <a on:click={() => megamenuVisible.set(false)} class="hover:text-m-primary cursor-pointer text-sm" href={product.url}>{product.name}</a>
-                            </div>
-                        {/each}
+        <div class="flex flex-col w-2/5 lg:w-1/2 flex-wrap border-r-[1px] gap-6 pr-4">
+            <div class="">
+                {#each Object.keys(productsByCategory) as category}
+                    <div class="mb-4">
+                        <h2 class="text-xl font-bold uppercase text-m-primary">{category}s</h2>
+                        <div class="grid grid-cols-2 lg:grid-cols-3">
+                            {#each productsByCategory[category] as product}
+                                <div class="ml-4">
+                                    <a on:click={() => megamenuVisible.set(false)} class="hover:text-m-primary cursor-pointer text-sm" href={product.url}>{product.name}</a>
+                                </div>
+                            {/each}
+                        </div>
                     </div>
-                </div>
-            {/each}
+                {/each}
+            </div>
+
+            <Button color="none" class="bg-m-primary text-m-light hover:bg-primary-600 rounded text-md font-thin" href="/products">
+                View All Products
+            </Button>
         </div>
 
         <!-- Info -->
