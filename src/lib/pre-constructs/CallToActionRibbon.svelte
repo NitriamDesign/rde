@@ -19,7 +19,7 @@
         <span class="self-center text-xl font-semibold text-[#C4C4C4] uppercase italic font-sans">RDE Conntectors & Cables Inc</span>
         <h5 class="mb-2 text-4xl font-bold text-gray-900 dark:text-white">Competent Solutions & Reliable Service</h5>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Providing product quality and reliability of interconnect systems and assemblies for automation control in demanding and challenging industries.</p>
-        <Button href="#" size="xl">ABOUT US</Button>
+        <Button href="/about" size="xl">ABOUT US</Button>
       </div>
 
       <div class="lg:h-[325px] w-[800px] lg:left-[47%] relative z-10 top-[70px] shadow-xl lg:visible invisible">

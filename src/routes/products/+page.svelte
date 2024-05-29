@@ -44,7 +44,7 @@
 <div class="max-w-6xl m-auto mt-10 px-4 xl:p-0">
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
         {#each $sortedProducts as product, index}
-            <div class="p-4 shadow-xl flex flex-col justify-between">
+            <div class="p-4 shadow-xl flex flex-col justify-between hover:scale-[101%] transition">
                 <div>
                     <img src={product.mainImage} alt={product.name}>
                     <div class="text-m-primary font-semibold mt-2">{product.name}</div>
