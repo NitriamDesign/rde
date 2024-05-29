@@ -59,7 +59,7 @@
     $: filteredItems = allSearchableItems.filter(item => item.name.toLowerCase().includes(searchInput.toLowerCase()));
 
 // Mega Menu
-    let megamenuVisible = writable(true);
+    let megamenuVisible = writable(false);
 
     function toggleMegaMenu(event: MouseEvent) {
         event.stopPropagation(); // Stop the event from propagating
