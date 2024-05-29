@@ -27,7 +27,7 @@
     }
 </script>
 
-<div class="max-w-6xl m-auto mt-20 px-4 xl:p-0">
+<div class="max-w-6xl m-auto md:mt-20 mt-10 px-4 xl:p-0">
     <Button color="alternative">
         Sort By: {$selectedSortOption}
     </Button>

@@ -5,18 +5,12 @@
     import { flip } from 'svelte/animate';
     import { type Product, products } from '$lib/data';
 
-
-
     let selectedButton = 'all';
     let selected = "bg-m-primary hover:bg-primary-600 text-white";
 
     let maxDisplayed = 6;
     
-
-
     $: filteredProducts = selectedButton === 'all' ? products : products.filter(product => product.category === selectedButton);
-    
-
 </script>
 
 <div class="bg-m-light max-w-7xl m-auto my-20 min-h-[450px]" id="main-products">
