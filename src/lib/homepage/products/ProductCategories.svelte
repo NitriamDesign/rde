@@ -27,7 +27,7 @@
                 View our Connectors, Cables & Tools
             </Heading>
             
-            <!-- <ButtonGroup divClass="inline-flex md:rounded-lg md:shadow-sm md:flex-none flex-wrap p-2 gap-2 md:gap-0 md:p-0 md:shadow-none">
+            <ButtonGroup divClass="inline-flex md:rounded-lg md:shadow-sm md:flex-none flex-wrap p-2 gap-2 md:gap-0 md:p-0 md:shadow-none">
                 <Button color="none" class="border-2 max-w-sm uppercase rounded-md text-md font-bold md:mr-2 md:rounded-r-none {selectedButton === 'all' ? selected : ''}" on:click={() => selectedButton = 'all'}>
                     All
                 </Button>
@@ -43,7 +43,7 @@
                 <Button color="none" class="{`border-2 max-w-sm uppercase text-md rounded-md font-bold md:rounded-none ${selectedButton === 'tool' ? selected : ''}`}" on:click={() => selectedButton = 'tool'}>
                     Tools
                 </Button>
-            </ButtonGroup> -->
+            </ButtonGroup>
         </div>
 
 
