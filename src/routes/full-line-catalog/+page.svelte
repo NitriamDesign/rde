@@ -81,7 +81,7 @@
 
 		<P class='text-xl pt-4'>View the full catalog for detailed information on our products and capabilities.</P>
 
-		<a class="flex mt-5 text-xl font-semibold text-primary-700" href="/pdf/rde-terms-warranty.pdf" target="_blank"><DownloadOutline size='xl' class='mr-2'/>Download Full PDF</a>
+		<a class="flex mt-5 text-xl font-semibold text-primary-700" href="/pdf/RDE-Full-Catalog.pdf" target="_blank"><DownloadOutline size='xl' class='mr-2'/>Download Full PDF</a>
     
     </div>
 

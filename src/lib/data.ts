@@ -810,5 +810,19 @@ export let connectorsQuickData: QuickConnectorData[] = [
       ul: ["No", "No", "No", "No"],
       links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
     },
+    {
+        connectorImage: "https://example.com/connector-1.jpg",
+        series: ["CA crimp", "CA crimp", "CA RC-Inserts", "CA RC-Inserts"],
+        locking: ["Speedcon", "M23", "Speedcon", "M23"],
+        positions: ["12/17", "12/17", "6-19", "6-19"],
+        voltAmpMax: ["150/8", "150/8", "300/20", "300/20"],
+        cableDiameter: ["14.5mm", "14.5mm", "14.5mm", "14.5mm"],
+        awg: ["28-17", "28-17", "26-14", "26-14"],
+        contactsDiameter: ["1.0 mm", "1.0 mm", "1/1.5/2.0", "1/1.5/2.0"],
+        material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
+        shield: ["Yes", "Yes", "Yes", "Yes"],
+        ul: ["No", "No", "No", "No"],
+        links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
+      }
  
   ];

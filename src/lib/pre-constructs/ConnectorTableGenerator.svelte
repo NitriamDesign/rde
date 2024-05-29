@@ -102,7 +102,7 @@ export let titles: string[] = [];
                       <div class="text-left">
                         {#each connector.links as link}
                           <div><a href={link.pageUrl} target="_blank">Page Link</a></div>
-                          <div>{link.pdfRef}</div>
+                          <div>PDF Ref: {link.pdfRef}</div>
                         {/each}
                       </div>
                     </td>
