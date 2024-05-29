@@ -1,17 +1,19 @@
 <script lang="ts">
     import { ChevronRightOutline } from 'flowbite-svelte-icons';
     import { type Product } from '$lib/data';
+	import { goto } from '$app/navigation';
 
     export let product:Product;
 
     console.log(product);
 </script>
 
+<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
 <div class="lg:w-[400px] lg:h-[500px] flex flex-col justify-between rounded shadow-xl overflow-hidden bg-white hover:scale-[101%] transition">
     <!-- Image at the top -->
 
-    <img src={product.thumbnail} alt="Stand In" class="w-full h-[200px] object-cover">
-
+    <!-- svelte-ignore a11y-click-events-have-key-events -->
+    <img src={product.mainImage} alt={product.name} class="w-full h-[200px] object-cover cursor-pointer hover:opacity-[95%]" on:click={() => goto(product.url)}>
     
     <!-- Title and description in the middle -->
     <div class="px-7 pt-7 flex-1 flex flex-col">
