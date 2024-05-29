@@ -22,7 +22,7 @@ export let titles: string[] = [];
                 {#each connectorsQuickData as connector}
                 <tr>
                     <td class="p-2 whitespace-nowrap">
-                      <div class="flex items-center">
+                      <div class="flex items-center border-b border-dotted border-gray-500">
                           <div class="w-10 h-10 flex-shrink-0 mr-2 sm:mr-3">
                             <img class="rounded-full" src={connector.connectorImage} width="40" height="40" alt="">
                           </div>
@@ -31,70 +31,70 @@ export let titles: string[] = [];
                     <td class="p-2 whitespace-nowrap">
                       <div class="text-left">
                         {#each connector.series as seriesItem}
-                          <div>{seriesItem}</div>
+                          <div class="pt-[5px]">{seriesItem}</div>
                         {/each}
                       </div>
                     </td>
                     <td class="p-2 whitespace-nowrap">
                       <div class="text-left">
                         {#each connector.locking as lockingItem}
-                          <div>{lockingItem}</div>
+                          <div class="pt-[5px]">{lockingItem}</div>
                         {/each}
                       </div>
                     </td>
                     <td class="p-2 whitespace-nowrap">
                       <div class="text-center">
                         {#each connector.positions as positionsItem}
-                          <div>{positionsItem}</div>
+                          <div class="pt-[5px]">{positionsItem}</div>
                         {/each}
                       </div>
                     </td>
                     <td class="p-2 whitespace-nowrap">
                       <div class="text-left">
                         {#each connector.voltAmpMax as voltAmpMaxItem}
-                          <div>{voltAmpMaxItem}</div>
+                          <div class="pt-[5px]">{voltAmpMaxItem}</div>
                         {/each}
                       </div>
                     </td>
                     <td class="p-2 whitespace-nowrap">
                       <div class="text-left">
                         {#each connector.cableDiameter as cableDiameterItem}
-                          <div>{cableDiameterItem}</div>
+                          <div class="pt-[5px]">{cableDiameterItem}</div>
                         {/each}
                       </div>
                     </td>
                     <td class="p-2 whitespace-nowrap">
                       <div class="text-left">
                         {#each connector.awg as awgItem}
-                          <div>{awgItem}</div>
+                          <div class="pt-[5px]">{awgItem}</div>
                         {/each}
                       </div>
                     </td>
                     <td class="p-2 whitespace-nowrap">
                       <div class="text-left">
                         {#each connector.contactsDiameter as contactsDiameterItem}
-                          <div>{contactsDiameterItem}</div>
+                          <div class="pt-[5px]">{contactsDiameterItem}</div>
                         {/each}
                       </div>
                     </td>
                     <td class="p-2 whitespace-nowrap">
                       <div class="text-left">
                         {#each connector.material as materialItem}
-                          <div>{materialItem}</div>
+                          <div class="pt-[5px]">{materialItem}</div>
                         {/each}
                       </div>
                     </td>
                     <td class="p-2 whitespace-nowrap">
                       <div class="text-left">
                         {#each connector.shield as shieldItem}
-                          <div>{shieldItem}</div>
+                          <div class="pt-[5px]">{shieldItem}</div>
                         {/each}
                       </div>
                     </td>
                     <td class="p-2 whitespace-nowrap">
                       <div class="text-left">
                         {#each connector.ul as ulItem}
-                          <div>{ulItem}</div>
+                          <div class="pt-[5px]">{ulItem}</div>
                         {/each}
                       </div>
                     </td>
