@@ -704,7 +704,7 @@ export const products: Product[] = [
 
     },
     {
-        name: "PSF Series Connectors",
+        name: "Adaptors Compressed",
         title: "Shielded Power/Signal Connectors M23 / one click Series PSF",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
@@ -751,7 +751,7 @@ export const products: Product[] = [
 
     },
     {
-        name: "PSF Series Connectors",
+        name: "Cable Assemblies",
         title: "Shielded Power/Signal Connectors M23 / one click Series PSF",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
@@ -798,7 +798,7 @@ export const products: Product[] = [
 
     },
     {
-        name: "PSF Series Connectors",
+        name: "HC Solder Crimp",
         title: "Shielded Power/Signal Connectors M23 / one click Series PSF",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
@@ -845,7 +845,7 @@ export const products: Product[] = [
 
     },
     {
-        name: "PSF Series Connectors",
+        name: "PC-SF",
         title: "Shielded Power/Signal Connectors M23 / one click Series PSF",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
@@ -892,7 +892,7 @@ export const products: Product[] = [
 
     },
     {
-        name: "PSF Series Connectors",
+        name: "RC Cable Connectors",
         title: "Shielded Power/Signal Connectors M23 / one click Series PSF",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
@@ -939,7 +939,7 @@ export const products: Product[] = [
 
     },
     {
-        name: "PSF Series Connectors",
+        name: "RC Bulkhead",
         title: "Shielded Power/Signal Connectors M23 / one click Series PSF",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
@@ -986,7 +986,7 @@ export const products: Product[] = [
 
     },
     {
-        name: "PSF Series Connectors",
+        name: "SS Stainless",
         title: "Shielded Power/Signal Connectors M23 / one click Series PSF",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
@@ -1033,7 +1033,7 @@ export const products: Product[] = [
 
     },
     {
-        name: "PSF Series Connectors",
+        name: "CA Series Crimp Version",
         title: "Shielded Power/Signal Connectors M23 / one click Series PSF",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
@@ -1080,7 +1080,7 @@ export const products: Product[] = [
 
     },
     {
-        name: "PSF Series Connectors",
+        name: "Colored Connectors",
         title: "Shielded Power/Signal Connectors M23 / one click Series PSF",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
@@ -1126,6 +1126,194 @@ export const products: Product[] = [
         ]
 
     },
+    {
+        name: "Molding Samples",
+        title: "Shielded Power/Signal Connectors M23 / one click Series PSF",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        category: 'connector',
+        mainImage: "/images/connectors/psf-blue-lg.jpg",
+        thumbnail: "/images/connectors/psf-blue.jpg",
+        pdf: "/pdf/M23-PRO-Series.pdf",
+        url: "/products/psf-connector",
+
+        shell_mat: [   
+            {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
+            {title: "Die-Cast components", description: "Zinc (GD-Zn)", simple_title: "Die-Cast"}, 
+            {title: "Shell plating", description: "Nickel (Ni) plated", simple_title: "Shell Plating"}, 
+            {title: "Cable entry", description: "max. 17 mm", simple_title: "Entry"}
+        ],
+
+        insulator: [   
+            {title: "Connector inserts", description: "Polyamide (PA6.6)"}
+        ],
+
+        contacts: [   
+            {title: "Contact material", description: "Copper-Zinc alloy (CuZn)"}, 
+            {title: "Contact plating", description: "Nickel (Ni) with gold (Au) passivated"}, 
+            {title: "Contact termination", description: "crimp type"}, 
+        ],
+
+        sealing: [   
+            {title: "Sealing rings", description: "Fluor rubber FKM"}
+        ],
+
+        temperature: [   
+            {title: "Temperature (long term) Celsius", description: "- 40 °C up to + 125°C"}, 
+            {title: "Temperature (long term) Fahrenheit", description: "- 40 °F up to + 257 °F"}, 
+        ],
+
+        mating: [   
+            {title: "Female coupling nuts", description: "M23 screw locking, or one click"}, 
+            {title: "Male receptacles", description: "M23 screw locking, or one click"},
+            {title: "Mating cycles", description: "Standard min. 50"}
+        ],
+
+        protection: [   
+            {title: "Protection class", description: "IP 67 (mated) depends on which cable gland is used"}
+        ]
+
+    },
+    {
+        name: "HC Series",
+        title: "Shielded Power/Signal Connectors M23 / one click Series PSF",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        category: 'connector',
+        mainImage: "/images/connectors/psf-blue-lg.jpg",
+        thumbnail: "/images/connectors/psf-blue.jpg",
+        pdf: "/pdf/M23-PRO-Series.pdf",
+        url: "/products/psf-connector",
+
+        shell_mat: [   
+            {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
+            {title: "Die-Cast components", description: "Zinc (GD-Zn)", simple_title: "Die-Cast"}, 
+            {title: "Shell plating", description: "Nickel (Ni) plated", simple_title: "Shell Plating"}, 
+            {title: "Cable entry", description: "max. 17 mm", simple_title: "Entry"}
+        ],
+
+        insulator: [   
+            {title: "Connector inserts", description: "Polyamide (PA6.6)"}
+        ],
+
+        contacts: [   
+            {title: "Contact material", description: "Copper-Zinc alloy (CuZn)"}, 
+            {title: "Contact plating", description: "Nickel (Ni) with gold (Au) passivated"}, 
+            {title: "Contact termination", description: "crimp type"}, 
+        ],
+
+        sealing: [   
+            {title: "Sealing rings", description: "Fluor rubber FKM"}
+        ],
+
+        temperature: [   
+            {title: "Temperature (long term) Celsius", description: "- 40 °C up to + 125°C"}, 
+            {title: "Temperature (long term) Fahrenheit", description: "- 40 °F up to + 257 °F"}, 
+        ],
+
+        mating: [   
+            {title: "Female coupling nuts", description: "M23 screw locking, or one click"}, 
+            {title: "Male receptacles", description: "M23 screw locking, or one click"},
+            {title: "Mating cycles", description: "Standard min. 50"}
+        ],
+
+        protection: [   
+            {title: "Protection class", description: "IP 67 (mated) depends on which cable gland is used"}
+        ]
+
+    },
+    {
+        name: "Color Connectors",
+        title: "Shielded Power/Signal Connectors M23 / one click Series PSF",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        category: 'connector',
+        mainImage: "/images/connectors/psf-blue-lg.jpg",
+        thumbnail: "/images/connectors/psf-blue.jpg",
+        pdf: "/pdf/M23-PRO-Series.pdf",
+        url: "/products/psf-connector",
+
+        shell_mat: [   
+            {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
+            {title: "Die-Cast components", description: "Zinc (GD-Zn)", simple_title: "Die-Cast"}, 
+            {title: "Shell plating", description: "Nickel (Ni) plated", simple_title: "Shell Plating"}, 
+            {title: "Cable entry", description: "max. 17 mm", simple_title: "Entry"}
+        ],
+
+        insulator: [   
+            {title: "Connector inserts", description: "Polyamide (PA6.6)"}
+        ],
+
+        contacts: [   
+            {title: "Contact material", description: "Copper-Zinc alloy (CuZn)"}, 
+            {title: "Contact plating", description: "Nickel (Ni) with gold (Au) passivated"}, 
+            {title: "Contact termination", description: "crimp type"}, 
+        ],
+
+        sealing: [   
+            {title: "Sealing rings", description: "Fluor rubber FKM"}
+        ],
+
+        temperature: [   
+            {title: "Temperature (long term) Celsius", description: "- 40 °C up to + 125°C"}, 
+            {title: "Temperature (long term) Fahrenheit", description: "- 40 °F up to + 257 °F"}, 
+        ],
+
+        mating: [   
+            {title: "Female coupling nuts", description: "M23 screw locking, or one click"}, 
+            {title: "Male receptacles", description: "M23 screw locking, or one click"},
+            {title: "Mating cycles", description: "Standard min. 50"}
+        ],
+
+        protection: [   
+            {title: "Protection class", description: "IP 67 (mated) depends on which cable gland is used"}
+        ]
+
+    },
+    {
+        name: "Color Connectors",
+        title: "Shielded Power/Signal Connectors M23 / one click Series PSF",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        category: 'connector',
+        mainImage: "/images/connectors/psf-blue-lg.jpg",
+        thumbnail: "/images/connectors/psf-blue.jpg",
+        pdf: "/pdf/M23-PRO-Series.pdf",
+        url: "/products/psf-connector",
+
+        shell_mat: [   
+            {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
+            {title: "Die-Cast components", description: "Zinc (GD-Zn)", simple_title: "Die-Cast"}, 
+            {title: "Shell plating", description: "Nickel (Ni) plated", simple_title: "Shell Plating"}, 
+            {title: "Cable entry", description: "max. 17 mm", simple_title: "Entry"}
+        ],
+
+        insulator: [   
+            {title: "Connector inserts", description: "Polyamide (PA6.6)"}
+        ],
+
+        contacts: [   
+            {title: "Contact material", description: "Copper-Zinc alloy (CuZn)"}, 
+            {title: "Contact plating", description: "Nickel (Ni) with gold (Au) passivated"}, 
+            {title: "Contact termination", description: "crimp type"}, 
+        ],
+
+        sealing: [   
+            {title: "Sealing rings", description: "Fluor rubber FKM"}
+        ],
+
+        temperature: [   
+            {title: "Temperature (long term) Celsius", description: "- 40 °C up to + 125°C"}, 
+            {title: "Temperature (long term) Fahrenheit", description: "- 40 °F up to + 257 °F"}, 
+        ],
+
+        mating: [   
+            {title: "Female coupling nuts", description: "M23 screw locking, or one click"}, 
+            {title: "Male receptacles", description: "M23 screw locking, or one click"},
+            {title: "Mating cycles", description: "Standard min. 50"}
+        ],
+
+        protection: [   
+            {title: "Protection class", description: "IP 67 (mated) depends on which cable gland is used"}
+        ]
+
+    }
 
 ];
 
@@ -1173,7 +1361,7 @@ export interface PageAndPDFLink {
 
 export let connectorsQuickData: QuickConnectorData[] = [
     {
-      connectorImage: "https://example.com/connector-1.jpg",
+      connectorImage: "static/images/catalog/ca-crimp.jpg",
       series: ["CA crimp", "CA crimp", "CA RC-Inserts", "CA RC-Inserts"],
       locking: ["Speedcon", "M23", "Speedcon", "M23"],
       positions: ["12/17", "12/17", "6-19", "6-19"],
@@ -1187,11 +1375,263 @@ export let connectorsQuickData: QuickConnectorData[] = [
       links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
     },
     {
-        connectorImage: "https://example.com/connector-1.jpg",
-        series: ["CA crimp", "CA crimp", "CA RC-Inserts", "CA RC-Inserts"],
-        locking: ["Speedcon", "M23", "Speedcon", "M23"],
-        positions: ["12/17", "12/17", "6-19", "6-19"],
-        voltAmpMax: ["150/8", "150/8", "300/20", "300/20"],
+        connectorImage: "static/images/catalog/hc-series.jpg",
+        series: ["HC"],
+        locking: ["M27"],
+        positions: ["26/28"],
+        voltAmpMax: ["150/8"],
+        cableDiameter: ["14.5mm", "14.5mm", "14.5mm", "14.5mm"],
+        awg: ["28-17", "28-17", "26-14", "26-14"],
+        contactsDiameter: ["1.0 mm", "1.0 mm", "1/1.5/2.0", "1/1.5/2.0"],
+        material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
+        shield: ["Yes", "Yes", "Yes", "Yes"],
+        ul: ["No", "No", "No", "No"],
+        links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
+    },
+    {
+        connectorImage: "static/images/catalog/rc-rm-series.jpg",
+        series: ["RC/RM"],
+        locking: ["M23"],
+        positions: ["6-19"],
+        voltAmpMax: ["250/20"],
+        cableDiameter: ["14.5mm", "14.5mm", "14.5mm", "14.5mm"],
+        awg: ["28-17", "28-17", "26-14", "26-14"],
+        contactsDiameter: ["1.0 mm", "1.0 mm", "1/1.5/2.0", "1/1.5/2.0"],
+        material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
+        shield: ["Yes", "Yes", "Yes", "Yes"],
+        ul: ["No", "No", "No", "No"],
+        links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
+      },
+      {
+        connectorImage: "static/images/catalog/rf-crimps.jpg",
+        series: ["RF Crimp", "RF Crimp"],
+        locking: ["Speedcon", "M23"],
+        positions: ["12/16/17", "12/16/17"],
+        voltAmpMax: ["150/8", "150/8"],
+        cableDiameter: ["14.5mm", "14.5mm", "14.5mm", "14.5mm"],
+        awg: ["28-17", "28-17", "26-14", "26-14"],
+        contactsDiameter: ["1.0 mm", "1.0 mm", "1/1.5/2.0", "1/1.5/2.0"],
+        material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
+        shield: ["Yes", "Yes", "Yes", "Yes"],
+        ul: ["No", "No", "No", "No"],
+        links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
+      },
+      {
+        connectorImage: "static/images/catalog/sf-power-series.jpg",
+        series: ["SF Crimp", "SF Crimp"],
+        locking: ["Speedcon", "M23"],
+        positions: ["6/8", "6/8"],
+        voltAmpMax: ["630/30", "630/30"],
+        cableDiameter: ["14.5mm", "14.5mm", "14.5mm", "14.5mm"],
+        awg: ["28-17", "28-17", "26-14", "26-14"],
+        contactsDiameter: ["1.0 mm", "1.0 mm", "1/1.5/2.0", "1/1.5/2.0"],
+        material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
+        shield: ["Yes", "Yes", "Yes", "Yes"],
+        ul: ["No", "No", "No", "No"],
+        links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
+      },
+      {
+        connectorImage: "static/images/catalog/sh-hybrid-series.jpg",
+        series: ["SH Hybrid", "SH Hybrid"],
+        locking: ["Speedcon", "M23"],
+        positions: ["4+4+4+PE", "4+4+4+PE"],
+        voltAmpMax: ["850/50", "850/50"],
+        cableDiameter: ["14.5mm", "14.5mm", "14.5mm", "14.5mm"],
+        awg: ["28-17", "28-17", "26-14", "26-14"],
+        contactsDiameter: ["1.0 mm", "1.0 mm", "1/1.5/2.0", "1/1.5/2.0"],
+        material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
+        shield: ["Yes", "Yes", "Yes", "Yes"],
+        ul: ["No", "No", "No", "No"],
+        links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
+      },
+      {
+        connectorImage: "static/images/catalog/sl-power-series.jpg",
+        series: ["SL Power"],
+        locking: ["M58"],
+        positions: ["6/8"],
+        voltAmpMax: ["630/150"],
+        cableDiameter: ["14.5mm", "14.5mm", "14.5mm", "14.5mm"],
+        awg: ["28-17", "28-17", "26-14", "26-14"],
+        contactsDiameter: ["1.0 mm", "1.0 mm", "1/1.5/2.0", "1/1.5/2.0"],
+        material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
+        shield: ["Yes", "Yes", "Yes", "Yes"],
+        ul: ["No", "No", "No", "No"],
+        links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
+      },
+      {
+        connectorImage: "static/images/catalog/sm-power-series.jpg",
+        series: ["SM power", "SM Power"],
+        locking: ["Speedcon", "M40"],
+        positions: ["6/8", "6/8"],
+        voltAmpMax: ["630/70","630/70"],
+        cableDiameter: ["14.5mm", "14.5mm", "14.5mm", "14.5mm"],
+        awg: ["28-17", "28-17", "26-14", "26-14"],
+        contactsDiameter: ["1.0 mm", "1.0 mm", "1/1.5/2.0", "1/1.5/2.0"],
+        material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
+        shield: ["Yes", "Yes", "Yes", "Yes"],
+        ul: ["No", "No", "No", "No"],
+        links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
+      },
+      {
+        connectorImage: "static/images/catalog/ssr-series.jpg",
+        series: ["SSR"],
+        locking: ["M23"],
+        positions: ["6-19"],
+        voltAmpMax: ["250/20"],
+        cableDiameter: ["14.5mm", "14.5mm", "14.5mm", "14.5mm"],
+        awg: ["28-17", "28-17", "26-14", "26-14"],
+        contactsDiameter: ["1.0 mm", "1.0 mm", "1/1.5/2.0", "1/1.5/2.0"],
+        material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
+        shield: ["Yes", "Yes", "Yes", "Yes"],
+        ul: ["No", "No", "No", "No"],
+        links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
+      },
+      {
+        connectorImage: "static/images/catalog/st-signal-power-series.jpg",
+        series: ["ST Signal", "ST Signal","ST Signal","ST Signal"],
+        locking: ["Speedcon", "M17","Speedcon", "M17"],
+        positions: ["8/17", "8/17","4/9", "4/9"],
+        voltAmpMax: ["60/3.6","60/3.6","630/14","630/14"],
+        cableDiameter: ["14.5mm", "14.5mm", "14.5mm", "14.5mm"],
+        awg: ["28-17", "28-17", "26-14", "26-14"],
+        contactsDiameter: ["1.0 mm", "1.0 mm", "1/1.5/2.0", "1/1.5/2.0"],
+        material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
+        shield: ["Yes", "Yes", "Yes", "Yes"],
+        ul: ["No", "No", "No", "No"],
+        links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
+      },
+      {
+        connectorImage: "static/images/catalog/tu-series.jpg",
+        series: ["TU"],
+        locking: ["Bayonet"],
+        positions: ["6-19"],
+        voltAmpMax: ["250/20"],
+        cableDiameter: ["14.5mm", "14.5mm", "14.5mm", "14.5mm"],
+        awg: ["28-17", "28-17", "26-14", "26-14"],
+        contactsDiameter: ["1.0 mm", "1.0 mm", "1/1.5/2.0", "1/1.5/2.0"],
+        material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
+        shield: ["Yes", "Yes", "Yes", "Yes"],
+        ul: ["No", "No", "No", "No"],
+        links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
+      },
+      {
+        connectorImage: "static/images/catalog/uc-series.jpg",
+        series: ["UC"],
+        locking: ["M23"],
+        positions: ["6-19"],
+        voltAmpMax: ["250/20"],
+        cableDiameter: ["14.5mm", "14.5mm", "14.5mm", "14.5mm"],
+        awg: ["28-17", "28-17", "26-14", "26-14"],
+        contactsDiameter: ["1.0 mm", "1.0 mm", "1/1.5/2.0", "1/1.5/2.0"],
+        material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
+        shield: ["Yes", "Yes", "Yes", "Yes"],
+        ul: ["No", "No", "No", "No"],
+        links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
+      },
+      {
+        connectorImage: "static/images/catalog/connector-inserts-for-rc-rf-solder-tu-uc-ssr-ca.jpg",
+        series: ["Connector Inserts for the Series RC, RF-solder, TU, UC, SSR, CA"],
+        locking: ["M23"],
+        positions: ["6-19"],
+        voltAmpMax: ["250/20"],
+        cableDiameter: ["14.5mm", "14.5mm", "14.5mm", "14.5mm"],
+        awg: ["28-17", "28-17", "26-14", "26-14"],
+        contactsDiameter: ["1.0 mm", "1.0 mm", "1/1.5/2.0", "1/1.5/2.0"],
+        material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
+        shield: ["Yes", "Yes", "Yes", "Yes"],
+        ul: ["No", "No", "No", "No"],
+        links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
+      },
+      {
+        connectorImage: "static/images/catalog/connector-inserts-for-hc,st,rf.jpg",
+        series: ["Connector Inserts for the Series HC, ST, RF"],
+        locking: ["M23"],
+        positions: ["6-19"],
+        voltAmpMax: ["250/20"],
+        cableDiameter: ["14.5mm", "14.5mm", "14.5mm", "14.5mm"],
+        awg: ["28-17", "28-17", "26-14", "26-14"],
+        contactsDiameter: ["1.0 mm", "1.0 mm", "1/1.5/2.0", "1/1.5/2.0"],
+        material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
+        shield: ["Yes", "Yes", "Yes", "Yes"],
+        ul: ["No", "No", "No", "No"],
+        links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
+      },
+      {
+        connectorImage: "static/images/catalog/crimp-tools.jpg",
+        series: ["Crimp Tools"],
+        locking: ["M23"],
+        positions: ["6-19"],
+        voltAmpMax: ["250/20"],
+        cableDiameter: ["14.5mm", "14.5mm", "14.5mm", "14.5mm"],
+        awg: ["28-17", "28-17", "26-14", "26-14"],
+        contactsDiameter: ["1.0 mm", "1.0 mm", "1/1.5/2.0", "1/1.5/2.0"],
+        material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
+        shield: ["Yes", "Yes", "Yes", "Yes"],
+        ul: ["No", "No", "No", "No"],
+        links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
+      },
+      {
+        connectorImage: "static/images/catalog/crimp-contacts.jpg",
+        series: ["Crimp Contacts"],
+        locking: ["M23"],
+        positions: ["6-19"],
+        voltAmpMax: ["250/20"],
+        cableDiameter: ["14.5mm", "14.5mm", "14.5mm", "14.5mm"],
+        awg: ["28-17", "28-17", "26-14", "26-14"],
+        contactsDiameter: ["1.0 mm", "1.0 mm", "1/1.5/2.0", "1/1.5/2.0"],
+        material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
+        shield: ["Yes", "Yes", "Yes", "Yes"],
+        ul: ["No", "No", "No", "No"],
+        links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
+      },
+      {
+        connectorImage: "static/images/catalog/assembly-instructions.jpg",
+        series: ["Assembly Instructions"],
+        locking: ["M23"],
+        positions: ["6-19"],
+        voltAmpMax: ["250/20"],
+        cableDiameter: ["14.5mm", "14.5mm", "14.5mm", "14.5mm"],
+        awg: ["28-17", "28-17", "26-14", "26-14"],
+        contactsDiameter: ["1.0 mm", "1.0 mm", "1/1.5/2.0", "1/1.5/2.0"],
+        material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
+        shield: ["Yes", "Yes", "Yes", "Yes"],
+        ul: ["No", "No", "No", "No"],
+        links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
+      },
+      {
+        connectorImage: "static/images/catalog/mounting-tools.jpg",
+        series: ["Mounting Tools"],
+        locking: ["M23"],
+        positions: ["6-19"],
+        voltAmpMax: ["250/20"],
+        cableDiameter: ["14.5mm", "14.5mm", "14.5mm", "14.5mm"],
+        awg: ["28-17", "28-17", "26-14", "26-14"],
+        contactsDiameter: ["1.0 mm", "1.0 mm", "1/1.5/2.0", "1/1.5/2.0"],
+        material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
+        shield: ["Yes", "Yes", "Yes", "Yes"],
+        ul: ["No", "No", "No", "No"],
+        links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
+      },
+      {
+        connectorImage: "static/images/catalog/layouts-pin-configurations.jpg",
+        series: ["Layouts (Pin Configurations)"],
+        locking: ["M23"],
+        positions: ["6-19"],
+        voltAmpMax: ["250/20"],
+        cableDiameter: ["14.5mm", "14.5mm", "14.5mm", "14.5mm"],
+        awg: ["28-17", "28-17", "26-14", "26-14"],
+        contactsDiameter: ["1.0 mm", "1.0 mm", "1/1.5/2.0", "1/1.5/2.0"],
+        material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
+        shield: ["Yes", "Yes", "Yes", "Yes"],
+        ul: ["No", "No", "No", "No"],
+        links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
+      },
+      {
+        connectorImage: "static/images/catalog/caps-and-accessories.jpg",
+        series: ["Caps and Accessories"],
+        locking: ["M23"],
+        positions: ["6-19"],
+        voltAmpMax: ["250/20"],
         cableDiameter: ["14.5mm", "14.5mm", "14.5mm", "14.5mm"],
         awg: ["28-17", "28-17", "26-14", "26-14"],
         contactsDiameter: ["1.0 mm", "1.0 mm", "1/1.5/2.0", "1/1.5/2.0"],
@@ -1200,5 +1640,5 @@ export let connectorsQuickData: QuickConnectorData[] = [
         ul: ["No", "No", "No", "No"],
         links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
       }
- 
+
   ];
