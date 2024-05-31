@@ -15,10 +15,6 @@
                     <BookSolid/>Products
                 </div>
 
-                <div class="flex items-center gap-2">      
-                    <QuestionCircleSolid/>Guides
-                </div>
-
                 <div class="flex items-center gap-2">     
                     <UsersGroupSolid/>About Us
                 </div>
@@ -70,7 +66,7 @@
             </div>
         </div>
 
-        <div class="">    
+        <div class="mt-10 md:mt-0">    
             <div class="text-lg font-semibold uppercase mb-4">    
                 <div class="flex items-center gap-2">  
                     Operation
@@ -84,8 +80,6 @@
                     Eastern Time<br>
             </div>
         </div>
-
-
     </div>
 </div>
 

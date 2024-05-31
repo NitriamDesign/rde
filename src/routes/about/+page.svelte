@@ -52,7 +52,7 @@
 	</div>
 </div>
 
-<div class="sm:m-auto sm:max-w-7xl w-[95%] m-4 bg-gray-50 p-10 flex flex-col gap-10 shadow-xl rounded-xl">
+<div class="sm:m-auto sm:max-w-7xl w-[95%] m-4 bg-gray-50 p-10 flex flex-col gap-10 shadow-xl rounded-xl border-2">
 	<div class="rounded dark:text-white text-center">
 		<span class="text-xl font-semibold text-primary-500 uppercase italic font-sans">
 			{image.alt}

@@ -1,10 +1,11 @@
 <script lang="ts">
-    import { Button, Dropdown, DropdownItem } from "flowbite-svelte";
+    import { Button, Dropdown, DropdownItem, Heading, Span } from "flowbite-svelte";
     import ProductBase from '$lib/product-page/ProductBase.svelte'
     import { products, type Product } from "$lib/data";
     import { page } from '$app/stores';
     import { ChevronRightOutline } from 'flowbite-svelte-icons';
     import { writable } from 'svelte/store';
+	import { goto } from "$app/navigation";
 
     const sortOptions = ["Name", "Title", "Category"];
     let selectedSortOption = writable("Name");
@@ -27,7 +28,12 @@
     }
 </script>
 
-<div class="max-w-6xl m-auto mt-20 px-4 xl:p-0">
+
+<Heading tag="h2" class="max-w-6xl m-auto flex items-center md:mt-12 mt-10 w-[95%] md:w-full" customSize="text-3xl font-extrabold  md:text-4xl lg:text-4xl">
+    <Span gradient gradientClass="text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-secondary2-700">Explore All Products</Span>
+</Heading>
+
+<div class="max-w-6xl m-auto mt-10 px-4 xl:p-0">
     <Button color="alternative">
         Sort By: {$selectedSortOption}
     </Button>
@@ -44,9 +50,12 @@
 <div class="max-w-6xl m-auto mt-10 px-4 xl:p-0">
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
         {#each $sortedProducts as product, index}
-            <div class="p-4 shadow-xl flex flex-col justify-between">
+            <div class="p-4 shadow-xl flex flex-col justify-between hover:scale-[101%] transition border-[1px] rounded">
                 <div>
-                    <img src={product.mainImage} alt={product.name}>
+                    <a href={product.url} class="cursor-pointer">
+                        <img src={product.mainImage} alt={product.name} class="hover:opacity-90">
+                    </a>
+
                     <div class="text-m-primary font-semibold mt-2">{product.name}</div>
                     <div class="font-thin mt-2 text-sm">{product.description.slice(0,100)}...</div>
                 </div>
