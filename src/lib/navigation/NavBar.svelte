@@ -119,7 +119,7 @@
 
     <NavUl>
         <NavLi id="products-menu" class="font-semibold text-lg cursor-pointer items-center gap-2 flex md:hidden" href="/products">Products</NavLi>
-        <NavLi id="products-menu" class="font-semibold text-lg cursor-pointer items-center gap-2 hidden md:flex" on:click={toggleMegaMenu}>Products <ChevronDoubleDownOutline size="sm"/></NavLi>
+        <NavLi id="products-menu" class="font-semibold text-lg cursor-pointer items-center gap-2 hidden md:flex" on:click={toggleMegaMenu}>Main Menu <ChevronDoubleDownOutline size="sm"/></NavLi>
         <NavLi class="font-semibold text-lg" href="/about">About</NavLi>
         <NavLi class="font-semibold text-lg" href="/contact">Contact</NavLi>
 
