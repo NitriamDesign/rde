@@ -1,7 +1,8 @@
 <script lang="ts">
 import type { QuickConnectorData } from '$lib/data';
 
-export let connectorsQuickData: QuickConnectorData[] = [];
+export let data: QuickConnectorData[] = [];
+
 export let titles: string[] = [];
 
 </script>
@@ -19,12 +20,12 @@ export let titles: string[] = [];
                 </tr>
             </thead>
             <tbody class="text-sm divide-y divide-gray-100">
-                {#each connectorsQuickData as connector}
+                {#each data as connector}
                 <tr>
                     <td class="p-2 whitespace-nowrap">
-                      <div class="flex items-center border-b border-dotted border-gray-500">
-                          <div class="w-10 h-10 flex-shrink-0 mr-2 sm:mr-3">
-                            <img class="rounded-full" src={connector.connectorImage} width="40" height="40" alt="">
+                      <div class="flex items-center">
+                          <div class="w-[150px]  flex-shrink-0 mr-2 sm:mr-3">
+                            <img class="rounded-full" src={connector.connectorImage} alt="">
                           </div>
                       </div>
                     </td>
