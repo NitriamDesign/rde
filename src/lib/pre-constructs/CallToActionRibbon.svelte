@@ -8,7 +8,7 @@
 
 <style>
   .bg-ribbon {
-      background-image: radial-gradient(circle 50vw at 30% center, #FFD705 10%, #33A34D 90%);
+      background-image: radial-gradient(circle 50vw at 30% center, #FFFD50 10%, #33A34D 90%);
   }
 </style>
 
