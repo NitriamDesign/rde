@@ -14,25 +14,20 @@
     let searchError = false;
 
     const routes = [
-        { name: 'About us', href: '/about' },
+        { name: 'Full Catalog', href: '/full-line-catalog' },
         { name: 'All Accessories', href: '/all-accessories' },
         { name: 'All Couplers', href: '/all-couplers' },
         { name: 'Assembly Instructions', href: '/assembly-instructions' },
         { name: 'Cables Data Power', href: '/cables-data-power' },
-        { name: 'Catalog', href: '/full-line-catalog' },
         { name: 'Certification', href: '/certification' },
         { name: 'Connector Accessories', href: '/connector-accessories' },
         { name: 'Connector Inserts', href: '/connector-inserts' },
-        { name: 'Contact', href: '/contact' },
         { name: 'Cordsets and Assemblies', href: '/cordsets-and-assemblies' },
         { name: 'Crimp Tools', href: '/crimp-tools' },
         { name: 'DIN Connectors', href: '/din-connectors' },
         { name: 'Formulas and Comparisons', href: '/formulas-and-comparisons' },
-        { name: 'Legal Information', href: '/legal-information' },
         { name: 'Mounting Tools', href: '/mounting-tools' },
         { name: 'PCB Layouts', href: '/pcb-layouts' },
-        { name: 'Products', href: '/products' },
-        { name: 'Terms & Conditions', href: '/terms-and-conditions' },
         { name: 'WCS Industrial Marine Series', href: '/wcs-industrial-marine-series' }
     ];
 

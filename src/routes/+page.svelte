@@ -2,13 +2,14 @@
     import ProductCategories from "$lib/homepage/products/ProductCategories.svelte";
     import TopHero from "$lib/homepage/TopHero.svelte";
     import CallToActionRibbon from "$lib/pre-constructs/CallToActionRibbon.svelte";
-    import { Img } from 'flowbite-svelte';
+    import { Button, Img } from 'flowbite-svelte';
     import { Heading, P, Span, List, Li } from 'flowbite-svelte';
     import AboutUs from "$lib/pre-constructs/AboutUs.svelte";
     import { Carousel } from 'flowbite-svelte';
     import {CheckCircleSolid} from "flowbite-svelte-icons";
 
     const images = [
+    { src: '/images/connector-image-39-40.jpg', alt: ' Custom Over-Mold Load Sensor for Calibration Test and Measurement' },
     { src: '/images/hdmi-usb.jpg', alt: 'HDMI and USB Marine & Industrial Feed-Through Connectors' },
     { src: '/images/blood-warmer-harness.jpg', alt: 'Fluid Warmer Harness' },
     { src: '/images/motors-drivers-and-encoder-applications.jpg', alt: 'Motors, Drives, and Encoder Applications' },
@@ -28,7 +29,7 @@
 
 </script>
 
-<TopHero/>
+<TopHero />
 
 <div class="max-w-7xl m-auto mt-20 p-4 md:flex justify-center gap-10">
 
@@ -52,7 +53,32 @@
 </div>
 
 
+
+
 <ProductCategories/>
+
+<div class="max-w-7xl m-auto mt-20 p-4 md:flex justify-center gap-10">
+  
+  <div class="w-2/3">
+      <Heading color='text-primary-500' tag="h1" class="mb-4 mt-4 md:mt-0 primary-500" customSize="font-extrabold  text-4xl lg:text-5xl">
+        Find the Right Connector Solution for Your Application
+      </Heading>
+  
+      <P class="mt-5 lg:pr-20  text-gray-600 text-lg md:text-xl">
+        We offer a diverse range of M-series connectors designed to meet various needs, 
+        from high-performance signal connectors to heavy-duty power connectors. 
+        Our M23/RC Series provides customizable options, while the stainless steel 
+        M23/SSR Series is ideal for caustic and marine environments. 
+      </P>
+      
+      <Button class="bg-m-primary mt-5" href="/full-line-catalog" size="xl">VIEW OUR FULL CATALOG</Button>
+    </div>
+
+  <div class="1/3">
+  <Img class="" size="md:w-[450px]" src="/images/m17-m58.jpg" alt=""/>
+  </div>
+</div>
+
 <CallToActionRibbon bgImageUrl = '/images/connectors/rc-bulk-yellow-grade-lg.jpg'/>
 
 <div class="max-w-7xl m-auto mt-30 p-4 gap-10 flex flex-col sm:flex-row">
