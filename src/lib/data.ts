@@ -567,8 +567,8 @@ export const products: Product[] = [
         category: 'connector',
         mainImage: "/images/connectors/uc-blue-lg.jpg",
         thumbnail: "/images/connectors/uc-blue.jpg",
-        pdf: "/pdf/ST-series.pdf",
-        url: "/products/st-connector",
+        pdf: "/pdf/UC-series.pdf",
+        url: "/products/uc-connector",
        
         shell_mat: [   
                     {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
@@ -705,13 +705,13 @@ export const products: Product[] = [
     },
     {
         name: "Adaptors Compressed",
-        title: "Shielded Power/Signal Connectors M23 / one click Series PSF",
+        title: "",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
-        mainImage: "/images/connectors/psf-blue-lg.jpg",
-        thumbnail: "/images/connectors/psf-blue.jpg",
-        pdf: "/pdf/M23-PRO-Series.pdf",
-        url: "/products/psf-connector",
+        mainImage: "/images/connectors/adaptors-compressed-blue-lg.jpg",
+        thumbnail: "/images/connectors/adaptors-compressed-blue.jpg",
+        pdf: "/pdf/",
+        url: "/products/adaptors-compressed",
 
         shell_mat: [   
             {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
@@ -752,13 +752,13 @@ export const products: Product[] = [
     },
     {
         name: "Cable Assemblies",
-        title: "Shielded Power/Signal Connectors M23 / one click Series PSF",
+        title: "",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
-        mainImage: "/images/connectors/psf-blue-lg.jpg",
-        thumbnail: "/images/connectors/psf-blue.jpg",
-        pdf: "/pdf/M23-PRO-Series.pdf",
-        url: "/products/psf-connector",
+        mainImage: "/images/connectors/cable-assemblies-blue-lg.jpg",
+        thumbnail: "/images/connectors/cable-assemblies-blue.jpg",
+        pdf: "/pdf/",
+        url: "/products/cable-assemblies",
 
         shell_mat: [   
             {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
@@ -799,13 +799,13 @@ export const products: Product[] = [
     },
     {
         name: "HC Solder Crimp",
-        title: "Shielded Power/Signal Connectors M23 / one click Series PSF",
+        title: "",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
-        mainImage: "/images/connectors/psf-blue-lg.jpg",
-        thumbnail: "/images/connectors/psf-blue.jpg",
-        pdf: "/pdf/M23-PRO-Series.pdf",
-        url: "/products/psf-connector",
+        mainImage: "/images/connectors/hc-solder-crimp-blue-lg.jpg",
+        thumbnail: "/images/connectors/hc-solder-crimp-blue.jpg",
+        pdf: "/pdf/",
+        url: "/products/HC-Solder-Crimp",
 
         shell_mat: [   
             {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
@@ -846,13 +846,13 @@ export const products: Product[] = [
     },
     {
         name: "PC-SF",
-        title: "Shielded Power/Signal Connectors M23 / one click Series PSF",
+        title: "",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
-        mainImage: "/images/connectors/psf-blue-lg.jpg",
+        mainImage: "/images/connectors/pc-sf-blue-lg.jpg",
         thumbnail: "/images/connectors/psf-blue.jpg",
         pdf: "/pdf/M23-PRO-Series.pdf",
-        url: "/products/psf-connector",
+        url: "/products/PC-SF",
 
         shell_mat: [   
             {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
@@ -893,13 +893,13 @@ export const products: Product[] = [
     },
     {
         name: "RC Cable Connectors",
-        title: "Shielded Power/Signal Connectors M23 / one click Series PSF",
+        title: "",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
-        mainImage: "/images/connectors/psf-blue-lg.jpg",
-        thumbnail: "/images/connectors/psf-blue.jpg",
-        pdf: "/pdf/M23-PRO-Series.pdf",
-        url: "/products/psf-connector",
+        mainImage: "/images/connectors/rc-cable-blue-lg.jpg",
+        thumbnail: "/images/connectors/rc-cable-blue.jpg",
+        pdf: "/pdf/",
+        url: "/products/RC-Cable-Connectors",
 
         shell_mat: [   
             {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
@@ -943,10 +943,10 @@ export const products: Product[] = [
         title: "Shielded Power/Signal Connectors M23 / one click Series PSF",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
-        mainImage: "/images/connectors/psf-blue-lg.jpg",
-        thumbnail: "/images/connectors/psf-blue.jpg",
-        pdf: "/pdf/M23-PRO-Series.pdf",
-        url: "/products/psf-connector",
+        mainImage: "/images/connectors/rc-bulk-blue-lg.jpg",
+        thumbnail: "/images/connectors/rc-bulk-blue.jpg",
+        pdf: "/pdf/",
+        url: "/products/RC-bulkhead",
 
         shell_mat: [   
             {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
@@ -987,13 +987,13 @@ export const products: Product[] = [
     },
     {
         name: "SS Stainless",
-        title: "Shielded Power/Signal Connectors M23 / one click Series PSF",
+        title: "",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
-        mainImage: "/images/connectors/psf-blue-lg.jpg",
-        thumbnail: "/images/connectors/psf-blue.jpg",
-        pdf: "/pdf/M23-PRO-Series.pdf",
-        url: "/products/psf-connector",
+        mainImage: "/images/connectors/ss-stainless-blue-lg.jpg",
+        thumbnail: "/images/connectors/ss-stainless-blue.jpg",
+        pdf: "/pdf/",
+        url: "/products/SS-Stainless",
 
         shell_mat: [   
             {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
@@ -1037,10 +1037,10 @@ export const products: Product[] = [
         title: "Shielded Power/Signal Connectors M23 / one click Series PSF",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
-        mainImage: "/images/connectors/psf-blue-lg.jpg",
-        thumbnail: "/images/connectors/psf-blue.jpg",
-        pdf: "/pdf/M23-PRO-Series.pdf",
-        url: "/products/psf-connector",
+        mainImage: "/images/connectors/ca-crimp-blue-lg.jpg",
+        thumbnail: "/images/connectors/ca-crimp-blue.jpg",
+        pdf: "/pdf/",
+        url: "/products/CA-Series-Crimp-Version",
 
         shell_mat: [   
             {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
@@ -1081,13 +1081,13 @@ export const products: Product[] = [
     },
     {
         name: "Colored Connectors",
-        title: "Shielded Power/Signal Connectors M23 / one click Series PSF",
+        title: "",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
-        mainImage: "/images/connectors/psf-blue-lg.jpg",
-        thumbnail: "/images/connectors/psf-blue.jpg",
-        pdf: "/pdf/M23-PRO-Series.pdf",
-        url: "/products/psf-connector",
+        mainImage: "/images/connectors/colored-connectors-blue-lg.jpg",
+        thumbnail: "/images/connectors/colored-connectors-blue.jpg",
+        pdf: "/pdf/",
+        url: "/products/Colored-Connectors",
 
         shell_mat: [   
             {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
@@ -1128,13 +1128,13 @@ export const products: Product[] = [
     },
     {
         name: "Molding Samples",
-        title: "Shielded Power/Signal Connectors M23 / one click Series PSF",
+        title: "",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
-        mainImage: "/images/connectors/psf-blue-lg.jpg",
-        thumbnail: "/images/connectors/psf-blue.jpg",
-        pdf: "/pdf/M23-PRO-Series.pdf",
-        url: "/products/psf-connector",
+        mainImage: "/images/connectors/molding-samples-blue-lg.jpg",
+        thumbnail: "/images/connectors/molding-samples-blue.jpg",
+        pdf: "/pdf/",
+        url: "/products/Molding-Samples",
 
         shell_mat: [   
             {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
@@ -1175,13 +1175,13 @@ export const products: Product[] = [
     },
     {
         name: "HC Series",
-        title: "Shielded Power/Signal Connectors M23 / one click Series PSF",
+        title: "",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
-        mainImage: "/images/connectors/psf-blue-lg.jpg",
-        thumbnail: "/images/connectors/psf-blue.jpg",
-        pdf: "/pdf/M23-PRO-Series.pdf",
-        url: "/products/psf-connector",
+        mainImage: "/images/connectors/hc-blue-lg.jpg",
+        thumbnail: "/images/connectors/hc-blue.jpg",
+        pdf: "/pdf/",
+        url: "/products/HC-Series-Connector",
 
         shell_mat: [   
             {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
@@ -1221,61 +1221,14 @@ export const products: Product[] = [
 
     },
     {
-        name: "Color Connectors",
-        title: "Shielded Power/Signal Connectors M23 / one click Series PSF",
+        name: "SAMPLE",
+        title: "SAMPLE LAYOUT",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         category: 'connector',
-        mainImage: "/images/connectors/psf-blue-lg.jpg",
-        thumbnail: "/images/connectors/psf-blue.jpg",
-        pdf: "/pdf/M23-PRO-Series.pdf",
-        url: "/products/psf-connector",
-
-        shell_mat: [   
-            {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
-            {title: "Die-Cast components", description: "Zinc (GD-Zn)", simple_title: "Die-Cast"}, 
-            {title: "Shell plating", description: "Nickel (Ni) plated", simple_title: "Shell Plating"}, 
-            {title: "Cable entry", description: "max. 17 mm", simple_title: "Entry"}
-        ],
-
-        insulator: [   
-            {title: "Connector inserts", description: "Polyamide (PA6.6)"}
-        ],
-
-        contacts: [   
-            {title: "Contact material", description: "Copper-Zinc alloy (CuZn)"}, 
-            {title: "Contact plating", description: "Nickel (Ni) with gold (Au) passivated"}, 
-            {title: "Contact termination", description: "crimp type"}, 
-        ],
-
-        sealing: [   
-            {title: "Sealing rings", description: "Fluor rubber FKM"}
-        ],
-
-        temperature: [   
-            {title: "Temperature (long term) Celsius", description: "- 40 °C up to + 125°C"}, 
-            {title: "Temperature (long term) Fahrenheit", description: "- 40 °F up to + 257 °F"}, 
-        ],
-
-        mating: [   
-            {title: "Female coupling nuts", description: "M23 screw locking, or one click"}, 
-            {title: "Male receptacles", description: "M23 screw locking, or one click"},
-            {title: "Mating cycles", description: "Standard min. 50"}
-        ],
-
-        protection: [   
-            {title: "Protection class", description: "IP 67 (mated) depends on which cable gland is used"}
-        ]
-
-    },
-    {
-        name: "Color Connectors",
-        title: "Shielded Power/Signal Connectors M23 / one click Series PSF",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        category: 'connector',
-        mainImage: "/images/connectors/psf-blue-lg.jpg",
-        thumbnail: "/images/connectors/psf-blue.jpg",
-        pdf: "/pdf/M23-PRO-Series.pdf",
-        url: "/products/psf-connector",
+        mainImage: "/images/connectors/SAMPLE-blue-lg.jpg",
+        thumbnail: "/images/connectors/SAMPLE-blue.jpg",
+        pdf: "/pdf/SAMPLE.pdf",
+        url: "/products/SAMPLE-connector",
 
         shell_mat: [   
             {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
@@ -1361,25 +1314,11 @@ export interface PageAndPDFLink {
 
 export let connectorsQuickData: QuickConnectorData[] = [
     {
-      connectorImage: "static/images/catalog/ca-crimp.jpg",
-      series: ["CA crimp", "CA crimp", "CA RC-Inserts", "CA RC-Inserts"],
-      locking: ["Speedcon", "M23", "Speedcon", "M23"],
-      positions: ["12/17", "12/17", "6-19", "6-19"],
-      voltAmpMax: ["150/8", "150/8", "300/20", "300/20"],
-      cableDiameter: ["14.5mm", "14.5mm", "14.5mm", "14.5mm"],
-      awg: ["28-17", "28-17", "26-14", "26-14"],
-      contactsDiameter: ["1.0 mm", "1.0 mm", "1/1.5/2.0", "1/1.5/2.0"],
-      material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
-      shield: ["Yes", "Yes", "Yes", "Yes"],
-      ul: ["No", "No", "No", "No"],
-      links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
-    },
-    {
-        connectorImage: "static/images/catalog/hc-series.jpg",
-        series: ["HC"],
-        locking: ["M27"],
-        positions: ["26/28"],
-        voltAmpMax: ["150/8"],
+        connectorImage: "static/images/catalog/ca-crimp.jpg",
+        series: ["CA crimp", "CA crimp", "CA RC-Inserts", "CA RC-Inserts"],
+        locking: ["Speedcon", "M23", "Speedcon", "M23"],
+        positions: ["12/17", "12/17", "6-19", "6-19"],
+        voltAmpMax: ["150/8", "150/8", "300/20", "300/20"],
         cableDiameter: ["14.5mm", "14.5mm", "14.5mm", "14.5mm"],
         awg: ["28-17", "28-17", "26-14", "26-14"],
         contactsDiameter: ["1.0 mm", "1.0 mm", "1/1.5/2.0", "1/1.5/2.0"],
@@ -1389,7 +1328,21 @@ export let connectorsQuickData: QuickConnectorData[] = [
         links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
     },
     {
-        connectorImage: "static/images/catalog/rc-rm-series.jpg",
+        connectorImage: "/images/catalog/hc-series.jpg",
+        series: ["HC"],
+        locking: ["M27"],
+        positions: ["26/28"],
+        voltAmpMax: ["150/8"],
+        cableDiameter: ["max.18"],
+        awg: ["28-17"],
+        contactsDiameter: ["2.0/3.6"],
+        material: ["Brass", "Zinc", "Nickel"],
+        shield: ["Yes", "Yes", "Yes", "Yes"],
+        ul: ["No", "No", "No", "No"],
+        links: [{pageUrl: '/products/HC-Series-Connector', pdfRef: 'C-P-01...C-P-11'}]
+    },
+    {
+        connectorImage: "/images/catalog/rc-rm-series.jpg",
         series: ["RC/RM"],
         locking: ["M23"],
         positions: ["6-19"],
@@ -1403,7 +1356,7 @@ export let connectorsQuickData: QuickConnectorData[] = [
         links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
       },
       {
-        connectorImage: "static/images/catalog/rf-crimps.jpg",
+        connectorImage: "/images/catalog/rf-crimps.jpg",
         series: ["RF Crimp", "RF Crimp"],
         locking: ["Speedcon", "M23"],
         positions: ["12/16/17", "12/16/17"],
@@ -1417,7 +1370,7 @@ export let connectorsQuickData: QuickConnectorData[] = [
         links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
       },
       {
-        connectorImage: "static/images/catalog/sf-power-series.jpg",
+        connectorImage: "/images/catalog/sf-power-series.jpg",
         series: ["SF Crimp", "SF Crimp"],
         locking: ["Speedcon", "M23"],
         positions: ["6/8", "6/8"],
@@ -1431,7 +1384,7 @@ export let connectorsQuickData: QuickConnectorData[] = [
         links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
       },
       {
-        connectorImage: "static/images/catalog/sh-hybrid-series.jpg",
+        connectorImage: "/images/catalog/sh-hybrid-series.jpg",
         series: ["SH Hybrid", "SH Hybrid"],
         locking: ["Speedcon", "M23"],
         positions: ["4+4+4+PE", "4+4+4+PE"],
@@ -1445,7 +1398,7 @@ export let connectorsQuickData: QuickConnectorData[] = [
         links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
       },
       {
-        connectorImage: "static/images/catalog/sl-power-series.jpg",
+        connectorImage: "/images/catalog/sl-power-series.jpg",
         series: ["SL Power"],
         locking: ["M58"],
         positions: ["6/8"],
@@ -1459,7 +1412,7 @@ export let connectorsQuickData: QuickConnectorData[] = [
         links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
       },
       {
-        connectorImage: "static/images/catalog/sm-power-series.jpg",
+        connectorImage: "/images/catalog/sm-power-series.jpg",
         series: ["SM power", "SM Power"],
         locking: ["Speedcon", "M40"],
         positions: ["6/8", "6/8"],
@@ -1473,7 +1426,7 @@ export let connectorsQuickData: QuickConnectorData[] = [
         links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
       },
       {
-        connectorImage: "static/images/catalog/ssr-series.jpg",
+        connectorImage: "/images/catalog/ssr-series.jpg",
         series: ["SSR"],
         locking: ["M23"],
         positions: ["6-19"],
@@ -1487,7 +1440,7 @@ export let connectorsQuickData: QuickConnectorData[] = [
         links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
       },
       {
-        connectorImage: "static/images/catalog/st-signal-power-series.jpg",
+        connectorImage: "/images/catalog/st-signal-power-series.jpg",
         series: ["ST Signal", "ST Signal","ST Signal","ST Signal"],
         locking: ["Speedcon", "M17","Speedcon", "M17"],
         positions: ["8/17", "8/17","4/9", "4/9"],
@@ -1501,7 +1454,7 @@ export let connectorsQuickData: QuickConnectorData[] = [
         links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
       },
       {
-        connectorImage: "static/images/catalog/tu-series.jpg",
+        connectorImage: "/images/catalog/tu-series.jpg",
         series: ["TU"],
         locking: ["Bayonet"],
         positions: ["6-19"],
@@ -1515,7 +1468,7 @@ export let connectorsQuickData: QuickConnectorData[] = [
         links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
       },
       {
-        connectorImage: "static/images/catalog/uc-series.jpg",
+        connectorImage: "/images/catalog/uc-series.jpg",
         series: ["UC"],
         locking: ["M23"],
         positions: ["6-19"],
@@ -1529,7 +1482,7 @@ export let connectorsQuickData: QuickConnectorData[] = [
         links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
       },
       {
-        connectorImage: "static/images/catalog/connector-inserts-for-rc-rf-solder-tu-uc-ssr-ca.jpg",
+        connectorImage: "/images/catalog/connector-inserts-for-rc-rf-solder-tu-uc-ssr-ca.jpg",
         series: ["Connector Inserts for the Series RC, RF-solder, TU, UC, SSR, CA"],
         locking: ["M23"],
         positions: ["6-19"],
@@ -1543,7 +1496,7 @@ export let connectorsQuickData: QuickConnectorData[] = [
         links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
       },
       {
-        connectorImage: "static/images/catalog/connector-inserts-for-hc,st,rf.jpg",
+        connectorImage: "/images/catalog/connector-inserts-for-hc,st,rf.jpg",
         series: ["Connector Inserts for the Series HC, ST, RF"],
         locking: ["M23"],
         positions: ["6-19"],
@@ -1557,7 +1510,7 @@ export let connectorsQuickData: QuickConnectorData[] = [
         links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
       },
       {
-        connectorImage: "static/images/catalog/crimp-tools.jpg",
+        connectorImage: "/images/catalog/crimp-tools.jpg",
         series: ["Crimp Tools"],
         locking: ["M23"],
         positions: ["6-19"],
