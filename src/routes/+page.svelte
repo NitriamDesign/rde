@@ -57,7 +57,7 @@
 
 <ProductCategories/>
 
-<div class="max-w-7xl m-auto mt-20 p-4 md:flex justify-center gap-10">
+<div class="max-w-7xl m-auto mt-20 p-4 md:flex justify-center gap-0">
   
   <div class="w-2/3">
       <Heading color='text-primary-500' tag="h1" class="mb-4 mt-4 md:mt-0 primary-500" customSize="font-extrabold  text-4xl lg:text-5xl">
@@ -75,7 +75,7 @@
     </div>
 
   <div class="1/3">
-  <Img class="" size="md:w-[450px]" src="/images/m17-m58-m5-m12.png" alt=""/>
+  <Img class="" size="md:w-[600px]" src="/images/m17-m58-m5-m12.png" alt=""/>
   </div>
 </div>
 

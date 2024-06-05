@@ -1245,8 +1245,13 @@ export let connectorsQuickData: QuickConnectorData[] = [
         shield: ["Yes"],
         ul: ["No"],
         links: [{pageUrl: '/products/UC-Series', pdfRef: 'C-G-00'}]
-      },
-      {
+      }
+
+  ];
+
+
+export let othersQuickData: QuickConnectorData[] = [
+    {
         connectorImage: "/images/catalog/connector-inserts-for-rc-rf-solder-tu-uc-ssr-ca.jpg",
         series: ["Connector Inserts for the Series RC, RF-solder, TU, UC, SSR, CA"],
         locking: ["M23"],
@@ -1261,7 +1266,7 @@ export let connectorsQuickData: QuickConnectorData[] = [
         links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
       },
       {
-        connectorImage: "/images/catalog/connector-inserts-for-hc,st,rf.jpg",
+        connectorImage: "/images/catalog/connector-inserts-for-hc-st-rf.jpg",
         series: ["Connector Inserts for the Series HC, ST, RF"],
         locking: ["M23"],
         positions: ["6-19"],
@@ -1359,4 +1364,4 @@ export let connectorsQuickData: QuickConnectorData[] = [
         links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
       }
 
-  ];
+];
