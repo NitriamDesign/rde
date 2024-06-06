@@ -704,53 +704,6 @@ export const products: Product[] = [
 
     },
     {
-        name: "Adaptors Compressed",
-        title: "",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        category: 'connector',
-        mainImage: "/images/connectors/adaptors-compressed-blue-lg.jpg",
-        thumbnail: "/images/connectors/adaptors-compressed-blue.jpg",
-        pdf: "/pdf/",
-        url: "/products/adaptors-compressed",
-
-        shell_mat: [   
-            {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
-            {title: "Die-Cast components", description: "Zinc (GD-Zn)", simple_title: "Die-Cast"}, 
-            {title: "Shell plating", description: "Nickel (Ni) plated", simple_title: "Shell Plating"}, 
-            {title: "Cable entry", description: "max. 17 mm", simple_title: "Entry"}
-        ],
-
-        insulator: [   
-            {title: "Connector inserts", description: "Polyamide (PA6.6)"}
-        ],
-
-        contacts: [   
-            {title: "Contact material", description: "Copper-Zinc alloy (CuZn)"}, 
-            {title: "Contact plating", description: "Nickel (Ni) with gold (Au) passivated"}, 
-            {title: "Contact termination", description: "crimp type"}, 
-        ],
-
-        sealing: [   
-            {title: "Sealing rings", description: "Fluor rubber FKM"}
-        ],
-
-        temperature: [   
-            {title: "Temperature (long term) Celsius", description: "- 40 °C up to + 125°C"}, 
-            {title: "Temperature (long term) Fahrenheit", description: "- 40 °F up to + 257 °F"}, 
-        ],
-
-        mating: [   
-            {title: "Female coupling nuts", description: "M23 screw locking, or one click"}, 
-            {title: "Male receptacles", description: "M23 screw locking, or one click"},
-            {title: "Mating cycles", description: "Standard min. 50"}
-        ],
-
-        protection: [   
-            {title: "Protection class", description: "IP 67 (mated) depends on which cable gland is used"}
-        ]
-
-    },
-    {
         name: "PC-SF Connectors",
         title: "",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
