@@ -79,7 +79,7 @@
   </div>
 </div>
 
-<CallToActionRibbon bgImageUrl = '/images/cta-ribbon.jpg'/>
+<CallToActionRibbon bgImageUrl = 'images/cta-ribbon-blue.jpg'/>
 
 <div class="max-w-7xl m-auto mt-30 p-4 gap-10 flex flex-col sm:flex-row">
       
