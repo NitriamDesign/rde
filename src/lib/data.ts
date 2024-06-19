@@ -421,8 +421,8 @@ export const products: Product[] = [
         title: "Unshielded Connectors M23 The Stainless Steel Program",
         description: " In essence this is a selection of the most popular RC/UC series configurations in a stainless steel offering for super duty performance in caustic and marine environments.",
         category: 'connector',
-        mainImage: "/images/connectors/ssr-blue-lg.jpg",
-        thumbnail: "/images/connectors/ssr-blue.jpg",
+        mainImage: "/images/connectors/ssr-blue-lg.png",
+        thumbnail: "/images/connectors/ssr-blue.png",
         pdf: "/pdf/SSR-series.pdf",
         url: "/products/ssr-connector",
 
@@ -467,8 +467,8 @@ export const products: Product[] = [
         title: "Shielded Connectors M17/Speedcon",
         description: "Our Speedcon (1/2 turn) shielded connector series – the smaller brother to our M23 class - where a smaller footprint is required for applications ranging from 3.6A/60V for signal (up to 17-pol.) and up to 25A/630V for power (up to 8-pol.) configurations.  Primary material is zinc die-cast with some machine turned (C&C) components.  Also available with standard screw-on mating to IP67 sealing standard.",
         category: 'connector',
-        mainImage: "/images/connectors/st-blue-lg.jpg",
-        thumbnail: "/images/connectors/st-blue.jpg",
+        mainImage: "/images/connectors/st-blue-lg.png",
+        thumbnail: "/images/connectors/st-blue.png",
         pdf: "/pdf/ST-series.pdf",
         url: "/products/st-connector",
        
@@ -614,9 +614,9 @@ export const products: Product[] = [
         title: "Shielded Power/Signal Connectors M23 / one click Series PCA",
         description: " Our customers asked us to develop a connector system that would provide retro-mating compatibility with some of our competitor’s IT/Intercontec connector products of the same class, as well as a fast locking alternative to standard screw-on mating mechanisms.  Not only were we able to deliver this for our customers, but went beyond their requirements to develop a complete power and signal series in our PRO Series, providing an improved one-click mating feature with audible feedback for fast mating/un-mating during maintenance or modular reconfigurations. This series also features further improvements in shielding, making assembly faster and even more user-friendly.",
         category: 'connector',
-        mainImage: "/images/connectors/pca-blue-lg.jpg",
-        thumbnail: "/images/connectors/pca-blue.jpg",
-        pdf: "/pdf/M23-PRO-Series.pdf",
+        mainImage: "/images/connectors/pca-blue-lg.png",
+        thumbnail: "/images/connectors/pca-blue.png",
+        pdf: "/pdf/pca-series.pdf",
         url: "/products/pca-connector",
 
         shell_mat: [   
@@ -661,9 +661,9 @@ export const products: Product[] = [
         title: "Shielded Power/Signal Connectors M23 / one click Series PSF",
         description: "The natural conclusion in our development rounds out this series for power applications up to 30A, 3.6mm^2 (12AWG) for 6-8pol. crimp inserts, with all the same mechanical advantages of our PRO series design.",
         category: 'connector',
-        mainImage: "/images/connectors/psf-blue-lg.jpg",
-        thumbnail: "/images/connectors/psf-blue.jpg",
-        pdf: "/pdf/M23-PRO-Series.pdf",
+        mainImage: "/images/connectors/psf-blue-lg.png",
+        thumbnail: "/images/connectors/psf-blue.png",
+        pdf: "/pdf/psf-series.pdf",
         url: "/products/psf-connector",
 
         shell_mat: [   
