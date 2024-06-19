@@ -844,7 +844,7 @@ export interface PageAndPDFLink {
 
 export let connectorsQuickData: QuickConnectorData[] = [
     {
-        connectorImage: "static/images/catalog/ca-crimp.jpg",
+        connectorImage: "/images/catalog/ca-crimp.jpg",
         series: ["CA crimp", "CA crimp", "CA RC-Inserts", "CA RC-Inserts"],
         locking: ["Speedcon", "M23", "Speedcon", "M23"],
         positions: ["12/17", "12/17", "6-19", "6-19"],
@@ -869,7 +869,7 @@ export let connectorsQuickData: QuickConnectorData[] = [
         material: ["Brass", "Zinc", "Nickel"],
         shield: ["Yes"],
         ul: ["No"],
-        links: [{pageUrl: '/products/HC-Series-Connector', pdfRef: 'C-P_00'}]
+        links: [{pageUrl: '/products/hc-connector', pdfRef: 'C-P_00'}]
     },
     {
         connectorImage: "/images/catalog/rc-rm-series.jpg",
@@ -883,7 +883,7 @@ export let connectorsQuickData: QuickConnectorData[] = [
         material: ["Cu-Zn"],
         shield: ["No"],
         ul: ["Yes"],
-        links: [{pageUrl: '/products/RC-RM', pdfRef: 'C-F-00'}]
+        links: [{pageUrl: '/products/rc-connector', pdfRef: 'C-F-00'}]
       },
       {
         connectorImage: "/images/catalog/rf-crimps.jpg",
@@ -897,7 +897,7 @@ export let connectorsQuickData: QuickConnectorData[] = [
         material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
         shield: ["Yes", "Yes"],
         ul: ["Yes", "Yes"],
-        links: [{pageUrl: '/products/RF-Crimp', pdfRef: 'C-E-00'}]
+        links: [{pageUrl: '/products/rf-connector', pdfRef: 'C-E-00'}]
       },
       {
         connectorImage: "/images/catalog/sf-power-series.jpg",
@@ -911,7 +911,7 @@ export let connectorsQuickData: QuickConnectorData[] = [
         material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
         shield: ["Yes", "Yes"],
         ul: ["Yes", "Yes"],
-        links: [{pageUrl: '/products/SF-Crimp', pdfRef: 'C-K-00'}]
+        links: [{pageUrl: '/products/sf-connector', pdfRef: 'C-K-00'}]
       },
       {
         connectorImage: "/images/catalog/sh-hybrid-series.jpg",
@@ -925,7 +925,7 @@ export let connectorsQuickData: QuickConnectorData[] = [
         material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
         shield: ["Yes", "Yes"],
         ul: ["No", "No"],
-        links: [{pageUrl: '/products/SH-Hybrid', pdfRef: 'C-T-00'}]
+        links: [{pageUrl: '/products/sh-connector', pdfRef: 'C-T-00'}]
       },
       {
         connectorImage: "/images/catalog/sl-power-series.jpg",
@@ -939,7 +939,7 @@ export let connectorsQuickData: QuickConnectorData[] = [
         material: ["Aluminum anod."],
         shield: ["Yes"],
         ul: ["No"],
-        links: [{pageUrl: '/products/SL-Power', pdfRef: 'C-R-00'}]
+        links: [{pageUrl: '/products/sl-connector', pdfRef: 'C-R-00'}]
       },
       {
         connectorImage: "/images/catalog/sm-power-series.jpg",
@@ -953,7 +953,7 @@ export let connectorsQuickData: QuickConnectorData[] = [
         material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
         shield: ["Yes", "Yes"],
         ul: ["Yes", "Yes"],
-        links: [{pageUrl: '/products/SM-Power', pdfRef: 'C-Q-00'}]
+        links: [{pageUrl: '/products/sm-connector', pdfRef: 'C-Q-00'}]
       },
       {
         connectorImage: "/images/catalog/ssr-series.jpg",
@@ -967,7 +967,7 @@ export let connectorsQuickData: QuickConnectorData[] = [
         material: ["stainl.steel"],
         shield: ["No"],
         ul: ["No"],
-        links: [{pageUrl: '/products/SSR-Series-Connector', pdfRef: 'C-H-00'}]
+        links: [{pageUrl: '/products/ssr-connector', pdfRef: 'C-H-00'}]
       },
       {
         connectorImage: "/images/catalog/st-signal-power-series.jpg",
@@ -981,7 +981,7 @@ export let connectorsQuickData: QuickConnectorData[] = [
         material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
         shield: ["Yes", "Yes", "Yes", "Yes"],
         ul: ["No", "No", "No", "No"],
-        links: [{pageUrl: '/products/ST-Signal-Power-Series', pdfRef: 'C-D-00'}]
+        links: [{pageUrl: '/products/st-connector', pdfRef: 'C-D-00'}]
       },
       {
         connectorImage: "/images/catalog/tu-series.jpg",
@@ -995,7 +995,7 @@ export let connectorsQuickData: QuickConnectorData[] = [
         material: ["Cu-Zn"],
         shield: ["Yes"],
         ul: ["No"],
-        links: [{pageUrl: '/products/TU-Series', pdfRef: 'C-A-00'}]
+        links: [{pageUrl: '/products/tu-connector', pdfRef: 'C-A-00'}]
       },
       {
         connectorImage: "/images/catalog/uc-series.jpg",
@@ -1009,7 +1009,7 @@ export let connectorsQuickData: QuickConnectorData[] = [
         material: ["Cu-Zn"],
         shield: ["Yes"],
         ul: ["No"],
-        links: [{pageUrl: '/products/UC-Series', pdfRef: 'C-G-00'}]
+        links: [{pageUrl: '/products/uc-connector', pdfRef: 'C-G-00'}]
       }
 
   ];
@@ -1028,7 +1028,7 @@ export let othersQuickData: QuickConnectorData[] = [
         material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
         shield: ["Yes", "Yes", "Yes", "Yes"],
         ul: ["No", "No", "No", "No"],
-        links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
+        links: [{pageUrl: '/products/ca-connector', pdfRef: 'B-A-00'}]
       },
       {
         connectorImage: "/images/catalog/connector-inserts-for-hc-st-rf.jpg",
@@ -1042,7 +1042,7 @@ export let othersQuickData: QuickConnectorData[] = [
         material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
         shield: ["Yes", "Yes", "Yes", "Yes"],
         ul: ["No", "No", "No", "No"],
-        links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
+        links: [{pageUrl: '/products/ca-connector', pdfRef: 'B-A-40'}]
       },
       {
         connectorImage: "/images/catalog/crimp-tools.jpg",
@@ -1056,7 +1056,7 @@ export let othersQuickData: QuickConnectorData[] = [
         material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
         shield: ["Yes", "Yes", "Yes", "Yes"],
         ul: ["No", "No", "No", "No"],
-        links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
+        links: [{pageUrl: '/products/ca-connector', pdfRef: 'B-B-00'}]
       },
       {
         connectorImage: "/images/catalog/crimp-contacts.jpg",
@@ -1070,7 +1070,7 @@ export let othersQuickData: QuickConnectorData[] = [
         material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
         shield: ["Yes", "Yes", "Yes", "Yes"],
         ul: ["No", "No", "No", "No"],
-        links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
+        links: [{pageUrl: '/products/ca-connector', pdfRef: 'B-C-00'}]
       },
       {
         connectorImage: "/images/catalog/assembly-instructions.jpg",
@@ -1084,7 +1084,7 @@ export let othersQuickData: QuickConnectorData[] = [
         material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
         shield: ["Yes", "Yes", "Yes", "Yes"],
         ul: ["No", "No", "No", "No"],
-        links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
+        links: [{pageUrl: '/products/ca-connector', pdfRef: 'B-D-00'}]
       },
       {
         connectorImage: "/images/catalog/mounting-tools.jpg",
@@ -1098,7 +1098,7 @@ export let othersQuickData: QuickConnectorData[] = [
         material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
         shield: ["Yes", "Yes", "Yes", "Yes"],
         ul: ["No", "No", "No", "No"],
-        links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
+        links: [{pageUrl: '/products/ca-connector', pdfRef: 'B-E-00'}]
       },
       {
         connectorImage: "/images/catalog/layouts-pin-configurations.jpg",
@@ -1112,7 +1112,7 @@ export let othersQuickData: QuickConnectorData[] = [
         material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
         shield: ["Yes", "Yes", "Yes", "Yes"],
         ul: ["No", "No", "No", "No"],
-        links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
+        links: [{pageUrl: '/products/ca-connector', pdfRef: 'B-G-00'}]
       },
       {
         connectorImage: "/images/catalog/caps-and-accessories.jpg",
@@ -1126,7 +1126,7 @@ export let othersQuickData: QuickConnectorData[] = [
         material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
         shield: ["Yes", "Yes", "Yes", "Yes"],
         ul: ["No", "No", "No", "No"],
-        links: [{pageUrl: '/products/ca-connector', pdfRef: 'C-L-00'}]
+        links: [{pageUrl: '/products/ca-connector', pdfRef: 'B-H-00'}]
       }
 
 ];
