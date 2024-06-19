@@ -59,17 +59,17 @@
     ];
 
     const photographicDocuments: AssemblyData[] = [
-        { name: "PH_HC", title: "HC-Style 8, 9, R, F, Q", pdf: "/pdf/accessories-all.pdf" },
-        { name: "PH_RC1", title: "RC Style 1, 3, 7, G, J, L, P, U", pdf: "/pdf/accessories-all.pdf" },
-        { name: "PH_RC2", title: "RC-Style 8, 9, B, F, K, M, Q, R", pdf: "/pdf/accessories-all.pdf" },
-        { name: "PH_RC3", title: "RC-Style T, N", pdf: "/pdf/accessories-all.pdf" },
-        { name: "PH_RC4", title: "RC-Style Z", pdf: "/pdf/accessories-all.pdf" },
-        { name: "PH_SF", title: "SF Style 8, 9", pdf: "/pdf/accessories-all.pdf" },
-        { name: "PH_SSR1", title: "SSR-Style 1, 7", pdf: "/pdf/accessories-all.pdf" },
-        { name: "PH_SSR2", title: "SSR-Style 8, 9, F, R", pdf: "/pdf/accessories-all.pdf" },
-        { name: "PH_TU", title: "TU-Style 8U, 9U", pdf: "/pdf/accessories-all.pdf" },
-        { name: "PH_UC", title: "UC-Style 8, 9, R, F, Q", pdf: "/pdf/accessories-all.pdf" },
-        { name: "PH_P", title: "Piercecon Style M8", pdf: "/pdf/accessories-all.pdf" }
+        { name: "PH_HC", title: "HC-Style 8, 9, R, F, Q", pdf: "/pdf/HC-style-89RFQ-UC-style-89RFQ-TU-style-8U9U.pdf" },
+        { name: "PH_RC1", title: "RC Style 1, 3, 7, G, J, L, P, U", pdf: "/pdf/RC-style-137GJLPU-SSR-17.pdf" },
+        { name: "PH_RC2", title: "RC-Style 8, 9, B, F, K, M, Q, R", pdf: "/pdf/RC-style-89BFKMQR-SSR-89FR.pdf" },
+        { name: "PH_RC3", title: "RC-Style T, N", pdf: "/pdf/RC-style-TN.pdf" },
+        { name: "PH_RC4", title: "RC-Style Z", pdf: "/pdf/RC-style-Z.pdf" },
+        { name: "PH_SF", title: "SF Style 8, 9", pdf: "/pdf/SF-style-89.pdf" },
+        { name: "PH_SSR1", title: "SSR-Style 1, 7", pdf: "/pdf/RC-style-137GJLPU-SSR-17.pdf" },
+        { name: "PH_SSR2", title: "SSR-Style 8, 9, F, R", pdf: "/pdf/RC-style-89BFKMQR-SSR-89FR.pdf" },
+        { name: "PH_TU", title: "TU-Style 8U, 9U", pdf: "/pdf/HC-style-89RFQ-UC-style-89RFQ-TU-style-8U9U.pdf" },
+        { name: "PH_UC", title: "UC-Style 8, 9, R, F, Q", pdf: "/pdf/HC-style-89RFQ-UC-style-89RFQ-TU-style-8U9U.pdf" },
+        { name: "PH_P", title: "Piercecon Style M8", pdf: "/pdf/Piercecon-style-for-m8-connector.pdf" }
     ];
 </script>
 

@@ -26,16 +26,16 @@
                     All
                 </Button>
 
-                <Button color="none" class="{`border-2 max-w-sm uppercase text-md rounded-md font-bold md:rounded-none ${selectedButton === 'connector' ? selected : ''}`}" on:click={() => selectedButton = 'connector'}>
-                    Connectors
+                <Button color="none" class="{`border-2 max-w-sm uppercase text-md rounded-md font-bold md:rounded-none ${selectedButton === 'M23' ? selected : ''}`}" on:click={() => selectedButton = 'M23'}>
+                    M23
                 </Button>
 
-                <Button color="none" class="{`border-2 max-w-sm uppercase text-md rounded-md font-bold md:rounded-none ${selectedButton === 'cable' ? selected : ''}`}" on:click={() => selectedButton = 'cable'}>
-                    Cables
+                <Button color="none" class="{`border-2 max-w-sm uppercase text-md rounded-md font-bold md:rounded-none ${selectedButton === 'M17/M27' ? selected : ''}`}" on:click={() => selectedButton = 'M17/M27'}>
+                    M17/M27
                 </Button>
                 
-                <Button color="none" class="{`border-2 max-w-sm uppercase text-md rounded-md font-bold md:rounded-none ${selectedButton === 'tool' ? selected : ''}`}" on:click={() => selectedButton = 'tool'}>
-                    Tools
+                <Button color="none" class="{`border-2 max-w-sm uppercase text-md rounded-md font-bold md:rounded-none ${selectedButton === 'M40/M58' ? selected : ''}`}" on:click={() => selectedButton = 'M40/M58'}>
+                    M40/M58
                 </Button>
             </ButtonGroup>
         </div>
