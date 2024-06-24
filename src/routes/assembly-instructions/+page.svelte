@@ -46,16 +46,16 @@
     };
 
     const schematicDocuments: AssemblyData[] = [
-        { name: "SCH_HC", title: "HC-Style WI, 8, 9, R, F, Q", pdf: "/pdf/HC-Style-WI 8 9 R F Q.pdf" },
-        { name: "SCH_RC", title: "RC-All Styles", pdf: "/pdf/RC-All Styles.pdf" },
-        { name: "SCH_RF", title: "RF-All Styles", pdf: "/pdf/RF-All Styles.pdf" },
-        { name: "SCH_SF", title: "SF-All Styles", pdf: "/pdf/SF-All Styles.pdf" },
-        { name: "SCH_SH", title: "SH-Style 80,90", pdf: "/pdf/SH-Style 80 90.pdf" },
-        { name: "SCH_SL", title: "SL-Style 80,90", pdf: "/pdf/SL-Style 80 90.pdf" },
-        { name: "SCH_SM", title: "SM-All Styles", pdf: "/pdf/SM-All Styles.pdf" },
-        { name: "SCH_ST", title: "ST-All Styles", pdf: "/pdf/ST-All Styles.pdf" },
-        { name: "SCH_TU", title: "TU-Style 8,R,9,F,N,T", pdf: "/pdf/TU-Style 8 R 9 F N T.pdf" },
-        { name: "SCH_UC", title: "UC-Style 8,4,9,F,T,N,Q", pdf: "/pdf/UC-Style 8 4 9 F T N Q.pdf" }
+        { name: "SCH_HC", title: "HC-Style WI, 8, 9, R, F, Q", pdf: "/pdf/HC-style-WI89RFQ.pdf" },
+        { name: "SCH_RC", title: "RC-All Styles", pdf: "/pdf/RC-All-Styles.pdf" },
+        { name: "SCH_RF", title: "RF-All Styles", pdf: "/pdf/RF-All-Styles.pdf" },
+        { name: "SCH_SF", title: "SF-All Styles", pdf: "/pdf/SF-All-Styles.pdf" },
+        { name: "SCH_SH", title: "SH-Style 80,90", pdf: "/pdf/SH-Style-80-90.pdf" },
+        { name: "SCH_SL", title: "SL-Style 80,90", pdf: "/pdf/SL-Style-80-90.pdf" },
+        { name: "SCH_SM", title: "SM-All Styles", pdf: "/pdf/SM-All-Styles.pdf" },
+        { name: "SCH_ST", title: "ST-All Styles", pdf: "/pdf/ST-All-Styles.pdf" },
+        { name: "SCH_TU", title: "TU-Style 8,R,9,F,N,T", pdf: "/pdf/TU-Style-8R9FNT.pdf" },
+        { name: "SCH_UC", title: "UC-Style 8,4,9,F,T,N,Q", pdf: "/pdf/UC-Style-849FTNQ.pdf" }
     ];
 
     const photographicDocuments: AssemblyData[] = [
