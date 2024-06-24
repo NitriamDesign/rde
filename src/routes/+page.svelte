@@ -75,7 +75,7 @@
     </div>
 
   <div class="1/3">
-  <Img class="" size="md:w-[600px]" src="/images/m17-m58.jpg" alt=""/>
+  <Img class="" size="md:w-[600px]" src="/images/m17-m58.png" alt=""/>
   </div>
 </div>
 
