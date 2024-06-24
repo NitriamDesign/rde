@@ -40,7 +40,7 @@
 </script>
 
 
-<div class="max-w-7xl m-auto mt-30 p-4 gap-10 flex flex-col sm:flex-row">
+<div class="max-w-7xl m-auto mt-[35px] p-4 gap-20 flex flex-col sm:flex-row">
       
   <div class='md:w-1/4 md:mt-10 md:order-1 order-2'>
       <Img class="" size="h-[400px]" src="/images/rde-catalog.jpg" alt=""/>
@@ -68,10 +68,9 @@
   <a class="flex mt-5 text-xl font-semibold text-primary-700" href="/pdf/RDE-Full-Catalog.pdf" target="_blank"><DownloadOutline size='xl' class='mr-2'/>Download Full PDF</a>
   
   </div>
-
 </div>
 
-<div class="max-w-[1600px] m-auto mt-20 p-4 gap-10 flex flex-col sm:flex-row">
+<div class="max-w-[1600px] m-auto mt-5 p-4 gap-10 flex flex-col sm:flex-row">
 <Heading tag="h1" color='text-primary-500' class="mb-4 mt-4 md:mt-0 primary-500" customSize="md:text-3xl text-4xl font-extrabold  md:text-4xl lg:text-5xl">
 	Quick Reference Charts
 </Heading>
@@ -89,7 +88,7 @@
     </div>
 </div>
 
-<div class="max-w-[1600px] m-auto mt-30 p-4 gap-10 flex flex-col sm:flex-row">
+<div class="max-w-[1600px] m-auto mt-20 p-4 gap-10 flex flex-col sm:flex-row">
 
     <div class="w-full max-w-[1600px] mx-auto bg-white shadow-lg rounded-sm border border-gray-200">
         

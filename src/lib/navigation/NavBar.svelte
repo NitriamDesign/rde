@@ -181,7 +181,7 @@
             <div class="">
                 {#each Object.keys(productsByCategory) as category}
                     <div class="mb-4">
-                        <h2 class="text-xl font-bold uppercase text-m-primary">{category}s</h2>
+                        <h2 class="text-xl font-bold uppercase text-m-primary">{category}</h2>
                         <div class="grid grid-cols-2 lg:grid-cols-3">
                             {#each productsByCategory[category] as product}
                                 <div class="ml-4">
