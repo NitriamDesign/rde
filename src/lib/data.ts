@@ -1028,7 +1028,7 @@ export let othersQuickData: QuickConnectorData[] = [
         material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
         shield: ["Yes", "Yes", "Yes", "Yes"],
         ul: ["No", "No", "No", "No"],
-        links: [{pageUrl: '/products/ca-connector', pdfRef: 'B-A-00'}]
+        links: [{pageUrl: '/connector-inserts', pdfRef: 'B-A-00'}]
       },
       {
         connectorImage: "/images/catalog/connector-inserts-for-hc-st-rf.jpg",
