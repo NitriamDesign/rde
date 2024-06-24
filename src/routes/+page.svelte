@@ -75,11 +75,7 @@
     </div>
 
   <div class="1/3">
-<<<<<<< HEAD
-  <Img class="" size="md:w-[600px]" src="/images/m17-m58.png" alt=""/>
-=======
   <Img class="" size="md:w-[600px]" src="/images/m17-m58.jpg" alt=""/>
->>>>>>> main
   </div>
 </div>
 
