@@ -1,7 +1,7 @@
 <script>
     import { Button } from 'flowbite-svelte';
 
-    export let bgImageUrl = '/images/catalog/cta-ribbon-cable.png';
+    export let bgImageUrl = '/standin/dum.png';
 
     
 </script>
@@ -22,8 +22,8 @@
         <Button href="/about" size="xl">ABOUT US</Button>
       </div>
 
-      <div class="lg:h-[325px] w-[800px] lg:left-[47%] relative z-10 top-[70px] shadow-xl lg:visible invisible">
-        <img src="{bgImageUrl}" class="h-full w-full object-cover" alt="">
+      <div class="lg:h-[500px] w-[800px] lg:left-[28%] relative z-10 top-[60px] lg:visible invisible">
+        <img src="{bgImageUrl}" class="h-full w-full object-contain " alt="">
       </div>
   </div>  
 </div>
