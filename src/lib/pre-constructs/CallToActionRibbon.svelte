@@ -1,7 +1,7 @@
 <script>
     import { Button } from 'flowbite-svelte';
 
-    export let bgImageUrl = '/standin/dum.png';
+    export let bgImageUrl = '/images/catalog/cta-ribbon-cable.png';
 
     
 </script>
