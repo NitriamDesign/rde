@@ -26,7 +26,7 @@ export interface Entry {
 export const products: Product[] = [
     {
         name: "CA Series Connectors",
-        title: "Shielded Connectors M23",
+        title: "Shielded M23 Connectors",
         description: "This signal connector series is intended as a more budget friendly, high-volume alternative to machine turned versions, with improved user-friendly shielding to an IP67 sealing standard.  Utilizes all of the RC contact inserts to cover a broad applications range.",
         category: 'M23',
         mainImage: "/images/connectors/ca-blue-lg.jpg",
@@ -75,7 +75,7 @@ export const products: Product[] = [
     },
     {
         name: "HC Series Connectors",
-        title: "Shielded Connectors M27",
+        title: "Shielded M27 Connectors",
         description: " This is our high-density signal series connector system for up to 28-pol. conductor configurations, 8A at 150V, 0.15-1mm^2 (26-18AWG), with broad configuration and strain relief capabilities up to IP68 sealing standard.  A very robust machine turned connector system where high reliability in harsh environment performance is required.",
         category: 'M17/M27',
         mainImage: "/images/connectors/hc-blue-lg.jpg",
@@ -124,7 +124,7 @@ export const products: Product[] = [
     },
     {
         name: "RC Series Connectors",
-        title: "Unshielded Connectors M23",
+        title: "Shielded & Unshielded M23 Connectors",
         description: "Our most popular, customizable and diverse Legacy series that covers a broad applications spectrum, ranging from signal to power, from 6-pol. to 19-pol., in shielded and unshielded configurations, utilizing solder or crimp contact insert options.  This series offers the greatest diversity in cable strain relief applications, including up to IP68 sealing with full cable glands.  Primary material is CuZn machine turned components for unmatched quality and robustness in the field.  Stainless steel versions for marine applications in our SSR series are also available.",
         category: 'M23',
         mainImage: "/images/connectors/rc-cable-blue-lg.jpg",
@@ -173,7 +173,7 @@ export const products: Product[] = [
     },
     {
         name: "RF Series Connectors",
-        title: "Shielded Connectors M23 crimp versions",
+        title: "Shielded M23 Connectors",
         description: "Our die cast M23 signal connector equivalents for 12, 16, and 17-pol. crimp insert applications, allowing for our Speedcon (1/2 turn), as well as standard locking applications.  Improved universal shielding assembly for faster field installations.",
         category: 'M23',
         mainImage: "/images/connectors/rf-blue-lg.jpg",
@@ -222,7 +222,7 @@ export const products: Product[] = [
     },
     {
         name: "SF Series Connectors",
-        title: "Shielded Connectors M23 Power 630 Volt",
+        title: "Shielded M23 Connectors, Power 630 Volt",
         description: "This is our power connector series combining power and feedback, covering contact configurations from 6 – 8-pol., up to 3.6mm^2 (12AWG) and up to 30A/630V for various industrial applications, including motors and drive systems.  Very robust and flexible design in comparison to our competitors, as well as user friendly shielding components that simplify assembly for field applications.",
         category: 'M23',
         mainImage: "/images/connectors/sf-blue-lg.jpg",
@@ -271,7 +271,7 @@ export const products: Product[] = [
     },
     {
         name: "SH Series Connectors",
-        title: "Shielded Power Connectors M23 Circular Hybrid Connectors",
+        title: "Shielded Power M23 Connectors, Circular Hybrid Connectors",
         description: "The evolution of our SF power series lead to the development of our Hybrid M23 to cover applications requiring everything that our SF series does, plus the addition of CAT5/6 insert to handle smart signal applications in one combined package, including separate noise shielding between the power and signal inserts, with quick lock or standard mating as needed.",
         category: 'M23',
         mainImage: "/images/connectors/sh-blue-lg.jpg",
@@ -320,7 +320,7 @@ export const products: Product[] = [
     },
     {
         name: "SL Series Connectors",
-        title: "Shielded Power Connectors M58",
+        title: "Shielded Power M58 Connectors",
         description: "Finishing out our program is the MOA (Mother-of-All) power connectors for heavy duty power applications requiring up to 150A/630V, handling conductors up to 8mm^2 (8AWG), for large motor and spindle deployments.  In our field of industrial automation, this is about as heavy duty as it gets.  Offers all of the electro-mechanical advantages in design and robustness that our customer are used to.",
         category: 'M40/M58',
         mainImage: "/images/connectors/sl-blue-lg.jpg",
@@ -368,7 +368,7 @@ export const products: Product[] = [
     },
     {
         name: "SM Series Connectors",
-        title: "Shielded Power Connectors M40",
+        title: "Shielded Power M40 Connectors",
         description: " Designed with a larger footprint for those applications needing up to 65A/630V power with shielded feedback applications.  Designed for heavy duty industrial applications in 6-8pol., straight to angled (receptacle) configurations.",
         category: 'M40/M58',
         mainImage: "/images/connectors/sm-blue-lg.jpg",
@@ -418,7 +418,7 @@ export const products: Product[] = [
     },
     {
         name: "SSR Series Connectors",
-        title: "Unshielded Connectors M23 The Stainless Steel Program",
+        title: "Unshielded M23 Connectors, The Stainless Steel Program",
         description: " In essence this is a selection of the most popular RC/UC series configurations in a stainless steel offering for super duty performance in caustic and marine environments.",
         category: 'M23',
         mainImage: "/images/connectors/ssr-blue-lg.jpg",
@@ -464,7 +464,7 @@ export const products: Product[] = [
     },
     {
         name: "ST Series Connectors",
-        title: "Shielded Connectors M17/Speedcon",
+        title: "Shielded M17/Speedcon Connectors",
         description: "Our Speedcon (1/2 turn) shielded connector series – the smaller brother to our M23 class - where a smaller footprint is required for applications ranging from 3.6A/60V for signal (up to 17-pol.) and up to 25A/630V for power (up to 8-pol.) configurations.  Primary material is zinc die-cast with some machine turned (C&C) components.  Also available with standard screw-on mating to IP67 sealing standard.",
         category: 'M17/M27',
         mainImage: "/images/connectors/st-blue-lg.jpg",
@@ -562,7 +562,7 @@ export const products: Product[] = [
     },
     {
         name: "UC Series Connectors",
-        title: "Shielded Connectors M23 The shielded and robust standard version",
+        title: "Shielded M23 Connectors, The shielded and robust standard version",
         description: "This series offers the most popular configurations of the RC Legacy program utilizing a more user-friendly universal shielding system.  Many of the RC components are interchangeable, allowing for customizations as needed for just about any application within its performance range.",
         category: 'M23',
         mainImage: "/images/connectors/uc-blue-lg.jpg",
@@ -611,12 +611,12 @@ export const products: Product[] = [
     },
     {
         name: "PCA Series Connectors",
-        title: "Shielded Power/Signal Connectors M23 / one click Series PCA",
+        title: "Shielded Power/Signal M23 Connectors / one click Series PCA",
         description: " Our customers asked us to develop a connector system that would provide retro-mating compatibility with some of our competitor’s IT/Intercontec connector products of the same class, as well as a fast locking alternative to standard screw-on mating mechanisms.  Not only were we able to deliver this for our customers, but went beyond their requirements to develop a complete power and signal series in our PRO Series, providing an improved one-click mating feature with audible feedback for fast mating/un-mating during maintenance or modular reconfigurations. This series also features further improvements in shielding, making assembly faster and even more user-friendly.",
         category: 'M23',
         mainImage: "/images/connectors/pca-blue-lg.jpg",
         thumbnail: "/images/connectors/pca-blue.jpg",
-        pdf: "/pdf/M23-PRO-Series.pdf",
+        pdf: "/pdf/PCA-Connectors-pdf.pdf",
         url: "/products/pca-connector",
 
         shell_mat: [   
@@ -658,12 +658,12 @@ export const products: Product[] = [
     },
     {
         name: "PSF Series Connectors",
-        title: "Shielded Power/Signal Connectors M23 / one click Series PSF",
+        title: "Shielded Power/Signal M23 Connectors / one click Series PSF",
         description: "The natural conclusion in our development rounds out this series for power applications up to 30A, 3.6mm^2 (12AWG) for 6-8pol. crimp inserts, with all the same mechanical advantages of our PRO series design.",
         category: 'M23',
         mainImage: "/images/connectors/psf-blue-lg.jpg",
         thumbnail: "/images/connectors/psf-blue.jpg",
-        pdf: "/pdf/M23-PRO-Series.pdf",
+        pdf: "/pdf/PSF-Connectors-pdf.pdf",
         url: "/products/psf-connector",
 
         shell_mat: [   
@@ -710,7 +710,7 @@ export const products: Product[] = [
         category: 'connector',
         mainImage: "/images/connectors/pc-sf-blue-lg.jpg",
         thumbnail: "/images/connectors/pc-sf-blue.jpg",
-        pdf: "/pdf/M23-PRO-Series.pdf",
+        pdf: "/pdf/",
         url: "/products/PC-SF",
 
         shell_mat: [   
