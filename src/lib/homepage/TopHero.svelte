@@ -7,7 +7,7 @@
 </script>
 
 <div class="bg-[url('/images/top-hero-v2.jpg')] h-[600px] flex justify-center items-center p-3 bg-cover">
-    <div class="flex flex-col justify-center md:text-center p-5 bg-white bg-opacity-85 md:w-[800px]  md:h-[60%]">
+    <div class="flex flex-col justify-center md:text-center p-5 bg-white bg-opacity-65 md:w-[800px]  md:h-[60%]">
         <div class="text-4xl font-bold md:text-5xl max-w-3xl m-auto mb-3">
             RDE Connectors & Cables, Inc.
         </div>
