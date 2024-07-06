@@ -22,7 +22,7 @@
         <Button href="/about" size="xl">ABOUT US</Button>
       </div>
 
-      <div class="lg:h-[450px] lg:left-[39%] relative z-10 top-[60px] lg:visible invisible">
+      <div class="lg:h-[500px] lg:left-[39%] relative z-10 top-[60px] lg:visible invisible">
         <img src="{bgImageUrl}" class="h-full w-full object-contain " alt="">
       </div>
   </div>  

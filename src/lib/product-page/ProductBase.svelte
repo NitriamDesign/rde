@@ -27,7 +27,7 @@
 
 <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-start mt-10 p-4 md:p-0">
   <!-- Material information container -->
-  <div class="flex-2">
+  <div class="md:w-[25%] w-full">
       {#each categoryNames as [headerName, dataName]}
           <Card class="rounded-none mb-5">
               <Heading tag="h2" class="mb-2 text-2xl font-extrabold">{headerName}</Heading>
@@ -41,7 +41,7 @@
   </div>
 
   <!-- Iframe container -->
-  <div class="flex-1 ml-0 md:ml-10 mt-10 md:mt-0">
+  <div class="md:w-[75%] ml-0 md:ml-10 mt-10 md:mt-0 w-full">
       <iframe title={product.name} src={product.pdf} width="100%" height="1100px" style="border:none;"></iframe>
   </div>
 </div>
