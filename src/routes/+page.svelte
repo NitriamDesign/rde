@@ -57,9 +57,9 @@
 
 <ProductCategories/>
 
-<div class="max-w-7xl m-auto mt-20 p-4 md:flex justify-center gap-0">
+<div class="max-w-7xl m-auto mt-20 p-4 flex justify-center gap-0 flex-col md:flex-row">
   
-  <div class="w-2/3 content-center">
+  <div class="md:w-[60%] content-center order-2 md:order-1">
       <Heading color='text-primary-500' tag="h1" class="mb-4 mt-4 md:mt-0 primary-500" customSize="font-extrabold  text-4xl lg:text-5xl">
         Find the Right Connector Solution for Your Application
       </Heading>
@@ -74,8 +74,8 @@
       <Button class="bg-m-primary mt-5" href="/full-line-catalog" size="xl">VIEW OUR FULL CATALOG</Button>
     </div>
 
-  <div class="1/3">
-  <Img class="" size="md:w-[600px]" src="/images/m17-m58.png" alt=""/>
+  <div class="md:w-[40%] order-1 md:order-2">
+  <Img class="" size="md:w-full" src="/images/m17-m58.png" alt=""/>
   </div>
 </div>
 

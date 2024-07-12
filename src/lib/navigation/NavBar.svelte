@@ -193,7 +193,7 @@
                 {/each}
             </div>
 
-            <Button color="none" class="bg-m-primary text-m-light hover:bg-primary-600 rounded text-md font-thin" href="/products">
+            <Button color="none" class="bg-m-primary text-m-light hover:bg-primary-600 rounded text-md font-thin" href="/products" on:click={() => megamenuVisible.set(false)}>
                 View All Products
             </Button>
         </div>
@@ -208,13 +208,13 @@
                 </div>
                 
                 <div class="flex flex-col gap-2 text-sm underline">
-                    <a class="flex items-center gap-2" href="/certification">  
+                    <a class="flex items-center gap-2" href="/certification" on:click={() => megamenuVisible.set(false)}>  
                         <InfoCircleSolid class="text-m-primary2"/>Certification
                     </a>
-                    <a class="flex items-center gap-2" href="/terms-and-conditions">  
+                    <a class="flex items-center gap-2" href="/terms-and-conditions" on:click={() => megamenuVisible.set(false)}>  
                         <InfoCircleSolid class="text-m-primary2"/>Terms & Conditions
                     </a>
-                    <a class="flex items-center gap-2" href="/legal-information">  
+                    <a class="flex items-center gap-2" href="/legal-information" on:click={() => megamenuVisible.set(false)}>  
                         <InfoCircleSolid class="text-m-primary2"/>Legal Information
                     </a>
                 </div>

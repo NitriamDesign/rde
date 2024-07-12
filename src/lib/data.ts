@@ -25,104 +25,6 @@ export interface Entry {
 
 export const products: Product[] = [
     {
-        name: "CA Series Connectors",
-        title: "Shielded M23 Connectors",
-        description: "This signal connector series is intended as a more budget friendly, high-volume alternative to machine turned versions, with improved user-friendly shielding to an IP67 sealing standard.  Utilizes all of the RC contact inserts to cover a broad applications range.",
-        category: 'M23',
-        mainImage: "/images/connectors/ca-blue-lg.jpg",
-        thumbnail: "/images/connectors/ca-blue.jpg",
-        pdf: "/pdf/CA-series.pdf",
-        url: "/products/ca-connector",
-
-        shell_mat: [   
-            {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
-            {title: "Die-Cast components", description: "Zinc (GD-Zn)", simple_title: "Die-Cast"}, 
-            {title: "Shell plating", description: "Nickel (Ni) plated", simple_title: "Shell Plating"}, 
-            {title: "Cable entry", description: "max. 14.5mm", simple_title: "Entry"}
-        ],
-
-        insulator: [   
-            {title: "Connector inserts", description: "Thermoplastic polyester (PBT), Polyamid (PA66),"}
-        ],
-
-        contacts: [   
-            {title: "Contact material", description: "Copper-Zinc alloy (CuZn)" }, 
-            {title: "Contact plating", description: "Nickel (Ni) with gold (Au) passivated"}, 
-            {title: "Contact termination", description: "Solder cup, crimp type, screw type, dip solder"}, 
-        ],
-
-        sealing: [   
-            {title: "Sealing rings", description: "Fluor rubber (FPM)"}, 
-            {title: "Gaskets", description: "Fluor rubber (FPM), or Perbunan (NBR) stiffened gaskets"}, 
-        ],
-
-        temperature: [   
-            {title: "Temperature (long term) Celsius", description: "- 40 °C up to + 125°C"}, 
-            {title: "Temperature (long term) Fahrenheit", description: "- 40 °F up to + 257 °F"}, 
-        ],
-
-        mating: [   
-            {title: "Female coupling nuts", description: "M23 screw locking/Speedcon"}, 
-            {title: "Male receptacles", description: "M23 screw locking/Speedcon"},
-            {title: "Mating cycles", description: "Standard min. 50"}
-        ],
-
-        protection: [   
-            {title: "Protection class", description: "IP 67 (mated) depends on which cable gland is used"}
-        ]
-
-
-    },
-    {
-        name: "HC Series Connectors",
-        title: "Shielded M27 Connectors",
-        description: " This is our high-density signal series connector system for up to 28-pol. conductor configurations, 8A at 150V, 0.15-1mm^2 (26-18AWG), with broad configuration and strain relief capabilities up to IP68 sealing standard.  A very robust machine turned connector system where high reliability in harsh environment performance is required.",
-        category: 'M17/M27',
-        mainImage: "/images/connectors/hc-blue-lg.jpg",
-        thumbnail: "/images/connectors/hc-blue.jpg",
-        pdf: "/pdf/HC-series.pdf",
-        url: "/products/hc-connector",
-
-        shell_mat: [   
-            {title: "Machined components", description: "Copper-Zinc alloy (CuZn)" , simple_title: "Machined"}, 
-            {title: "Die-Cast components", description: "Zinc (GD-Zn)" , simple_title: "Die-Cast"}, 
-            {title: "Shell plating", description: "Nickel (Ni) plated" , simple_title: "Shell Plating"}, 
-            {title: "Cable entry", description: "max. 18 mm" , simple_title: "Entry"}
-        ],
-
-        insulator: [   
-            {title: "Connector inserts", description: "Polyamide (PA66) UL 94 V0"}
-        ],
-
-        contacts: [   
-            {title: "Contact material", description: "Copper-Zinc alloy (CuZn)"}, 
-            {title: "Contact plating", description: "Nickel (Ni) with gold (Au) passivated"}, 
-            {title: "Contact termination", description: "crimp type, solder cup, DIP solder"}, 
-        ],
-
-        sealing: [   
-            {title: "Sealing rings", description: "Fluor rubber FPM"}, 
-            {title: "Gaskets", description: "Perbunan NBR or FPM"}, 
-        ],
-
-        temperature: [   
-            {title: "Temperature (long term) Celsius", description: "- 40 °C up to + 125°C"}, 
-            {title: "Temperature (long term) Fahrenheit", description: "- 40 °F up to + 257 °F"}, 
-        ],
-
-        mating: [   
-            {title: "Female coupling nuts", description: "M27 screw locking"}, 
-            {title: "Male receptacles", description: "M27 screw locking"},
-            {title: "Mating cycles", description: "Standard min. 50"}
-        ],
-
-        protection: [   
-            {title: "Protection class", description: "IP 67 (mated) depends on which cable gland is used"}
-        ]
-
-
-    },
-    {
         name: "RC Series Connectors",
         title: "Shielded & Unshielded M23 Connectors",
         description: "Our most popular, customizable and diverse Legacy series that covers a broad applications spectrum, ranging from signal to power, from 6-pol. to 19-pol., in shielded and unshielded configurations, utilizing solder or crimp contact insert options.  This series offers the greatest diversity in cable strain relief applications, including up to IP68 sealing with full cable glands.  Primary material is CuZn machine turned components for unmatched quality and robustness in the field.  Stainless steel versions for marine applications in our SSR series are also available.",
@@ -172,6 +74,101 @@ export const products: Product[] = [
 
     },
     {
+        name: "UC Series Connectors",
+        title: "Shielded M23 Connectors, The shielded and robust standard version",
+        description: "This series offers the most popular configurations of the RC Legacy program utilizing a more user-friendly universal shielding system.  Many of the RC components are interchangeable, allowing for customizations as needed for just about any application within its performance range.",
+        category: 'M23',
+        mainImage: "/images/connectors/uc-blue-lg.jpg",
+        thumbnail: "/images/connectors/uc-blue.jpg",
+        pdf: "/pdf/UC-series.pdf",
+        url: "/products/uc-connector",
+       
+        shell_mat: [   
+                    {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
+                    {title: "Die-Cast components", description: "Zinc (GD-Zn)", simple_title: "Die-Cast"}, 
+                    {title: "Shell plating", description: "Nickel (Ni) plated", simple_title: "Shell Plating"}, 
+                    {title: "Cable entry", description: "max. 18 mm", simple_title: "Entry"}
+                ],
+
+        insulator: [   
+            {title: "Connector inserts", description: "Thermoplastic polyester (PBT), Polyamid (PA66),"}
+        ],
+        
+        contacts: [   
+            {title: "Contact material", description: "Copper-Zinc alloy (CuZn)"}, 
+            {title: "Contact plating", description: "Nickel (Ni) with gold (Au) passivated"}, 
+            {title: "Contact termination", description: "Solder cup, crimp type, screw type"}, 
+        ],
+
+        sealing: [   
+            {title: "Sealing rings", description: "Fluor rubber (FPM)"}, 
+            {title: "Gaskets", description: "Fluor rubber (FPM), or Perbunan (NBR) stiffened gaskets"}, 
+        ],
+
+        temperature: [   
+            {title: "Temperature (long term) Celsius", description: "-40 °C up to +125°C"}, 
+            {title: "Temperature (long term) Fahrenheit", description: "- 40 °F up to + 257 °F"}, 
+        ],
+
+        mating: [   
+            {title: "Female coupling nuts", description: "M23 screw locking"}, 
+            {title: "Male receptacles", description: "M23 screw locking"},
+            {title: "Mating cycles", description: "Standard min. 50"}
+        ],
+
+        protection: [   
+            {title: "Protection class", description: "IP 67 (mated) depends on which cable gland is used"}
+        ]
+        
+
+    },
+    {
+        name: "SSR Series Connectors",
+        title: "Unshielded M23 Connectors, The Stainless Steel Program",
+        description: " In essence this is a selection of the most popular RC/UC series configurations in a stainless steel offering for super duty performance in caustic and marine environments.",
+        category: 'M23',
+        mainImage: "/images/connectors/ss-stainless-blue-lg.jpg",
+        thumbnail: "/images/connectors/ss-stainless-blue.jpg",
+        pdf: "/pdf/SSR-series.pdf",
+        url: "/products/ssr-connector",
+
+        shell_mat: [   
+            {title: "Machined components", description: "Stainless Steel", simple_title: "Machined"},  
+            {title: "Cable entry", description: "max. 19 mm", simple_title: "Entry"}
+        ],
+
+        insulator: [   
+            {title: "Connector inserts", description: "Thermoplastic polyester (PBT), Polyamid (PA66),"}
+        ],
+
+        contacts: [   
+            {title: "Contact material", description: "Copper-Zinc alloy (CuZn)"}, 
+            {title: "Contact plating", description: "Nickel (Ni) with gold (Au) passivated"}, 
+            {title: "Contact termination", description: "Solder cup, crimp type, screw type, dip solder"}, 
+        ],
+
+        sealing: [   
+            {title: "Sealing rings", description: "(FKM) viton"}, 
+            {title: "Gaskets", description: "(FKM) viton"}, 
+        ],
+
+        temperature: [   
+            {title: "Temperature (long term) Celsius", description: "- 40 °C up to +125°C"}, 
+            {title: "Temperature (long term) Fahrenheit", description: "- 40 °F up to + 257 °F"}, 
+        ],
+
+        mating: [   
+            {title: "Female coupling nuts", description: "M23 screw locking"}, 
+            {title: "Male receptacles", description: "M23 screw locking"},
+            {title: "Mating cycles", description: "Standard min. 50"}
+        ],
+
+        protection: [   
+            {title: "Protection class", description: "IP 67 (mated) depends on which cable gland is used"}
+        ]
+
+    },
+    {
         name: "RF Series Connectors",
         title: "Shielded M23 Connectors",
         description: "Our die cast M23 signal connector equivalents for 12, 16, and 17-pol. crimp insert applications, allowing for our Speedcon (1/2 turn), as well as standard locking applications.  Improved universal shielding assembly for faster field installations.",
@@ -218,6 +215,104 @@ export const products: Product[] = [
             {title: "Protection class", description: "IP 67 (mated) depends on which cable gland is used"}
         ]
 
+
+    },
+    {
+        name: "CA Series Connectors",
+        title: "Shielded M23 Connectors",
+        description: "This signal connector series is intended as a more budget friendly, high-volume alternative to machine turned versions, with improved user-friendly shielding to an IP67 sealing standard.  Utilizes all of the RC contact inserts to cover a broad applications range.",
+        category: 'M23',
+        mainImage: "/images/connectors/ca-blue-lg.jpg",
+        thumbnail: "/images/connectors/ca-blue.jpg",
+        pdf: "/pdf/CA-series.pdf",
+        url: "/products/ca-connector",
+
+        shell_mat: [   
+            {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
+            {title: "Die-Cast components", description: "Zinc (GD-Zn)", simple_title: "Die-Cast"}, 
+            {title: "Shell plating", description: "Nickel (Ni) plated", simple_title: "Shell Plating"}, 
+            {title: "Cable entry", description: "max. 14.5mm", simple_title: "Entry"}
+        ],
+
+        insulator: [   
+            {title: "Connector inserts", description: "Thermoplastic polyester (PBT), Polyamid (PA66),"}
+        ],
+
+        contacts: [   
+            {title: "Contact material", description: "Copper-Zinc alloy (CuZn)" }, 
+            {title: "Contact plating", description: "Nickel (Ni) with gold (Au) passivated"}, 
+            {title: "Contact termination", description: "Solder cup, crimp type, screw type, dip solder"}, 
+        ],
+
+        sealing: [   
+            {title: "Sealing rings", description: "Fluor rubber (FPM)"}, 
+            {title: "Gaskets", description: "Fluor rubber (FPM), or Perbunan (NBR) stiffened gaskets"}, 
+        ],
+
+        temperature: [   
+            {title: "Temperature (long term) Celsius", description: "- 40 °C up to + 125°C"}, 
+            {title: "Temperature (long term) Fahrenheit", description: "- 40 °F up to + 257 °F"}, 
+        ],
+
+        mating: [   
+            {title: "Female coupling nuts", description: "M23 screw locking/Speedcon"}, 
+            {title: "Male receptacles", description: "M23 screw locking/Speedcon"},
+            {title: "Mating cycles", description: "Standard min. 50"}
+        ],
+
+        protection: [   
+            {title: "Protection class", description: "IP 67 (mated) depends on which cable gland is used"}
+        ]
+
+
+    },
+    {
+        name: "TU Series Connectors",
+        title: "Shielded Connectors in Bayonet Style",
+        description: " Our program would not be complete without our robust fast locking bayonet series, deployed in the most demanding applications where superior quality and performance is an absolute must.  The TU series offers all of the RC inserts for signal and power applications ranging from 8-20A, including customizable cable strain relief systems up to IP68 sealing standard, and universal shielding.",
+        category: 'M23',
+        mainImage: "/images/connectors/tu-blue-lg.jpg",
+        thumbnail: "/images/connectors/tu-blue.jpg",
+        pdf: "/pdf/TU-series.pdf",
+        url: "/products/tu-connector",
+       
+        shell_mat: [   
+                    {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
+                    {title: "Die-Cast components", description: "Zinc (GD-Zn)", simple_title: "Die-Cast"}, 
+                    {title: "Shell plating", description: "Nickel (Ni) plated", simple_title: "Shell Plating"}, 
+                    {title: "Cable entry", description: "max. 14 mm", simple_title: "Entry"}
+                ],
+
+        insulator: [   
+            {title: "Connector inserts", description: "Thermoplastic polyester (PBT), Polyamid (PA66),"}
+        ],
+        
+        contacts: [   
+            {title: "Contact material", description: "Copper-Zinc alloy (CuZn)"}, 
+            {title: "Contact plating", description: "Nickel (Ni) with gold (Au) passivated"}, 
+            {title: "Contact termination", description: "Solder cup, crimp type, screw type, dip solder"}, 
+        ],
+
+        sealing: [   
+            {title: "Sealing rings", description: "Fluor rubber (FPM)"}, 
+            {title: "Gaskets", description: "Fluor rubber (FPM), or Perbunan (NBR) stiffened gaskets"}, 
+        ],
+
+        temperature: [   
+            {title: "Temperature (long term) Celsius", description: "- 20 °C up to +125°C"}, 
+            {title: "Temperature (long term) Fahrenheit", description: "- 4 °F up to + 257 °F"}, 
+        ],
+
+        mating: [   
+            {title: "Female coupling nuts", description: "bayonet type (ring nut) dia. 29.3 mm"}, 
+            {title: "Male receptacles", description: "bayonet type (grooves)"},
+            {title: "Mating cycles", description: "Standard min. 50"}
+        ],
+
+        protection: [   
+            {title: "Protection class", description: "IP 67 (mated) depends on which cable gland is used"}
+        ]
+        
 
     },
     {
@@ -319,297 +414,6 @@ export const products: Product[] = [
 
     },
     {
-        name: "SL Series Connectors",
-        title: "Shielded Power M58 Connectors",
-        description: "Finishing out our program is the MOA (Mother-of-All) power connectors for heavy duty power applications requiring up to 150A/630V, handling conductors up to 8mm^2 (8AWG), for large motor and spindle deployments.  In our field of industrial automation, this is about as heavy duty as it gets.  Offers all of the electro-mechanical advantages in design and robustness that our customer are used to.",
-        category: 'M40/M58',
-        mainImage: "/images/connectors/sl-blue-lg.jpg",
-        thumbnail: "/images/connectors/sl-blue.jpg",
-        pdf: "/pdf/SL-series.pdf",
-        url: "/products/sl-connector",
-
-        shell_mat: [   
-            {title: "Machined components", description: "Aluminum, anodized", simple_title: "Machined"},
-            {title: "Cable entry", description: "max. 36 mm", simple_title: "Entry"}
-        ],
-
-        insulator: [   
-            {title: "Connector inserts", description: "Polyamide (PA66) UL 94 V0"}
-        ],
-
-        contacts: [   
-            {title: "Contact material", description: "Copper-Zinc alloy (CuZn)"}, 
-            {title: "Contact plating and PE", description: "silver plated (Ag)"}, 
-            {title: "Contact plating signal:", description: "gold plated (Au)"}, 
-            {title: "Contact termination", description: "crimp type"}, 
-        ],
-
-        sealing: [   
-            {title: "Sealing rings", description: "Fluor rubber (FPM)"}, 
-            {title: "Gaskets", description: "Fluor rubber (FPM)"}, 
-        ],
-
-        temperature: [   
-            {title: "Temperature (long term) Celsius", description: "- 20 °C up to + 125°C"}, 
-            {title: "Temperature (long term) Fahrenheit", description: "- 4 °F up to + 257 °F"}, 
-        ],
-
-        mating: [   
-            {title: "Female coupling nuts", description: "M58 screw locking"}, 
-            {title: "Male receptacles", description: "M58 screw locking"},
-            {title: "Mating cycles", description: "Standard min. 50"}
-        ],
-
-        protection: [   
-            {title: "Protection class", description: "IP 67 (mated) depends on which cable gland is used"}
-        ]
-
-
-    },
-    {
-        name: "SM Series Connectors",
-        title: "Shielded Power M40 Connectors",
-        description: " Designed with a larger footprint for those applications needing up to 65A/630V power with shielded feedback applications.  Designed for heavy duty industrial applications in 6-8pol., straight to angled (receptacle) configurations.",
-        category: 'M40/M58',
-        mainImage: "/images/connectors/sm-blue-lg.jpg",
-        thumbnail: "/images/connectors/sm-blue.jpg",
-        pdf: "/pdf/SM-series.pdf",
-        url: "/products/sm-connector",
-
-        shell_mat: [   
-            {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
-            {title: "Die-Cast components", description: "Zinc (GD-Zn)", simple_title: "Die-Cast"}, 
-            {title: "Shell plating", description: "Nickel (Ni) plated", simple_title: "Shell Plating"}, 
-            {title: "Cable entry", description: "max. 26.5 mm", simple_title: "Entry"}
-        ],
-
-        insulator: [   
-            {title: "Connector inserts", description: "Polyamide (PA66) UL 94 V0"}
-        ],
-
-        contacts: [   
-            {title: "Contact material", description: "Copper-Zinc alloy (CuZn)"}, 
-            {title: "Contact plating", description: "Nickel (Ni) with gold (Au) passivated"}, 
-            {title: "Contact termination", description: "crimp type"}, 
-        ],
-
-        sealing: [   
-            {title: "Sealing rings", description: "Fluor rubber (FPM)"}, 
-            {title: "Gaskets", description: "Fluor rubber (FPM)"}, 
-        ],
-
-        temperature: [   
-            {title: "Temperature (long term) Celsius", description: "- 20 °C up to + 125°C"}, 
-            {title: "Temperature (long term) Fahrenheit", description: "- 4 °F up to + 257 °F"}, 
-        ],
-
-        mating: [   
-            {title: "Female coupling nuts", description: "M40 screw locking/Speedcon"}, 
-            {title: "Male receptacles", description: "M40 screw locking/Speedcon"},
-            {title: "Mating cycles", description: "Standard min. 50"}
-        ],
-
-        protection: [   
-            {title: "Protection class", description: "IP 67 (mated) depends on which cable gland is used"}
-        ]
-
-
-        
-    },
-    {
-        name: "SSR Series Connectors",
-        title: "Unshielded M23 Connectors, The Stainless Steel Program",
-        description: " In essence this is a selection of the most popular RC/UC series configurations in a stainless steel offering for super duty performance in caustic and marine environments.",
-        category: 'M23',
-        mainImage: "/images/connectors/ssr-blue-lg.jpg",
-        thumbnail: "/images/connectors/ssr-blue.jpg",
-        pdf: "/pdf/SSR-series.pdf",
-        url: "/products/ssr-connector",
-
-        shell_mat: [   
-            {title: "Machined components", description: "Stainless Steel", simple_title: "Machined"},  
-            {title: "Cable entry", description: "max. 19 mm", simple_title: "Entry"}
-        ],
-
-        insulator: [   
-            {title: "Connector inserts", description: "Thermoplastic polyester (PBT), Polyamid (PA66),"}
-        ],
-
-        contacts: [   
-            {title: "Contact material", description: "Copper-Zinc alloy (CuZn)"}, 
-            {title: "Contact plating", description: "Nickel (Ni) with gold (Au) passivated"}, 
-            {title: "Contact termination", description: "Solder cup, crimp type, screw type, dip solder"}, 
-        ],
-
-        sealing: [   
-            {title: "Sealing rings", description: "(FKM) viton"}, 
-            {title: "Gaskets", description: "(FKM) viton"}, 
-        ],
-
-        temperature: [   
-            {title: "Temperature (long term) Celsius", description: "- 40 °C up to +125°C"}, 
-            {title: "Temperature (long term) Fahrenheit", description: "- 40 °F up to + 257 °F"}, 
-        ],
-
-        mating: [   
-            {title: "Female coupling nuts", description: "M23 screw locking"}, 
-            {title: "Male receptacles", description: "M23 screw locking"},
-            {title: "Mating cycles", description: "Standard min. 50"}
-        ],
-
-        protection: [   
-            {title: "Protection class", description: "IP 67 (mated) depends on which cable gland is used"}
-        ]
-
-    },
-    {
-        name: "ST Series Connectors",
-        title: "Shielded M17/Speedcon Connectors",
-        description: "Our Speedcon (1/2 turn) shielded connector series – the smaller brother to our M23 class - where a smaller footprint is required for applications ranging from 3.6A/60V for signal (up to 17-pol.) and up to 25A/630V for power (up to 8-pol.) configurations.  Primary material is zinc die-cast with some machine turned (C&C) components.  Also available with standard screw-on mating to IP67 sealing standard.",
-        category: 'M17/M27',
-        mainImage: "/images/connectors/st-blue-lg.jpg",
-        thumbnail: "/images/connectors/st-blue.jpg",
-        pdf: "/pdf/ST-series.pdf",
-        url: "/products/st-connector",
-       
-        shell_mat: [   
-                    {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
-                    {title: "Die-Cast components", description: "Zinc (GD-Zn)", simple_title: "Die-Cast"}, 
-                    {title: "Shell plating", description: "Nickel (Ni) plated", simple_title: "Shell Plating"}, 
-                    {title: "Cable entry", description: "max. 12.5 mm", simple_title: "Entry"}
-                ],
-
-        insulator: [   
-            {title: "Connector inserts", description: "Polyamid (PA66),"}
-        ],
-        
-        contacts: [   
-            {title: "Contact material", description: "Copper-Zinc alloy (CuZn)"}, 
-            {title: "Contact plating", description: "Nickel (Ni) with gold (Au) passivated"}, 
-            {title: "Contact termination", description: "crimp type"}, 
-        ],
-
-        sealing: [   
-            {title: "Sealing rings", description: "Fluor rubber (FPM)"}, 
-            {title: "Gaskets", description: "Fluor rubber (FPM)"}, 
-        ],
-
-        temperature: [   
-            {title: "Temperature (long term) Celsius", description: "- 20 °C up to +125°C"}, 
-            {title: "Temperature (long term) Fahrenheit", description: "- 4 °F up to + 257 °F"}, 
-        ],
-
-        mating: [   
-            {title: "Female coupling nuts", description: "M17, or M17 in Speedcon"}, 
-            {title: "Male receptacles", description: "M17, or M17 in Speedcon"},
-            {title: "Mating cycles", description: "Standard min. 50"}
-        ],
-
-        protection: [   
-            {title: "Protection class", description: "IP 67 (mated) depends on which cable gland is used"}
-        ]
-        
-
-    },
-    {
-        name: "TU Series Connectors",
-        title: "Shielded Connectors in Bayonet Style",
-        description: " Our program would not be complete without our robust fast locking bayonet series, deployed in the most demanding applications where superior quality and performance is an absolute must.  The TU series offers all of the RC inserts for signal and power applications ranging from 8-20A, including customizable cable strain relief systems up to IP68 sealing standard, and universal shielding.",
-        category: 'M23',
-        mainImage: "/images/connectors/tu-blue-lg.jpg",
-        thumbnail: "/images/connectors/tu-blue.jpg",
-        pdf: "/pdf/TU-series.pdf",
-        url: "/products/tu-connector",
-       
-        shell_mat: [   
-                    {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
-                    {title: "Die-Cast components", description: "Zinc (GD-Zn)", simple_title: "Die-Cast"}, 
-                    {title: "Shell plating", description: "Nickel (Ni) plated", simple_title: "Shell Plating"}, 
-                    {title: "Cable entry", description: "max. 14 mm", simple_title: "Entry"}
-                ],
-
-        insulator: [   
-            {title: "Connector inserts", description: "Thermoplastic polyester (PBT), Polyamid (PA66),"}
-        ],
-        
-        contacts: [   
-            {title: "Contact material", description: "Copper-Zinc alloy (CuZn)"}, 
-            {title: "Contact plating", description: "Nickel (Ni) with gold (Au) passivated"}, 
-            {title: "Contact termination", description: "Solder cup, crimp type, screw type, dip solder"}, 
-        ],
-
-        sealing: [   
-            {title: "Sealing rings", description: "Fluor rubber (FPM)"}, 
-            {title: "Gaskets", description: "Fluor rubber (FPM), or Perbunan (NBR) stiffened gaskets"}, 
-        ],
-
-        temperature: [   
-            {title: "Temperature (long term) Celsius", description: "- 20 °C up to +125°C"}, 
-            {title: "Temperature (long term) Fahrenheit", description: "- 4 °F up to + 257 °F"}, 
-        ],
-
-        mating: [   
-            {title: "Female coupling nuts", description: "bayonet type (ring nut) dia. 29.3 mm"}, 
-            {title: "Male receptacles", description: "bayonet type (grooves)"},
-            {title: "Mating cycles", description: "Standard min. 50"}
-        ],
-
-        protection: [   
-            {title: "Protection class", description: "IP 67 (mated) depends on which cable gland is used"}
-        ]
-        
-
-    },
-    {
-        name: "UC Series Connectors",
-        title: "Shielded M23 Connectors, The shielded and robust standard version",
-        description: "This series offers the most popular configurations of the RC Legacy program utilizing a more user-friendly universal shielding system.  Many of the RC components are interchangeable, allowing for customizations as needed for just about any application within its performance range.",
-        category: 'M23',
-        mainImage: "/images/connectors/uc-blue-lg.jpg",
-        thumbnail: "/images/connectors/uc-blue.jpg",
-        pdf: "/pdf/UC-series.pdf",
-        url: "/products/uc-connector",
-       
-        shell_mat: [   
-                    {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
-                    {title: "Die-Cast components", description: "Zinc (GD-Zn)", simple_title: "Die-Cast"}, 
-                    {title: "Shell plating", description: "Nickel (Ni) plated", simple_title: "Shell Plating"}, 
-                    {title: "Cable entry", description: "max. 18 mm", simple_title: "Entry"}
-                ],
-
-        insulator: [   
-            {title: "Connector inserts", description: "Thermoplastic polyester (PBT), Polyamid (PA66),"}
-        ],
-        
-        contacts: [   
-            {title: "Contact material", description: "Copper-Zinc alloy (CuZn)"}, 
-            {title: "Contact plating", description: "Nickel (Ni) with gold (Au) passivated"}, 
-            {title: "Contact termination", description: "Solder cup, crimp type, screw type"}, 
-        ],
-
-        sealing: [   
-            {title: "Sealing rings", description: "Fluor rubber (FPM)"}, 
-            {title: "Gaskets", description: "Fluor rubber (FPM), or Perbunan (NBR) stiffened gaskets"}, 
-        ],
-
-        temperature: [   
-            {title: "Temperature (long term) Celsius", description: "-40 °C up to +125°C"}, 
-            {title: "Temperature (long term) Fahrenheit", description: "- 40 °F up to + 257 °F"}, 
-        ],
-
-        mating: [   
-            {title: "Female coupling nuts", description: "M23 screw locking"}, 
-            {title: "Male receptacles", description: "M23 screw locking"},
-            {title: "Mating cycles", description: "Standard min. 50"}
-        ],
-
-        protection: [   
-            {title: "Protection class", description: "IP 67 (mated) depends on which cable gland is used"}
-        ]
-        
-
-    },
-    {
         name: "PCA Series Connectors",
         title: "Shielded Power/Signal M23 Connectors / one click Series PCA",
         description: " Our customers asked us to develop a connector system that would provide retro-mating compatibility with some of our competitor’s IT/Intercontec connector products of the same class, as well as a fast locking alternative to standard screw-on mating mechanisms.  Not only were we able to deliver this for our customers, but went beyond their requirements to develop a complete power and signal series in our PRO Series, providing an improved one-click mating feature with audible feedback for fast mating/un-mating during maintenance or modular reconfigurations. This series also features further improvements in shielding, making assembly faster and even more user-friendly.",
@@ -704,26 +508,26 @@ export const products: Product[] = [
 
     },
     {
-        name: "PC-SF Connectors",
-        title: "",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        category: 'connector',
-        mainImage: "/images/connectors/pc-sf-blue-lg.jpg",
-        thumbnail: "/images/connectors/pc-sf-blue.jpg",
-        pdf: "/pdf/",
-        url: "/products/PC-SF",
-
+        name: "ST Series Connectors",
+        title: "Shielded M17/Speedcon Connectors",
+        description: "Our Speedcon (1/2 turn) shielded connector series – the smaller brother to our M23 class - where a smaller footprint is required for applications ranging from 3.6A/60V for signal (up to 17-pol.) and up to 25A/630V for power (up to 8-pol.) configurations.  Primary material is zinc die-cast with some machine turned (C&C) components.  Also available with standard screw-on mating to IP67 sealing standard.",
+        category: 'M17/M27',
+        mainImage: "/images/connectors/st-blue-lg.jpg",
+        thumbnail: "/images/connectors/st-blue.jpg",
+        pdf: "/pdf/ST-series.pdf",
+        url: "/products/st-connector",
+       
         shell_mat: [   
-            {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
-            {title: "Die-Cast components", description: "Zinc (GD-Zn)", simple_title: "Die-Cast"}, 
-            {title: "Shell plating", description: "Nickel (Ni) plated", simple_title: "Shell Plating"}, 
-            {title: "Cable entry", description: "max. 17 mm", simple_title: "Entry"}
-        ],
+                    {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
+                    {title: "Die-Cast components", description: "Zinc (GD-Zn)", simple_title: "Die-Cast"}, 
+                    {title: "Shell plating", description: "Nickel (Ni) plated", simple_title: "Shell Plating"}, 
+                    {title: "Cable entry", description: "max. 12.5 mm", simple_title: "Entry"}
+                ],
 
         insulator: [   
-            {title: "Connector inserts", description: "Polyamide (PA6.6)"}
+            {title: "Connector inserts", description: "Polyamid (PA66),"}
         ],
-
+        
         contacts: [   
             {title: "Contact material", description: "Copper-Zinc alloy (CuZn)"}, 
             {title: "Contact plating", description: "Nickel (Ni) with gold (Au) passivated"}, 
@@ -731,44 +535,95 @@ export const products: Product[] = [
         ],
 
         sealing: [   
-            {title: "Sealing rings", description: "Fluor rubber FKM"}
+            {title: "Sealing rings", description: "Fluor rubber (FPM)"}, 
+            {title: "Gaskets", description: "Fluor rubber (FPM)"}, 
         ],
 
         temperature: [   
-            {title: "Temperature (long term) Celsius", description: "- 40 °C up to + 125°C"}, 
-            {title: "Temperature (long term) Fahrenheit", description: "- 40 °F up to + 257 °F"}, 
+            {title: "Temperature (long term) Celsius", description: "- 20 °C up to +125°C"}, 
+            {title: "Temperature (long term) Fahrenheit", description: "- 4 °F up to + 257 °F"}, 
         ],
 
         mating: [   
-            {title: "Female coupling nuts", description: "M23 screw locking, or one click"}, 
-            {title: "Male receptacles", description: "M23 screw locking, or one click"},
+            {title: "Female coupling nuts", description: "M17, or M17 in Speedcon"}, 
+            {title: "Male receptacles", description: "M17, or M17 in Speedcon"},
             {title: "Mating cycles", description: "Standard min. 50"}
         ],
 
         protection: [   
             {title: "Protection class", description: "IP 67 (mated) depends on which cable gland is used"}
         ]
+        
 
     },
     {
-        name: "SS Stainless",
-        title: "",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        category: 'M23',
-        mainImage: "/images/connectors/ss-stainless-blue-lg.jpg",
-        thumbnail: "/images/connectors/ss-stainless-blue.jpg",
-        pdf: "/pdf/",
-        url: "/products/SS-Stainless",
+        name: "HC Series Connectors",
+        title: "Shielded M27 Connectors",
+        description: " This is our high-density signal series connector system for up to 28-pol. conductor configurations, 8A at 150V, 0.15-1mm^2 (26-18AWG), with broad configuration and strain relief capabilities up to IP68 sealing standard.  A very robust machine turned connector system where high reliability in harsh environment performance is required.",
+        category: 'M17/M27',
+        mainImage: "/images/connectors/hc-blue-lg.jpg",
+        thumbnail: "/images/connectors/hc-blue.jpg",
+        pdf: "/pdf/HC-series.pdf",
+        url: "/products/hc-connector",
+
+        shell_mat: [   
+            {title: "Machined components", description: "Copper-Zinc alloy (CuZn)" , simple_title: "Machined"}, 
+            {title: "Die-Cast components", description: "Zinc (GD-Zn)" , simple_title: "Die-Cast"}, 
+            {title: "Shell plating", description: "Nickel (Ni) plated" , simple_title: "Shell Plating"}, 
+            {title: "Cable entry", description: "max. 18 mm" , simple_title: "Entry"}
+        ],
+
+        insulator: [   
+            {title: "Connector inserts", description: "Polyamide (PA66) UL 94 V0"}
+        ],
+
+        contacts: [   
+            {title: "Contact material", description: "Copper-Zinc alloy (CuZn)"}, 
+            {title: "Contact plating", description: "Nickel (Ni) with gold (Au) passivated"}, 
+            {title: "Contact termination", description: "crimp type, solder cup, DIP solder"}, 
+        ],
+
+        sealing: [   
+            {title: "Sealing rings", description: "Fluor rubber FPM"}, 
+            {title: "Gaskets", description: "Perbunan NBR or FPM"}, 
+        ],
+
+        temperature: [   
+            {title: "Temperature (long term) Celsius", description: "- 40 °C up to + 125°C"}, 
+            {title: "Temperature (long term) Fahrenheit", description: "- 40 °F up to + 257 °F"}, 
+        ],
+
+        mating: [   
+            {title: "Female coupling nuts", description: "M27 screw locking"}, 
+            {title: "Male receptacles", description: "M27 screw locking"},
+            {title: "Mating cycles", description: "Standard min. 50"}
+        ],
+
+        protection: [   
+            {title: "Protection class", description: "IP 67 (mated) depends on which cable gland is used"}
+        ]
+
+
+    },
+    {
+        name: "SM Series Connectors",
+        title: "Shielded Power M40 Connectors",
+        description: " Designed with a larger footprint for those applications needing up to 65A/630V power with shielded feedback applications.  Designed for heavy duty industrial applications in 6-8pol., straight to angled (receptacle) configurations.",
+        category: 'M40/M58',
+        mainImage: "/images/connectors/sm-blue-lg.jpg",
+        thumbnail: "/images/connectors/sm-blue.jpg",
+        pdf: "/pdf/SM-series.pdf",
+        url: "/products/sm-connector",
 
         shell_mat: [   
             {title: "Machined components", description: "Copper-Zinc alloy (CuZn)", simple_title: "Machined"}, 
             {title: "Die-Cast components", description: "Zinc (GD-Zn)", simple_title: "Die-Cast"}, 
             {title: "Shell plating", description: "Nickel (Ni) plated", simple_title: "Shell Plating"}, 
-            {title: "Cable entry", description: "max. 17 mm", simple_title: "Entry"}
+            {title: "Cable entry", description: "max. 26.5 mm", simple_title: "Entry"}
         ],
 
         insulator: [   
-            {title: "Connector inserts", description: "Polyamide (PA6.6)"}
+            {title: "Connector inserts", description: "Polyamide (PA66) UL 94 V0"}
         ],
 
         contacts: [   
@@ -778,23 +633,74 @@ export const products: Product[] = [
         ],
 
         sealing: [   
-            {title: "Sealing rings", description: "Fluor rubber FKM"}
+            {title: "Sealing rings", description: "Fluor rubber (FPM)"}, 
+            {title: "Gaskets", description: "Fluor rubber (FPM)"}, 
         ],
 
         temperature: [   
-            {title: "Temperature (long term) Celsius", description: "- 40 °C up to + 125°C"}, 
-            {title: "Temperature (long term) Fahrenheit", description: "- 40 °F up to + 257 °F"}, 
+            {title: "Temperature (long term) Celsius", description: "- 20 °C up to + 125°C"}, 
+            {title: "Temperature (long term) Fahrenheit", description: "- 4 °F up to + 257 °F"}, 
         ],
 
         mating: [   
-            {title: "Female coupling nuts", description: "M23 screw locking, or one click"}, 
-            {title: "Male receptacles", description: "M23 screw locking, or one click"},
+            {title: "Female coupling nuts", description: "M40 screw locking/Speedcon"}, 
+            {title: "Male receptacles", description: "M40 screw locking/Speedcon"},
             {title: "Mating cycles", description: "Standard min. 50"}
         ],
 
         protection: [   
             {title: "Protection class", description: "IP 67 (mated) depends on which cable gland is used"}
         ]
+
+
+        
+    },
+    {
+        name: "SL Series Connectors",
+        title: "Shielded Power M58 Connectors",
+        description: "Finishing out our program is the MOA (Mother-of-All) power connectors for heavy duty power applications requiring up to 150A/630V, handling conductors up to 8mm^2 (8AWG), for large motor and spindle deployments.  In our field of industrial automation, this is about as heavy duty as it gets.  Offers all of the electro-mechanical advantages in design and robustness that our customer are used to.",
+        category: 'M40/M58',
+        mainImage: "/images/connectors/sl-blue-lg.jpg",
+        thumbnail: "/images/connectors/sl-blue.jpg",
+        pdf: "/pdf/SL-series.pdf",
+        url: "/products/sl-connector",
+
+        shell_mat: [   
+            {title: "Machined components", description: "Aluminum, anodized", simple_title: "Machined"},
+            {title: "Cable entry", description: "max. 36 mm", simple_title: "Entry"}
+        ],
+
+        insulator: [   
+            {title: "Connector inserts", description: "Polyamide (PA66) UL 94 V0"}
+        ],
+
+        contacts: [   
+            {title: "Contact material", description: "Copper-Zinc alloy (CuZn)"}, 
+            {title: "Contact plating and PE", description: "silver plated (Ag)"}, 
+            {title: "Contact plating signal:", description: "gold plated (Au)"}, 
+            {title: "Contact termination", description: "crimp type"}, 
+        ],
+
+        sealing: [   
+            {title: "Sealing rings", description: "Fluor rubber (FPM)"}, 
+            {title: "Gaskets", description: "Fluor rubber (FPM)"}, 
+        ],
+
+        temperature: [   
+            {title: "Temperature (long term) Celsius", description: "- 20 °C up to + 125°C"}, 
+            {title: "Temperature (long term) Fahrenheit", description: "- 4 °F up to + 257 °F"}, 
+        ],
+
+        mating: [   
+            {title: "Female coupling nuts", description: "M58 screw locking"}, 
+            {title: "Male receptacles", description: "M58 screw locking"},
+            {title: "Mating cycles", description: "Standard min. 50"}
+        ],
+
+        protection: [   
+            {title: "Protection class", description: "IP 67 (mated) depends on which cable gland is used"}
+        ]
+
 
     }
 
