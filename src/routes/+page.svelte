@@ -65,9 +65,9 @@
       </Heading>
   
       <P class="mt-5 lg:pr-20  text-gray-600 text-lg md:text-xl">
-        We offer a diverse range of M-series connectors designed to meet various needs, 
-        from high-performance signal connectors to heavy-duty power connectors. 
-        Our M23/RC Series provides customizable options, while the stainless steel 
+        We offer a diverse range of metric circular connectors designed to meet various needs, 
+        from high-performance signal connectors to heavy-duty power connectors and hybrids combining both. 
+        For example, our M23/RC Series provides customizable options, while the stainless steel 
         M23/SSR Series is ideal for caustic and marine environments. 
       </P>
       
