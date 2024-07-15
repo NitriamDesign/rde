@@ -11,12 +11,16 @@
             </div>
             
             <div class="flex flex-col gap-2 text-md font-semibold uppercase text-m-primary2">
-                <div class="flex items-center gap-2">       
+                <div class="flex items-center gap-2">  
+                    <a class="flex items-center gap-2" href="/products">      
                     <BookSolid/>Products
+                    </a>
                 </div>
 
-                <div class="flex items-center gap-2">     
+                <div class="flex items-center gap-2">
+                    <a class="flex items-center gap-2" href="/about">
                     <UsersGroupSolid/>About Us
+                    </a>
                 </div>
             </div>
         </div>

@@ -52,6 +52,7 @@
 	</div>
 </div>
 
+<!--
 <div class="sm:m-auto sm:max-w-7xl w-[95%] m-4 bg-gray-50 p-10 flex flex-col gap-10 shadow-xl rounded-xl border-2">
 	<div class="rounded dark:text-white text-center">
 		<span class="text-xl font-semibold text-primary-500 uppercase italic font-sans">
@@ -66,3 +67,4 @@
 		<Thumbnail {...image} {selected} class="rounded-md shadow-xl hover:outline hover:outline-primary-500 object-cover h-24 w-24" activeClass="outline outline-primary-400"/>
 	</Thumbnails>
 </div>
+-->
