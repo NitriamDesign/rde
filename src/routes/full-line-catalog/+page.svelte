@@ -58,9 +58,7 @@
       </Heading>
   
       <P class='text-xl'>
-         We specialize in producing modified connector components with a focus on custom-specific applications. 
-     Leveraging our expertise in connector modifications to provide competent solutions for cable assemblies 
-     even in the most challenging environments.
+        We specialize in connector components with a focus on custom-specific applications, leveraging our expertise in interconnect systems to provide competent solutions for cable assemblies even in the most challenging environments.
      </P>
 
   <P class='text-xl pt-4'>View the full catalog for detailed information on our products and capabilities.</P>
@@ -72,7 +70,7 @@
 
 <div class="max-w-[1600px] m-auto mt-5 p-4 gap-10 flex flex-col sm:flex-row">
 <Heading tag="h1" color='text-primary-500' class="mb-4 mt-4 md:mt-0 primary-500" customSize="md:text-3xl text-4xl font-extrabold  md:text-4xl lg:text-5xl">
-	Quick Reference Charts
+	Quick Reference List
 </Heading>
 </div>
 

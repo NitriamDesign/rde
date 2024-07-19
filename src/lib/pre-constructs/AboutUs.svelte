@@ -22,7 +22,7 @@
                 Mission Statement
             </Heading>
             <div class="flex text-lg mb-3">
-                <CheckCircleSolid size="xl" class="mr-2 mt-[2px]  text-primary-500"/>Committed to providing product quality and reliability of interconnect systems and assemblies for automation control in some of the most demanding and challenging industries and market applications.
+                <CheckCircleSolid size="xl" class="mr-2 mt-[2px]  text-primary-500"/>We are committed to providing product quality and reliability of interconnect systems and assemblies for automation control in some of the most demanding and challenging industries and market applications.
             </div>
         
             <div class="flex text-lg mb-3">

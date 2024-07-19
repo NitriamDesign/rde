@@ -102,7 +102,7 @@
         </Heading>
     
         <P class='text-xl'>
-           We specialize in producing modified connector components with a focus on custom-specific applications. Leveraging our expertise in connector modifications to provide competent solutions for cable assemblies even in the most challenging environments.
+          We specialize in connector components with a focus on custom-specific applications, leveraging our expertise in interconnect systems to provide competent solutions for cable assemblies even in the most challenging environments.
         </P>
     
         <List tag="ul" class="space-y-1 text-gray-500 dark:text-gray-400 md:text-xl text-md mt-5">

@@ -38,7 +38,8 @@
 				<Span gradient gradientClass="text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-secondary2-700">Mission Statement</Span>
 			</Heading>
 			<div class="flex text-lg mb-3">
-				<CheckCircleOutline size="xl" class="mr-2 mt-[2px]"/>Committed to providing product quality and reliability of interconnect systems and assemblies for automation control in some of the most demanding and challenging industries and market applications.
+				<CheckCircleOutline size="xl" class="mr-2 mt-[2px]"/>We are committed to providing product quality and reliability of interconnect systems and assemblies for automation control in some of the most demanding and challenging industries and market applications.
+
 			</div>
 		
 			<div class="flex text-lg mb-3">
