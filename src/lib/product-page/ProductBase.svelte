@@ -17,6 +17,9 @@
       <div class="text-3xl font-semibold text-m-primary mb-2">{product.name}</div>
       <div class="text-lg mb-10">{product.title}</div>
       <div class="mb-5">{product.description}</div>
+      <Button color="none" class="bg-m-primary text-m-light hover:bg-primary-600 rounded text-md font-thin" href="/full-line-catalog">
+        View Quick Reference List
+      </Button>
   </div>
   <img src={product.mainImage} alt={product.name} class="rounded w-[500px]">
 </div>

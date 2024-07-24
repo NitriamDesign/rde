@@ -48,7 +48,7 @@
     <Li>Robotics</Li>
     </List>
 
-    <P class="mt-4 lg:pr-20 font-semibold text-gray-600 text-lg md:text-xl">Complete cable assemblies for all the systems are available, along with the ability to customize configurations and develop prototypes as needed.</P>
+    <P class="mt-4 lg:pr-20 font-semibold text-gray-600 text-lg md:text-xl">Complete cable assemblies for various systems are available, along with the ability to customize configurations and develop prototypes as needed.</P>
 </div>
 </div>
 

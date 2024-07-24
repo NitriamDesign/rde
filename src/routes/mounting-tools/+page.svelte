@@ -4,7 +4,6 @@
 	import PdfAndTitle from "$lib/pre-constructs/PDFAndTitle.svelte";
 	import { Carousel, Heading, Img, Indicator, Span, Thumbnails } from "flowbite-svelte";
 	import { CheckCircleOutline } from "flowbite-svelte-icons";
-
 </script>
 
-<PdfAndTitle title='Formulas & Comparisons' pdf='/pdf/formulas-and-comparisons.pdf'/>
+<PdfAndTitle title='Formulas & Comparisons' pdf='/pdf/mounting-tools.pdf'/>

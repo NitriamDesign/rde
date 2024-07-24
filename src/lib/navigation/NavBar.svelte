@@ -18,7 +18,7 @@
         { name: 'All Accessories', href: '/all-accessories' },
         { name: 'All Couplers', href: '/all-couplers' },
         { name: 'Assembly Instructions', href: '/assembly-instructions' },
-        { name: 'Cables Data Power', href: '/cables-data-power' },
+        { name: 'Data/Signal & Power Cables', href: '/cables-data-power' },
         { name: 'Certification', href: '/certification' },
         { name: 'Connector Accessories', href: '/connector-accessories' },
         { name: 'Connector Inserts', href: '/connector-inserts' },

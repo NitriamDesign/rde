@@ -124,7 +124,7 @@ export const products: Product[] = [
     },
     {
         name: "SSR Series Connectors",
-        title: "Unshielded M23 Connectors, The Stainless Steel Program",
+        title: "Shielded & Unshielded M23 Connectors, The Stainless Steel Program",
         description: " In essence this is a selection of the most popular RC/UC series configurations in a stainless steel offering for super duty performance in caustic and marine environments.",
         category: 'M23',
         mainImage: "/images/connectors/ss-stainless-blue-lg.jpg",
@@ -948,7 +948,7 @@ export let othersQuickData: QuickConnectorData[] = [
         material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
         shield: ["Yes", "Yes", "Yes", "Yes"],
         ul: ["No", "No", "No", "No"],
-        links: [{pageUrl: '/products/ca-connector', pdfRef: 'B-A-40'}]
+        links: [{pageUrl: '/connector-inserts', pdfRef: 'B-A-40'}]
       },
       {
         connectorImage: "/images/catalog/crimp-tools.jpg",
@@ -962,7 +962,7 @@ export let othersQuickData: QuickConnectorData[] = [
         material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
         shield: ["Yes", "Yes", "Yes", "Yes"],
         ul: ["No", "No", "No", "No"],
-        links: [{pageUrl: '/products/ca-connector', pdfRef: 'B-B-00'}]
+        links: [{pageUrl: '/crimp-tools', pdfRef: 'B-B-00'}]
       },
       {
         connectorImage: "/images/catalog/crimp-contacts.jpg",
@@ -990,7 +990,7 @@ export let othersQuickData: QuickConnectorData[] = [
         material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
         shield: ["Yes", "Yes", "Yes", "Yes"],
         ul: ["No", "No", "No", "No"],
-        links: [{pageUrl: '/products/ca-connector', pdfRef: 'B-D-00'}]
+        links: [{pageUrl: '/assembly-instructions', pdfRef: 'B-D-00'}]
       },
       {
         connectorImage: "/images/catalog/mounting-tools.jpg",
@@ -1004,7 +1004,7 @@ export let othersQuickData: QuickConnectorData[] = [
         material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
         shield: ["Yes", "Yes", "Yes", "Yes"],
         ul: ["No", "No", "No", "No"],
-        links: [{pageUrl: '/products/ca-connector', pdfRef: 'B-E-00'}]
+        links: [{pageUrl: '/mounting-tools', pdfRef: 'B-E-00'}]
       },
       {
         connectorImage: "/images/catalog/layouts-pin-configurations.jpg",
@@ -1018,7 +1018,7 @@ export let othersQuickData: QuickConnectorData[] = [
         material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
         shield: ["Yes", "Yes", "Yes", "Yes"],
         ul: ["No", "No", "No", "No"],
-        links: [{pageUrl: '/products/ca-connector', pdfRef: 'B-G-00'}]
+        links: [{pageUrl: '/pcb-layouts', pdfRef: 'B-G-00'}]
       },
       {
         connectorImage: "/images/catalog/caps-and-accessories.jpg",
@@ -1032,7 +1032,7 @@ export let othersQuickData: QuickConnectorData[] = [
         material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
         shield: ["Yes", "Yes", "Yes", "Yes"],
         ul: ["No", "No", "No", "No"],
-        links: [{pageUrl: '/products/ca-connector', pdfRef: 'B-H-00'}]
+        links: [{pageUrl: '/all-accessories', pdfRef: 'B-H-00'}]
       }
 
 ];
