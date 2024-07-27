@@ -1,9 +1,9 @@
 <script lang="ts">
-    import { Button, ButtonGroup, Heading, NavHamburger, NavLi, NavUl, Navbar, Span  } from 'flowbite-svelte';
-    import ProductCard from './ProductCard.svelte';
-    import { fade } from 'svelte/transition';
+    import { products } from '$lib/data';
+    import { Button, ButtonGroup, Heading } from 'flowbite-svelte';
     import { flip } from 'svelte/animate';
-    import { type Product, products } from '$lib/data';
+    import { fade } from 'svelte/transition';
+    import ProductCard from './ProductCard.svelte';
 
     let selectedButton = 'all';
     let selected = "bg-m-primary hover:bg-primary-600 text-white";
@@ -11,6 +11,10 @@
     let maxDisplayed = 6;
     
     $: filteredProducts = selectedButton === 'all' ? products : products.filter(product => product.category === selectedButton);
+    // Adding the button function
+    function loadMore() {
+        maxDisplayed += 3;
+    }
 </script>
 
 <div class="bg-m-light max-w-7xl m-auto my-20 min-h-[450px]" id="main-products">
@@ -45,9 +49,18 @@
     <!-- Products -->
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-20 md:mt-10 justify-items-center">
         {#each filteredProducts.slice(0, maxDisplayed) as product (product.name)}
-            <div animate:flip={{ duration: 250 }} transition:fade={{ duration: 250 }}>
+            <!-- updated timing for smoother transition -->
+            <div animate:flip={{ duration: 250 }} transition:fade={{ duration: 500, delay: 100 }}>
                 <ProductCard product={product}/>
             </div>
         {/each}
     </div>
+    <!-- added functionality for load more button -->
+    {#if maxDisplayed < filteredProducts.length}
+        <div class="flex justify-center mt-10">
+            <Button on:click={loadMore} class="bg-primary-500 text-white font-bold py-2 px-4 rounded">
+                Load More
+            </Button>
+        </div>
+    {/if}
 </div>
