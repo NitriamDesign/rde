@@ -58,7 +58,7 @@
     <!-- added functionality for load more button -->
     {#if maxDisplayed < filteredProducts.length}
         <div class="flex justify-center mt-10">
-            <Button on:click={loadMore} class="bg-m-primary mt-5" href="/full-line-catalog" size="xl">
+            <Button on:click={loadMore} class="bg-m-primary mt-5" size="xl">
                 LOAD MORE
             </Button>
         </div>
