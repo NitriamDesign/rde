@@ -1,7 +1,7 @@
 <script lang="ts">
+    import { handleAnchorClick } from '$lib/anchorsAssist';
     import { Button } from 'flowbite-svelte';
     import { ArrowDownOutline } from 'flowbite-svelte-icons';
-    import {handleAnchorClick} from '$lib/anchorsAssist';
 
 
 </script>
