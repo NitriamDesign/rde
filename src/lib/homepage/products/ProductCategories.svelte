@@ -58,8 +58,8 @@
     <!-- added functionality for load more button -->
     {#if maxDisplayed < filteredProducts.length}
         <div class="flex justify-center mt-10">
-            <Button on:click={loadMore} class="bg-primary-500 text-white font-bold py-2 px-4 rounded">
-                Load More
+            <Button on:click={loadMore} class="bg-m-primary mt-5" href="/full-line-catalog" size="xl">
+                LOAD MORE
             </Button>
         </div>
     {/if}
