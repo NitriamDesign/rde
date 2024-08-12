@@ -53,7 +53,7 @@
         <div class="">    
             <div class="text-lg font-semibold uppercase mb-4">    
                 <div class="flex items-center gap-2">  
-                    ISO 9001-2015 Certified
+                    ISO 9001-2015 : Compliant
                 </div>
             </div>
             
