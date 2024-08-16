@@ -8,4 +8,4 @@
 
 </script>
 
-<PdfAndTitle title='DIN Connectors' pdf='/pdf/DIN-connectors.pdf'/>
+<PdfAndTitle title='DIN Connectors' pdf='/pdf/EA-EQ.pdf'/>
