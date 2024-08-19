@@ -36,7 +36,7 @@
     </div>
 
     <div class="md:w-1/2 flex-col justify-center">
-        <Img class="md:mt-0 mt-10 w-full h-[650px] object-cover rounded-lg shadow-md" src="/certification/quality-certificate-rde.jpg" alt="2015 rde ISO Compliant Certificate"/>
+        <Img class="md:mt-0 mt-10 w-full h-[650px] object-contain" src="/certification/quality-certificate-rde.jpg" alt="2015 rde ISO Compliant Certificate"/>
         
         
     </div>
