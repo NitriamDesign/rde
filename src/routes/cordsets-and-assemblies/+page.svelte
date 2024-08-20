@@ -7,4 +7,4 @@
 
 </script>
 
-<PdfAndTitle title='Cordsets & Assemblies' pdf='/pdf/HA-HF.pdf'/>
+<PdfAndTitle title='M23/M27 Cordsets & Assemblies' pdf='/pdf/HA-HF.pdf'/>

@@ -22,7 +22,7 @@
         { name: 'Certification', href: '/certification' },
         { name: 'Connector Accessories', href: '/connector-accessories' },
         { name: 'Connector Inserts', href: '/connector-inserts' },
-        { name: 'M23/27 cordsets & Assemblies', href: '/cordsets-and-assemblies' },
+        { name: 'M23/27 Cordsets & Assemblies', href: '/cordsets-and-assemblies' },
         { name: 'Crimp Tools', href: '/crimp-tools' },
         { name: 'M12/M16/DIN Connectors', href: '/din-connectors' },
         { name: 'Formulas and Comparisons', href: '/formulas-and-comparisons' },
