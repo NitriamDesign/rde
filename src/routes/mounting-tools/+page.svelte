@@ -6,4 +6,4 @@
 	import { CheckCircleOutline } from "flowbite-svelte-icons";
 </script>
 
-<PdfAndTitle title='Formulas & Comparisons' pdf='/pdf/mounting-tools.pdf'/>
+<PdfAndTitle title='Mounting Tools' pdf='/pdf/mounting-tools.pdf'/>
