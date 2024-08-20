@@ -25,7 +25,7 @@
         { name: 'M23 / M27 Cordsets & Assemblies', href: '/cordsets-and-assemblies' },
         { name: 'Crimp Tools', href: '/crimp-tools' },
         { name: 'Crimp Contacts', href: '/crimp-contacts' },
-        { name: 'M12 / M16/DIN Connectors', href: '/din-connectors' },
+        { name: 'M12 / M16/ DIN Connectors', href: '/din-connectors' },
         { name: 'Formulas and Comparisons', href: '/formulas-and-comparisons' },
         { name: 'Mounting Tools', href: '/mounting-tools' },
         { name: 'PCB Layouts', href: '/pcb-layouts' },
