@@ -976,7 +976,7 @@ export let othersQuickData: QuickConnectorData[] = [
         material: ["Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn", "Cu-Zn GD-Zn"],
         shield: ["Yes", "Yes", "Yes", "Yes"],
         ul: ["No", "No", "No", "No"],
-        links: [{pageUrl: '/products/ca-connector', pdfRef: 'B-C-00'}]
+        links: [{pageUrl: '/crimp-contacts', pdfRef: 'B-C-00'}]
       },
       {
         connectorImage: "/images/catalog/assembly-instructions.jpg",
