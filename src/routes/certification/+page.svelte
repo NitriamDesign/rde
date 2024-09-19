@@ -1,9 +1,22 @@
 <script>
+	import { page } from "$app/stores";
 	import PdfAndTitle from "$lib/pre-constructs/PDFAndTitle.svelte";
+	import SeoMetaData from "$lib/pre-constructs/SeoMetaData.svelte";
 	import { Heading, Span, Img, Button } from "flowbite-svelte";
 	import { ArrowRightOutline } from "flowbite-svelte-icons";
 
 </script>
+
+<svelte:head>
+    <title>RDE - Certification</title>
+    <meta name="description" content="At RDE Connectors & Cables, Inc., we have long been recognized as a premier solutions provider for industrial automation interconnects and device over-molding applications." />
+
+    <!-- OpenGraph meta tags -->
+    <meta property="og:title" content='RDE - Certification' />
+    <meta property="og:description" content='At RDE Connectors & Cables, Inc., we have long been recognized as a premier solutions provider for industrial automation interconnects and device over-molding applications.' />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{$page.url.pathname}" />
+</svelte:head>
 
 <div class="max-w-7xl m-auto mt-20 p-4 md:flex justify-center gap-10">
 

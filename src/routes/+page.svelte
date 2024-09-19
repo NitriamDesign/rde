@@ -29,6 +29,19 @@
 
 </script>
 
+<svelte:head>
+    <title>RDE Connectors & Cables</title>
+    <meta name="description" content="We offer a diverse range of metric circular connectors designed to meet various needs, 
+        from high-performance signal connectors to heavy-duty power connectors and hybrids combining both." />
+
+    <!-- OpenGraph meta tags -->
+    <meta property="og:title" content='RDE Connectors & Cables' />
+    <meta property="og:description" content='We offer a diverse range of metric circular connectors designed to meet various needs, 
+        from high-performance signal connectors to heavy-duty power connectors and hybrids combining both.' />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="/" />
+</svelte:head>
+
 <TopHero />
 
 <div class="max-w-7xl m-auto mt-20 p-4 md:flex justify-center gap-10">
@@ -51,9 +64,6 @@
     <P class="mt-4 lg:pr-20 font-semibold text-gray-600 text-lg md:text-xl">Complete cable assemblies for various systems are available, along with the ability to customize configurations and develop prototypes as needed.</P>
 </div>
 </div>
-
-
-
 
 <ProductCategories/>
 

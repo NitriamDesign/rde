@@ -1,6 +1,8 @@
 <script lang="ts">
     import { writable } from 'svelte/store';
     import { Button, ButtonGroup } from 'flowbite-svelte';
+	import SeoMetaData from '$lib/pre-constructs/SeoMetaData.svelte';
+	import { page } from '$app/stores';
 
     interface AssemblyData {
         name: string;
@@ -72,6 +74,17 @@
         { name: "PH_P", title: "Piercecon Style M8", pdf: "/pdf/Piercecon-style-for-m8-connector.pdf" }
     ];
 </script>
+
+<svelte:head>
+    <title>RDE - Assembly Instructions</title>
+    <meta name="description" content="View our documentation and instructions on our various connectors" />
+
+    <!-- OpenGraph meta tags -->
+    <meta property="og:title" content='View our documentation and instructions on our various connectors'/>
+    <meta property="og:description" content='testing' />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{$page.url.pathname}" />
+</svelte:head>
 
 <div class="max-w-7xl m-auto mt-10 w-[95%] lg:w-full">
     <div class="text-m-primary font-bold text-2xl tracking-widest">

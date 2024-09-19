@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { page } from "$app/stores";
 	import AboutUs from "$lib/pre-constructs/AboutUs.svelte";
 	import MasonryGallery from "$lib/pre-constructs/MasonryGallery.svelte";
 	import { Carousel, Heading, Img, Indicator, Span, Thumbnails } from "flowbite-svelte";
@@ -19,6 +20,17 @@
 
 	$: image = images[index];
 </script>
+
+<svelte:head>
+    <title>About RDE</title>
+    <meta name="description" content="We specialize in manufacturing industrial circular connectors for many types of electrical control and distribution systems. Applications include, but are not limited to, connectors for signal, sensor, power, and PCB interfaces, as well as controllers, encoders, and connector interfaces for robotics, feeder/delivery and assembly systems, including complete cable assemblies for any of the above systems. Custom configurations and prototyping are also possible. Our business facility is located in Sunrise, Florida, just west of Fort Lauderdale." />
+
+    <!-- OpenGraph meta tags -->
+    <meta property="og:title" content='We specialize in manufacturing industrial circular connectors for many types of electrical control and distribution systems. Applications include, but are not limited to, connectors for signal, sensor, power, and PCB interfaces, as well as controllers, encoders, and connector interfaces for robotics, feeder/delivery and assembly systems, including complete cable assemblies for any of the above systems. Custom configurations and prototyping are also possible. Our business facility is located in Sunrise, Florida, just west of Fort Lauderdale.' />
+    <meta property="og:description" content='testing' />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{$page.url.pathname}" />
+</svelte:head>
 
 <div class="max-w-7xl m-auto my-40 lg:flex xl:gap-20 gap-10 p-4 flex-col md:flex-row">
 	<Img class="object-cover rounded shadow-xl object-right-bottom w-[500px] mb-10" src="/images/rde-outside.jpg" alt=""/>

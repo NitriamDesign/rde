@@ -5,6 +5,8 @@
 	import { CheckCircleOutline, CheckCircleSolid, DownloadOutline } from "flowbite-svelte-icons";
   import ConnectorTableGenerator from "$lib/pre-constructs/ConnectorTableGenerator.svelte";
   import { connectorsQuickData, othersQuickData, type QuickConnectorData} from "$lib/data";
+	import SeoMetaData from "$lib/pre-constructs/SeoMetaData.svelte";
+	import { page } from "$app/stores";
 
   let titles = [
     "Connector Images",
@@ -37,6 +39,18 @@
   ];
 </script>
 
+<svelte:head>
+    <title>RDE - Full Product Catalog</title>
+    <meta name="description" content="View the full catalog for detailed information on our products and capabilities. We specialize in connector components with a focus on custom-specific applications, 
+    leveraging our expertise in interconnect systems to provide competent solutions for cable assemblies even in the most challenging environments. " />
+
+    <!-- OpenGraph meta tags -->
+    <meta property="og:title" content='RDE - Full Product Catalog' />
+    <meta property="og:description" content='View the full catalog for detailed information on our products and capabilities. We specialize in connector components with a focus on custom-specific applications, 
+    leveraging our expertise in interconnect systems to provide competent solutions for cable assemblies even in the most challenging environments.' />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{$page.url.pathname}" />
+</svelte:head>
 
 <div class="max-w-7xl m-auto mt-[35px] p-4 gap-20 flex flex-col sm:flex-row">
       

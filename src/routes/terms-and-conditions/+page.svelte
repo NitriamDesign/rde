@@ -1,7 +1,21 @@
 <script>
     import { CheckCircleOutline, ArrowRightAltSolid, DownloadOutline } from "flowbite-svelte-icons";
     import { Heading, P, Span, List, Li } from 'flowbite-svelte';
+	import SeoMetaData from "$lib/pre-constructs/SeoMetaData.svelte";
 </script>
+
+<svelte:head>
+    <title>Terms & Conditions</title>
+    <meta name="description" content="RDE Connectors and Cables, Inc is part of the Phoenix Contact Group and is incorporated into the Compliance Management System of the Group. For more information on the topic of compliance at Phoenix Contact, please go to Compliance at Phoenix Contact
+            As is the case in the entire Phoenix Contact Group, we at rde Connectors and Cables, Inc take compliance extremely seriously. The core of the Compliance Management System is the Phoenix Contact Group Code of Conduct, which applies without restrictions for us as well. It is supplemented by further measures such as the whistleblower system and the policy statement on the German Supply Chain Act (GSCA)." />
+
+    <!-- OpenGraph meta tags -->
+    <meta property="og:title" content='test' />
+    <meta property="og:description" content='RDE Connectors and Cables, Inc is part of the Phoenix Contact Group and is incorporated into the Compliance Management System of the Group. For more information on the topic of compliance at Phoenix Contact, please go to Compliance at Phoenix Contact
+            As is the case in the entire Phoenix Contact Group, we at rde Connectors and Cables, Inc take compliance extremely seriously. The core of the Compliance Management System is the Phoenix Contact Group Code of Conduct, which applies without restrictions for us as well. It is supplemented by further measures such as the whistleblower system and the policy statement on the German Supply Chain Act (GSCA).' />
+    <meta property="og:type" content="website" />
+    
+</svelte:head>
 
 <div class="max-w-7xl m-auto my-10 flex flex-wrap gap-10 p-4">
     <div class="text-left text-md mt-10">
