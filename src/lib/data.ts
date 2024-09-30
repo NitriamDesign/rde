@@ -721,7 +721,7 @@ export let employees: Employee[] = [
     { name: 'Claudia Arteaga', role: 'Office Administrator', departments: 'Inside Sales / Customer Service / Order Processing', email: 'carteaga@rde-usa.com', imageEmail:'/emails/admin.png' },
     { name: 'Joe Surma', role: 'Technical Support', departments: 'Inside Sales / Customer Service / Order Processing', email: 'jsurma@rde-usa.com', imageEmail:'/emails/tech.png' },
     { name: 'Reinhard Derksen', role: 'Technical Support', departments: 'R & D', email: 'reinhard@rde-usa.com', imageEmail:'/emails/tech2.png' },
-    { name: 'James Smith', role: 'Support Engineer', departments: 'Production / QC Manager', email: 'jsmith@rde-usa.com', imageEmail:'/emails/engineer.png' },
+    { name: 'Richard Chung', role: 'Support Engineer', departments: 'Production / QC Manager', email: 'rchung@rde-usa.com', imageEmail:'/emails/engineer.png' },
     { name: 'Angelika Derksen', role: 'Vice President', departments: 'Finance/Controlling/HR', email: 'accounting@rde-usa.com', imageEmail:'/emails/vp.png' },
 ];
 

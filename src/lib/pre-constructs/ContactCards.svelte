@@ -16,11 +16,10 @@
     <div>
         {employee.name}
     </div>
+  
+    <div><a href={`mailto:${employee.email}`} class="no-underline text-inherit hover:text-m-primary">
+        {employee.email}
+      </a></div>
 
-    {#if employee.imageEmail}
-        <div><img src={employee.imageEmail} alt={employee.name} class="h-[14px] mt-2"></div>
-    {:else}
-        <div>{employee.email}</div>
-    {/if}
 </div>
 
