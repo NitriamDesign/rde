@@ -4,7 +4,6 @@
 	import Footer from "$lib/navigation/Footer.svelte";
     import BackToHomeButton from '$lib/pre-constructs/BackToHomeButton.svelte';
     
-    export const prerender = true;
 </script>
 
 
