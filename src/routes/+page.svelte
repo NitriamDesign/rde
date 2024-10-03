@@ -22,9 +22,7 @@
   ];
 
 
-  let image:any;
-      
-    let index = 0;
+  let image;
     
 
 </script>
