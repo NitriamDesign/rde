@@ -1,4 +1,5 @@
-<script lang="ts">
+<script>
+	import { page } from "$app/stores";
 	import AboutUs from "$lib/pre-constructs/AboutUs.svelte";
 	import MasonryGallery from "$lib/pre-constructs/MasonryGallery.svelte";
 	import PdfAndTitle from "$lib/pre-constructs/PDFAndTitle.svelte";
@@ -16,7 +17,7 @@
     <meta property="og:title" content='See our catalog of data, power, control, power, chain, round, and flat cables'/>
     <meta property="og:description" content='testing' />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="{window.location.href}" />
+    <meta property="og:url" content="{$page.url.pathname}" />
 </svelte:head>
 
 <PdfAndTitle title='Data & Power Cables' pdf='/pdf/cables-data-power.pdf'/>
